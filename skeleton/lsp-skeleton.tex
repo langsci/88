@@ -11,7 +11,8 @@
 \documentclass[output=long             % long|short|inprep              
 % 	        ,blackandwhite
 % 		,smallfont
-%  	        ,draftmode  
+%        ,draftmode  
+%		,draft
 		,biblatex
 		  ]{LSP/langsci}    
   
@@ -40,9 +41,9 @@
 \maketitle                
 \frontmatter
 % %% uncomment if you have preface and/or acknowledgements
-% \include{chapters/preface}
+ \include{chapters/preface}
 % \include{chapters/acknowledgments}
-% \include{chapters/abbreviations}
+ \include{chapters/abbreviations}
 \tableofcontents      
 \mainmatter         
  
@@ -53,7 +54,11 @@
 %%%                                              %%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\include{chapters/allchapters}  %add a percentage sign in front of the line to exclude this chapter from book
+\include{chapters/01}
+\include{chapters/02}
+\include{chapters/03}
+\include{chapters/04}  
+% add a percentage sign in front of the line to exclude this chapter from book
 % copy the lines above and adapt as necessary
  
 
