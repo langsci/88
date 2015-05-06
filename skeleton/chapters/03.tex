@@ -60,7 +60,7 @@ Equally often, the future may arise through the grammaticalization of a desidera
 
 \begin{exe}
 \exi{E1}\label{ex:}
-\langinfo{Swah}{}{}
+\langinfo{\LangSwah}{}{\citet[916]{Givón1973}}
  \ea
  \gll n-a-taka ku-la \\   
  \textsc{sbj}.1.\textsc{sg}-\textsc{prs}-want  \textsc{inf}-eat  \\
@@ -68,7 +68,7 @@ Equally often, the future may arise through the grammaticalization of a desidera
  \ex
  \gll ni-ta-ku-la \\
  \textsc{sbj}.1.\textsc{sg}-\textsc{fut}-\textsc{inf}-eat\\
- \glt ‘I will eat’  (\citet[916]{Givón1973})\\
+ \glt ‘I will eat’  ()\\
 \z
 \end{exe}
 
@@ -92,7 +92,7 @@ Givón (1973, §~5) and Heine \& \citet[124-126]{Reh1984} also point to a second
 For \textbf{habitual aspect/aktionsart}, two sources may be mentioned. The first is a periphrasis with the copula, as for progressive aspect. In Imbabura Quechua, the same suffix \textit{{}-j} which also forms simultaneous relative clauses is used on the full verb. The resulting form is constructed as the predicate complement of the copula. Sentences such as the one in \REF{ex:E4} can nevertheless not be analyzed as containing a syntactically regular free relative clause (see \citet[149]{Cole1982}).
 
 \ea\label{ex:}
-\langinfo{Que}{}{}\\
+\langinfo{\LangQue}{}{}\\
 \gll Utavalu-pi  trabaja-j  ka-rka-ni\\
 Otavalo-\textsc{loc}  work-\textsc{sim}.\textsc{nr}  \textsc{cop}-\textsc{past}-1.\textsc{sg}\\
 \glt {‘I used to work in Otavalo.’  \citep[149]{Cole1982}}\\
@@ -159,7 +159,7 @@ Examples of serial verbs with aspectual function may be adduced from Niger-Congo
 More evidence for serial verbs in aspectual function comes from Creole languages. Tok Pisin (New Guinea) provides us with the following examples (from \citet{Mosel1980}):
 
 \ea\label{ex:}
-\langinfo{Tok}{}{} \\
+\langinfo{\LangTok}{}{} \\
 \gll ol  manmeri  bilong  Papua  Niu  Gini  i  save  kaikai  kaukau\\
 \textsc{pl}  man  of  Papua  New  Guinea  \textsc{sbj}.3  \textsc{hab}  eat  sweet potato\\
 \glt ‘Papua New Guineans eat sweet potatoes.’  \citep[108]{Mosel1980}\\
@@ -170,7 +170,7 @@ Portuguese provided the verb \textit{saber} ‘know, can’, which has become \t
 English \textit{stop} yields \textit{stap} ‘live, be located’ in Tok Pisin. This enters a verbal series as the last member and develops into a marker of continuous action, as in \REF{ex:E8}.
 
 \ea\label{ex:}
-\langinfo{Tok}{}{}\\
+\langinfo{\LangTok}{}{}\\
 \gll em  i  wok  i  stap  yet\\
  he  \textsc{sbj}.3  work  \textsc{sbj}.3  \textsc{cont}  self\\
 \glt {‘he is/was still working’      \citep[108]{Mosel1980}}\\
@@ -179,7 +179,7 @@ English \textit{stop} yields \textit{stap} ‘live, be located’ in Tok Pisin. 
 A similar fate has befallen English \textit{finish}; this has become a postverbal completive aspect marker in Tok Pisin:
 
 \ea\label{ex:}
-\langinfo{Tok}{}{} \\
+\langinfo{\LangTok}{}{} \\
 \gll em  i  go  pinis\\
 he  \textsc{sbj}.3  go  \textsc{compl}\\
 \glt {‘he has/had/will have gone’  \citep[123]{Mosel1980}}\\
@@ -218,7 +218,7 @@ The developments discussed in the preceding sections may be summarized in \REF{e
 
 \begin{figure}
 
-\begin{tikzpicture}[baseline=(current bounding box.north), decoration = {markings, mark=at position .75 with {\arrow[thick]{Stealth[sep] Stealth[]}}}]
+\begin{tikzpicture}[baseline=(current bounding box.north), decoration = {markings, mark=at position .75 with {\arrow[thick]}}]
 % Nodes are drawn left to right, top to bottom from original PDF
 \node at (0,0) [align=center] (full) {full\\verb};
 \node at (0,-2) (adverb) {adverb};
@@ -228,15 +228,24 @@ The developments discussed in the preceding sections may be summarized in \REF{e
 \node at (9,1) [align=center] (mood) {mood\\marker};
 \node at (9,-1) [align=center] (aspect) {aspect\\marker};
 \node at (11,-2) [align=center] (tense) {tense\\marker};
-\draw [postaction=decorate] (node cs:name=full) -- (node cs:name=modal);
-\draw [postaction=decorate] (node cs:name=full) -- (node cs:name=auxiliary);
-\draw [postaction=decorate] (node cs:name=full) -- (node cs:name=serial);
-\draw [postaction=decorate] (node cs:name=modal) -- (node cs:name=auxiliary);
-\draw [postaction=decorate] (node cs:name=auxiliary) -- (node cs:name=mood);
-\draw [postaction=decorate] (node cs:name=auxiliary) -- (node cs:name=aspect);
-\draw [postaction=decorate] (node cs:name=serial) -- (node cs:name=aspect);
-\draw [postaction=decorate] (node cs:name=aspect) -- (node cs:name=tense);
-\draw [postaction=decorate] (node cs:name=adverb) -- (node cs:name=tense);
+%\draw [postaction=decorate] (node cs:name=full) -- (node cs:name=modal);
+%\draw [postaction=decorate] (node cs:name=full) -- (node cs:name=auxiliary);
+%\draw [postaction=decorate] (node cs:name=full) -- (node cs:name=serial);
+%\draw [postaction=decorate] (node cs:name=modal) -- (node cs:name=auxiliary);
+%\draw [postaction=decorate] (node cs:name=auxiliary) -- (node cs:name=mood);
+%\draw [postaction=decorate] (node cs:name=auxiliary) -- (node cs:name=aspect);
+%\draw [postaction=decorate] (node cs:name=serial) -- (node cs:name=aspect);
+%\draw [postaction=decorate] (node cs:name=aspect) -- (node cs:name=tense);
+%\draw [postaction=decorate] (node cs:name=adverb) -- (node cs:name=tense);
+\draw [->, very thick] (node cs:name=full) -- (node cs:name=modal);
+\draw [->, very thick] (node cs:name=full) -- (node cs:name=auxiliary);
+\draw [->, very thick] (node cs:name=full) -- (node cs:name=serial);
+\draw [->, very thick] (node cs:name=modal) -- (node cs:name=auxiliary);
+\draw [->, very thick] (node cs:name=auxiliary) -- (node cs:name=mood);
+\draw [->, very thick] (node cs:name=auxiliary) -- (node cs:name=aspect);
+\draw [->, very thick] (node cs:name=serial) -- (node cs:name=aspect);
+\draw [->, very thick] (node cs:name=aspect) -- (node cs:name=tense);
+\draw [->, very thick] (node cs:name=adverb) -- (node cs:name=tense);
 \end{tikzpicture}
 \caption{Some interrelated grammaticalization channels of verbal categories}
 \end{figure}
@@ -321,7 +330,7 @@ I  \textsc{art}-child-\textsc{pl}  \textsc{art}-book-\textsc{pl}  \textsc{abs} 3
 In the cases cited, the personal agreement affixes may still function (anaphorically) as personal pronouns, when no \textsc{np} is present in the same construction. Further semantic weakening makes them lose this ability, and they become entirely conditioned by agreement. The personal endings of the finite verb in French, Russian and German illustrate this stage of the development. If grammaticalization proceeds further, the personal agreement affixes become invariable markers. The subject affixes of the verb become elements which identify the category ‘verb’ or the constituent ‘predicate’, and its object affixes become transitivity markers. Both these developments have occurred to the erstwhile pronouns \textit{he} and \textit{him}, respectively, in Tok Pisin. The resulting invariable morphemes, the preverbal \textit{i}{}- and the postverbal -\textit{im}, are exemplified in \REF{ex:E11}.
 
 \ea\label{ex:}
-\langinfo{Tok}{}{} \\
+\langinfo{\LangTok}{}{} \\
 \gll  Man  i-mek-im  singsing\\
 man  \textsc{sbj}.3-make-\textsc{tr}  spell\\
 \glt {‘Men utter a spell’      \citep[67f]{Sankoff1977}}\\
@@ -347,14 +356,14 @@ It does not need to be emphasized that the boundaries between these categories a
 There is a whole set of notions centering around the person, as a whole or in part, which are generalized in many languages to comprise the self and which I call \textbf{autophoric}. Typical examples are Sanskrit \textit{tan} ‘body, person’ and \textit{\=atmán} ‘breath, soul’, Buginese \textit{elena} ‘body’, Okinawan \textit{d\=una} ‘body’, !Xu \textit{l'esi} ‘body’, Basque \textit{burua} ‘head’, Abkhaz \textit{a-x} ‘the head’. In their respective languages, all these nouns are translation equivalents of English \textit{self}. As relational nouns, they are often accompanied by a (reflexive) possessive pronoun. Typical examples from Vedic (Delbrück 1888:207f) are:
 
 \ea\label{ex:}
-\langinfo{Ved}{}{}\\
+\langinfo{\LangVed}{}{}\\
 \gll utá  sváy\=a  tanv\=a  sám  vade  tát\\
  and  \textsc{poss}.\textsc{refl}:\textsc{inst}.\textsc{sg}.F  self:\textsc{inst}. \textsc{sg}.F  together  speak:I  that:\textsc{acc}.\textsc{sg}.N\\
 \glt {‘and I converse thus with myself’    (\textsc{rv} 7,86,2)}\\
 \z
 
 \ea\label{ex:}
-\langinfo{Ved}{}{} \\
+\langinfo{\LangVed}{}{} \\
 \gll bálam  dádh\=ana  \=atmáni\\
 strength:\textsc{acc}.\textsc{sg}.M  put:\textsc{part}.\textsc{pf}.\textsc{mid}  self:\textsc{loc}.\textsc{sg}\\
 \glt {‘putting strength in myself’          (\textsc{rv} 9,113,1)}\\
@@ -365,7 +374,7 @@ At the other end of the spectrum, Old Indic makes use of a middle voice, which w
 The difference between an autophoric and a \textbf{reflexive noun} in the present conception is mainly one of transparency or etymologizability. That is, autophoric nouns are ordinary nouns with free non-reflexive uses; reflexive nouns are nouns meaning ‘self’ and nothing else. Examples are German \textit{selbst}, Latin \textit{ipse}, Spanish \textit{mismo}, Italian \textit{stesso}, Finnish \textit{itse}, Hungarian \textit{magan}, Turkish \textit{kendi}, Japanese \textit{zibun} and Yucatec \textit{báah}. Some illustrative sentences are:
 
 \ea\label{ex:}
-\langinfo{Germ}{}{}\\
+\langinfo{\LangGerm}{}{}\\
  \ea
  Ich komme selbst\\
   
@@ -376,7 +385,7 @@ The difference between an autophoric and a \textbf{reflexive noun} in the presen
 \z
 
 \ea\label{ex:}
-\langinfo{Finn}{}{}\\
+\langinfo{\LangFinn}{}{}\\
 \gll Halu-at-ko  lipu-t  itse-lle-si?\\
  want-2.\textsc{sg}-\textsc{int}  ticket-\textsc{acc}.\textsc{pl}  self-\textsc{all}-\textsc{poss}.2.\textsc{sg}\\
 \glt {‘Do you want the tickets for yourself?’}\\
@@ -390,14 +399,14 @@ Reflexive nouns are a heterogeneous class. In some languages, for instance Finni
 \textbf{Verbal reflexives} are verb affixes expressing that the action somehow affects the subject. Examples are:
 
 \ea\label{ex:}
-\langinfo{Turk}{}{}\\
+\langinfo{\LangTurk}{}{}\\
 \gll Çocuk  yıka-n-dı.\\
  child  wash-\textsc{refl}-\textsc{past}\\
 \glt {‘The child washed himself.’        (Wendt 1972 :156)}\\
 \z
 
 \ea\label{ex:}
-\langinfo{Mang}{}{} \\
+\langinfo{\LangMang}{}{} \\
 \gll jalŋa  Ø-bu-yi-ni  a-andi\\
 hard  3.\textsc{sg}-hit-\textsc{refl}-\textsc{past}  N.\textsc{inst}-stick\\
 \glt {‘He hit himself hard with a stick.’    \citep[135]{Merlan1982}}\\
@@ -415,7 +424,7 @@ The verb forms in \REF{ex:E16}-\REF{ex:E18} are opposed to unmarked active verb 
 This type is to be distinguished from a reflexive affix which fills the position of a personal (agreement) affix on the verb, as it occurs, for instance, in Swahili (\textit{ji}{}-), Abkhaz (\textit{[259?]}{}-, \citet[77]{Hewitt1979}), Italian and Portuguese (-\textit{se}). Examples are:
 
 \ea\label{ex:}
-\langinfo{Swah}{}{} \\
+\langinfo{\LangSwah}{}{} \\
  \ea
  \gll a-li-ji-ona  \\
 \textsc{sbj}.\textsc{cl}1-\textsc{past}-\textsc{obj}.\textsc{refl}-see\\
@@ -428,7 +437,7 @@ This type is to be distinguished from a reflexive affix which fills the position
 \z
 
 \ea\label{ex:}
-\langinfo{Port}{}{}  \\
+\langinfo{\LangPort}{}{}  \\
  \ea
  \gll vende-se  \\
  sells-\textsc{refl}  \\
@@ -489,7 +498,7 @@ with the allomorphs -\textit{s' ${\sim}$} -\textit{sja} being phonologically con
  French by \citet[147]{Frei1929}. His examples are in \REF{ex:E21}.
 
 \ea\label{ex:}
-\langinfo{Fren}{}{} \\
+\langinfo{\LangFren}{}{} \\
  \ea  On nous prie de s'adresser à vous.
 
 \glt ‘One asks us to address ourselves to you.’\\
@@ -529,7 +538,7 @@ As for the non-specific human indefinite pronoun ‘one’, two sources have bee
 While definite, namely personal, pronouns generally have a strong tendency to become clitic and affixal to the term governing them, mostly the verb, such advanced grammaticalizations have been little observed in the case of indefinite pronouns. I am aware of two cases of (former) indefinite pronouns filling the position of a personal verb affix. The Nahuatl indefinite pronoun \textit{tlaa} ‘something’ may be incorporated into the verb in direct object position, as in \REF{ex:E22}.
 
 \ea\label{ex:}
-\langinfo{Nah}{}{} \\
+\langinfo{\LangNah}{}{} \\
 \gll  ni-k-neki  in  ti-tla-kwa-s.\\
 \textsc{sbj}.1-\textsc{obj}.3-want  \textsc{sr}  \textsc{sbj}.2-\textsc{obj}.\textsc{ind}-eat-\textsc{fut}\\
 \glt {‘I want you to eat (something).’    \citep[118]{Misteli1893}}\\
@@ -596,7 +605,7 @@ In \sectref{3.2.1.2} we saw that verbs may acquire the category of number by the
 There is yet a third source of nominal number, and this is numerals and quantifiers. (The three sources are also in \citet[273]{HeineEtAl1984}). The numerals ‘one’ and ‘two’ may be combined with nouns to yield singular (or singulative) and dual, and a quantifier may provide the plural. In Tok Pisin we get all of these possibilities and in addition a trial. Thus:
 
 \ea\label{ex:}
-\langinfo{Tok}{}{}\\
+\langinfo{\LangTok}{}{}\\
 \ea
    dok  \\
 \glt ‘a dog, dogs’\\
@@ -641,7 +650,7 @@ Viewed syntactically, nominalization is the transposition of a clause into a nou
 In Chinese, both classical and modern Mandarin, subject and object complement clauses may be embedded without any sign of subordination, as in \REF{ex:E25} from Mandarin.
 
 \ea\label{ex:}
-\langinfo{Mand}{}{}\\
+\langinfo{\LangMand}{}{}\\
 \gll   t\=a  s-le  w  zh\=en  nán-shòu\\
  he  die-\textsc{pf}  I  very  sad\\
 \glt {‘I am very sad that he has died.’    \citep[38]{Bossong1979}}\\
@@ -677,7 +686,7 @@ The weak degree of grammaticality of these two types of subordinators is obvious
 If the subordinator, instead of preceding the dependent clause, comes at its end, the construction is slightly more grammaticalized. This may be observed in Japanese, as in \REF{ex:E28}.
 
 \ea\label{ex:}
-\langinfo{Jap}{}{} \\
+\langinfo{\LangJap}{}{} \\
 \gll Ano  hito  gano hon  o  kai-ta  koto  ga  yoku  sirarete  iru. \\
  \textsc{nomgen}    that  person    book  \textsc{acc}  write-\textsc{past}  \textsc{nr}  \textsc{nom}  well  known  is\\
 \glt {‘That that person has written a book is well known.’  (\citet{Kuno1973})}\\
@@ -688,7 +697,7 @@ The etymological meaning of the subordinator \textit{koto} ‘thing’ is still 
 At the next stage of grammaticalization, the subordinator becomes affixal, and the subject of the nominalized clause regularly goes into the genitive, as in \REF{ex:E29}.
 
 \ea\label{ex:}
-\langinfo{Turk}{}{} \\
+\langinfo{\LangTurk}{}{} \\
 \gll Anne-n-in  gel-mey-eceğ-i-ni  söyle-di.\\
 mother-your-\textsc{gen}  come-\textsc{neg}-\textsc{nr}.\textsc{fut}-her-\textsc{acc}  say-\textsc{past}\\
 \glt {‘He said that your mother will not come.’    \citep[187]{Wendt1972}}\\
@@ -699,7 +708,7 @@ There is only one more nominalizer in Turkish which functions like the one in \R
 However, the next step in the grammaticalization scale does lead us to \textbf{verbal nouns} which retain few of the properties of the full clause which we started from. English nominalizations in -\textit{ing} are an example. Here it is clear that we are dealing with the nominalization not of a clause, but of a verb. The suffix constitutes a one-member paradigm of nominalizers and cancels all the verbal categories of English. Still, the verbal noun may take arguments and adjuncts almost like the finite verb of a clause. The subject is, of course, in the genitive. In the other modifiers, there is an interesting variation: the object may either remain in the accusative, or it may pass into the genitive, too. In the first alternative, adverbs remain such, whereas in the second alternative they become adjective attributes to the verbal noun. A third correlating phenomenon is the possibility of an article in the latter, but not in the former case. Thus:
 
 \ea\label{ex:}
-\langinfo{Engl}{}{} \\
+\langinfo{\LangEngl}{}{} \\
 \ea John's constantly reading magazines
 \ex John's constant reading of magazines
 \ex *the (constantly) reading magazines
@@ -712,7 +721,7 @@ So we have two stages of our grammaticalization scale embodied in the English \t
 Extreme grammaticalization leads to the deletion of the grammatical formative. In nominalization, we would be looking for \textbf{conversion} of verbs into nouns without an overt derivative affix. Examples are, of course, known from English: \textit{to run — the run, to love — the love}, etc. However, while virtually all verbs can be nominalized by the -\textit{ing} suffix, most verbs cannot be nominalized by a zero affix. There is a restriction of productivity here which we have so far not found to be typical of grammaticalization. I will return in \sectref{5.2} to a conception which can accommodate these heterogeneous facts, and try here another example which apparently does not present this complicating factor. Nominalizations similar to the ones just cited from English are common in Classical Chinese; cf. the following example from Su Shi:
 
 \ea\label{ex:}
-\langinfo{Mand}{}{}\\
+\langinfo{\LangMand}{}{}\\
  \ea
  \gll b\=ing  bù  kě  qù.\\
  soldier  not  can  leave\\
@@ -769,7 +778,7 @@ There \textit{Paulum} is the object of the main clause. Its subjecthood vis-à-v
 \REF{ex:E34} might also be expressed in English by \textit{It is necessary for Carthago to be destroyed}. Here we have another subtype of the complement clause originating in the combination of an \textsc{np} of the main clause with an infinitival complement whose subject position it fills (see \citet[300-306 ]{Jespersen1940} on details). While in American English the grammaticalization of this construction is already far advanced, in French it has come up recently and is still classified as ‘faute’ in \citet[94]{Frei1929}. Frei's examples are:
 
 \ea\label{ex:}
-\langinfo{Fren}{}{} \\
+\langinfo{\LangFren}{}{} \\
 \ea
   m'envoyez son adresse pour moi lui écrire\\
 \glt ‘send me his address so I may write him’\\
@@ -783,7 +792,7 @@ There \textit{Paulum} is the object of the main clause. Its subjecthood vis-à-v
 These examples show very clearly the conditions under which the construction originates: The subsequent subordinate subject must be a beneficiary in the main clause, which is adjoined with the help of the preposition ‘for’. The infinitive complement must express the action which the beneficiary is expected to be able to accomplish with the help of the benefaction and which, being a purpose or consequence of the main clause action, is introduced by the final preposition ‘to’. In the course of grammaticalization, these semantic conditions are gradually weakened or dropped, and the erstwhile beneficiary \textsc{np} of the main clause becomes the subject of the infinite clause. This may go so far that the subordinate subject is even put into the nominative. Modern Portuguese has reached this advanced stage of grammaticalization of the ‘for-to’ complement clause, as exemplified in \REF{ex:E36}.
 
 \ea\label{ex:}
-\langinfo{Port}{}{} \\
+\langinfo{\LangPort}{}{} \\
 \gll Ele  trouxe  um  livro  para  eu  ler.\\
 he  brought  a  book  for  I  read:\textsc{inf}\\
 \z
@@ -797,13 +806,13 @@ While infinitival complements may, thus, contribute to form a full complement cl
 We will treat here two kinds of attributes, adjective attributes and possessive attributes, traditionally called genitive attributes. Quite a few languages use an attributor, a relational particle, in the combination of either kind of attribute with a head noun. \REF{ex:E37} shows a genitive attributor, \REF{ex:E38}f show relators which may attribute either an \textsc{np} (a) or an adjectival (b) to the head noun.
 
 \ea\label{ex:}
-\langinfo{Jap}{}{}\\
+\langinfo{\LangJap}{}{}\\
 \gll watakusi  no  hon  \\
  I  \textsc{at}  book  ‘my book’\\
 \z
 
 \ea\label{ex:}
-\langinfo{Mand}{}{}  \\
+\langinfo{\LangMand}{}{}  \\
  \ea
  \gll  w  de  sh\=u  \\
  I  \textsc{at}  book  \\
@@ -832,7 +841,7 @@ book  {}-\textsc{at}  I \\
 One development which can lead to such constructions is the grammaticalization of \textbf{anaphoric} or substantivized \textbf{attributes}. When a concept (not a referent) is (pronominally or implicitly) resumed in lexical anaphora and combined with a (new) attribute in order to identify a referent, we have an anaphoric attribute. In English, \textit{one} is used as the anaphoric head in such cases. Japanese has a polyfunctional particle \textit{no}. Its former lexical meaning was ‘matter, fact, case’ \citep[99]{Jorden1962}. It functions as the grammatical head noun in lexical anaphora, as in \REF{ex:E40}. 
 
 \ea\label{ex:}
-\langinfo{Jap}{}{} \\
+\langinfo{\LangJap}{}{} \\
  \ea
  \gll Dare  no  hon  desu  ka?  ---  Watakusi  no  desu.\\
   who  \textsc{at}  book  \textsc{cop}  \textsc{int}  {}  I  \textsc{at}  \textsc{cop}\\
@@ -853,7 +862,7 @@ A similar renovation of a juxtaposed attribute by an anaphoric one may be posite
 The history of the Persian attributor (izafat) is better known (cf. \citet{Lehmann1984}, ch.~\textsc{vi}.3 and the literature cited there). Old Persian and Avestic had a relative pronoun \textit{hya}{}- or \textit{ya}{}-, respectively, which, apart from introducing ordinary relative clauses, was also used in the formation of nominal attributes, as in \REF{ex:E41}.
 
 \ea\label{ex:}
-\langinfo{Avest}{}{} \\
+\langinfo{\LangAvest}{}{} \\
 \ea  
 \gll \=aa  ya  mî${\circleddash}$r[259?]m  yim  vouru-gaoyaoit\=im fr\=adam  az[259?]m\\
 then  \textsc{sr}  Mithra:\textsc{acc}.\textsc{sg}.M  \textsc{rel}:\textsc{acc}.\textsc{sg}.M  ample:pasturage:\textsc{acc}.\textsc{sg}.M created:1.\textsc{sg}  I\\
@@ -869,7 +878,7 @@ then  \textsc{sr}  Mithra:\textsc{acc}.\textsc{sg}.M  \textsc{rel}:\textsc{acc}.
 Originally, these were nominal relative clauses, with the relative pronoun as the subject. They forfeit this status, however, as soon as the relative pronoun, instead of being in the nominative, agrees with the head noun in case (as does the nominal predicate), as it does in the examples. At this stage, the relative pronoun becomes a mere attributor, though one distinguished from those discussed so far by its agreement. This, however, is subsequently lost, so that the attributor becomes identical to the subordinator also to be seen in \REF{ex:E41}a. Example:
 
 \ea\label{ex:}
-\langinfo{Avest}{}{}\\
+\langinfo{\LangAvest}{}{}\\
  \gll mi  aŋhv\=o  ya  astvainti\\
  \textsc{dem}:\textsc{lok}.\textsc{sg}.M  life:\textsc{lok}.\textsc{sg}.M  \textsc{at}  bodily:\textsc{lok}.\textsc{sg}.M\\
 \glt {‘in this worldly life’    (V. 5,39)}\\
@@ -882,7 +891,7 @@ The Persian case is somewhat different from the Japanese and Chinese ones, as in
 An anaphoric pronoun which serves as the head of an anaphoric or substantivized attribute may, of course, show gender or noun class agreement with its repraesentatum. When this construction is apposed to the repraesentatum as the head noun, we have agreement of the attributor with the head noun just as in \REF{ex:E41}. An example is Gothic \textit{hardeis sa goda} (shepherd:\textsc{Nom.Sg.M} that.\textsc{Nom.Sg.M} good:\textsc{Nom.Sg.M}) as against \textit{hairdeis gods} (good:\textsc{Nom.Sg.M}) (with weak and strong adjective declension, respectively; see \citet[110]{Ramat1980}). Both constructions mean ‘the good shepherd’; the former is emphatic and more recent, the latter inherited and neutral. While in Gothic the demonstrative has not become an attributor, but an article, its fate was different in the Bantu languages (details in \citet{Lehmann1982}[U], § 7.2). In Swahili we find an attributor which agrees with the head noun in noun class. The possessive attribute construction is [~\textsc{Cl}x-head~[~\textsc{Cl}x-\textsc{At} \textsc{Cl}y-attribute~]~]. Examples:
 
 \ea\label{ex:}
-\langinfo{Swah}{}{} \\
+\langinfo{\LangSwah}{}{} \\
  \ea
  \gll  ki-su  ch-a  Hamisi\\
   \textsc{cl}7-knife  \textsc{cl}7-\textsc{at}  Hamisi\\
@@ -898,7 +907,7 @@ An anaphoric pronoun which serves as the head of an anaphoric or substantivized 
 From the origin of the construction as posited, the attributor is a coconstituent of the attribute. It becomes clitic to the attribute; and further grammaticalization, which may be observed in the related language Tswana, leads to its prefixation, as in \REF{ex:E44}.
 
 \ea\label{ex:}
-\langinfo{Tswa}{}{}\\
+\langinfo{\LangTswa}{}{}\\
 \gll    mo-sadi  w-a+mo-tšomi\\
  \textsc{cl}1.\textsc{sg}-woman  \textsc{cl}1.\textsc{sg}-\textsc{at}+\textsc{cl}1.\textsc{sg}-hunter\\
 \glt {‘the wife of the hunter’      \citep[160]{Cole1955}}\\
@@ -907,7 +916,7 @@ From the origin of the construction as posited, the attributor is a coconstituen
 Here the possessive attribute agrees with its head noun in noun class. Possessive attributes are thus treated structurally exactly as adjective attributes, which agree with their head noun by similar prefixes:
 
 \ea\label{ex:}
-\langinfo{Tswa}{}{}\\
+\langinfo{\LangTswa}{}{}\\
 \gll     mo-sadi  yômo-ntlê\\
  \textsc{cl}1.\textsc{sg}-woman  \textsc{cl}1.\textsc{sg}-beautiful\\
 \glt {‘a beautiful woman’        \citep[140]{Cole1955}}\\
@@ -940,14 +949,14 @@ From there, \textit{de} generalized to a general nominal attributor, ousting and
 The grammaticalizational relationship between the benefactive/purposive and the genitive may be illustrated from Imbabura Quechua. \REF{ex:E47} shows a benefactive adjunct marked by the suffix \textit{{}-paj}, \REF{ex:E48} shows a possessive dependent with the same suffix.
 
 \ea\label{ex:}
-\langinfo{Que}{}{}\\
+\langinfo{\LangQue}{}{}\\
 \gll  wasi-ta  rura-rka-ni  ñuka  churi-paj\\
  house-\textsc{acc}  make-\textsc{pst}-1.\textsc{sg}  I  son-\textsc{ben}\\
 \glt {‘I made a house for my son.’  \citep[113]{Cole1982}}\\
 \z
 
 \ea\label{ex:}
-\langinfo{Que}{}{} \\
+\langinfo{\LangQue}{}{} \\
 \gll   Juzi-paj  wasi\\
 Joseph-\textsc{ben}  house\\
 \glt {‘Joe's house’  (cf. \citet[115]{Cole1982})}\\
@@ -981,7 +990,7 @@ The incidence of such relational nouns varies a lot among different languages. F
 Furthermore, relational nouns, like any other nouns, admit of case affixes. In Turkish, for instance, we have, among others, the case suffixes displayed in \REF{ex:E49}.
 
 \ea\label{ex:}
-\langinfo{Turk}{}{}\\
+\langinfo{\LangTurk}{}{}\\
 \gll   ev-e  /-de  /-den\\
  house-\textsc{dir}  /-\textsc{loc}  /-\textsc{abl}\\
 \glt {‘to/in/from the house’}\\
@@ -990,7 +999,7 @@ Furthermore, relational nouns, like any other nouns, admit of case affixes. In T
 The relational nouns, such as \textit{alt} ‘lower side’, \textit{ön} ‘front’, \textit{arka} ‘back’, \textit{yan} ‘side’ etc., enter into the following construction: they take a preposed complement in the genitive (suffix -\textit{in}), resume this by a possessive suffix (3.pers. =-\textit{i(n)}), and terminate in a case suffix. This yields the subparadigm of \REF{ex:E50}.a, exemplified in b.
 
 \ea\label{ex:}
-\langinfo{Turk}{}{}  \\
+\langinfo{\LangTurk}{}{}  \\
  \ea
  \gll {ev-in}  {}  alt ön arka yan   {{}-in}  {}   {{}-e {}-de {}-den} \\
                \\
@@ -1005,7 +1014,7 @@ Similar constructions are widespread in the languages of the world; they may be 
 The Japanese system is almost perfectly parallel to the Turkish one, except that there are no possessive suffixes. An example will suffice here:
 
 \ea\label{ex:}
-\langinfo{Jap}{}{} \\
+\langinfo{\LangJap}{}{} \\
 \gll A-no  kuroi  kuruma  no  usiro  de  tome-te  kudasai\\
 D3-\textsc{at}  black  car  \textsc{gen}  back  \textsc{loc}  stop-\textsc{ger}  grant\\
 \glt {‘Please stop in back of that black car.’  \citep[97]{Jorden1962}}\\
@@ -1014,7 +1023,7 @@ D3-\textsc{at}  black  car  \textsc{gen}  back  \textsc{loc}  stop-\textsc{ger} 
 Japanese, however, has one peculiarity which should be mentioned here. Noun phrases based on local relational nouns may be used to describe the location of an object, as in \REF{ex:E52}.
 
 \ea\label{ex:}
-\langinfo{Jap}{}{} \\
+\langinfo{\LangJap}{}{} \\
 \gll  Ginkoo  wa  taisikan  no  mukoo  /mae  /yoko  /temae  /migi  desu\\
 bank  \textsc{top}  embassy  \textsc{gen}  yonder.part  /front  /side  /this.side  /right.side  \textsc{cop}\\
 \glt {‘The bank is beyond/in front of/beside/this side/to the right of the embassy.’ (cf. \citet[84f]{Jorden1962})}\\
@@ -1032,7 +1041,7 @@ b.  \textit{Syntactic reanalysis}  [  \textsc{np}-\textsc{Gen}  [  Adposition  {
 Now, the very first thing that happens in the grammaticalization of such adverbial phrases is the syntactic reanalysis which yields the structure in \REF{ex:F4}.b. We may hypothesize that taking step b also means treating the governing term no longer as a relational noun, but as a (complex) adposition. This implies, among other things, that it can no longer be modified by attributes. This entails, in turn, that its complement may no longer manifest in form of a possessive pronoun.
 
 \ea\label{ex:}
-\langinfo{Fren}{}{} \\
+\langinfo{\LangFren}{}{} \\
  \gll  *à votre côté  ‘at your side’\\
 b.  à côté de vous  ‘beside you’\\
 \z
@@ -1065,7 +1074,7 @@ The analog to the deletion of the outer case marker in the development of comple
 The reduction of the complex adposition to a simple one may also be seen in the Semitic languages. All of the prepositions of Accadic and Classical Arabic govern the genitive, even the unanalyzable primary ones. The reason is that all of them go back to nominal forms in the status constructus, though this is not apparent from synchronic morphology and often not even recoverable by etymology. Examples:
 
 \ea\label{ex:}
-\langinfo{Accad}{}{}\\
+\langinfo{\LangAccad}{}{}\\
  \ea
  \gll  ana  bull\=im  \\
    to  extinguish:\textsc{inf}:\textsc{gen}  \\
@@ -1123,7 +1132,7 @@ However, suffixation of postpositions is not restricted to \textsc{np}s ending i
 The chance that adpositions will hit upon determiners, instead of on nouns, is much greater for prepositions than for postpositions. Despite the general reluctance to affix elements to varying types of subconstituents, prefixation of prepositions does occur, just as does suffixation of postpositions to non-substantival subconstituents of \textsc{np}s in Basque. As is to be expected, the most desemanticized prepositions are the first to fuse with the articles. We observe this in French forms such as \textit{du} ‘of the’, \textit{au} ‘to the’ etc., which have no counterpart in prepositions such as \textit{dans} or \textit{avant}. Similar phenomena occur in Arabic; cf. \REF{ex:E55}.a above. In German, most of the primary prepositions may univerbate with the articles; however, some of the univerbations are obligatory. Thus, before the infinitive and the superlative (which, if governed by prepositions, nearly always have the definite article), the fused forms of \REF{ex:E57}.a (all M/N) must not be represented by the respective sequences in \REF{ex:E57}.b \citep[36]{Vater1976}.
 
 \ea\label{ex:}
-\langinfo{Germ}{}{}\\
+\langinfo{\LangGerm}{}{}\\
  \ea am  beim  im  vom  zum\\
 \ex an dem  bei dem  in dem  von dem  zu dem\\
   at the  at the   in the   of the  to the\\
@@ -1160,7 +1169,7 @@ Again, the internal reduction of the complex adposition does not necessarily pre
  \ea
  vilag-bele  ‘into the world’\\
 \ex
-\langinfo{Hung}{}{}   iov-ben
+\langinfo{\LangHung}{}{}   iov-ben
 \glt ‘in the good (n.)’\\
 \ex
 hely-belöl 
@@ -1200,7 +1209,7 @@ In the meantime, we should not lose sight of the constituent to which the case a
 \z
 
 \ea\label{ex:}
-\langinfo{Dyir}{}{}\\
+\langinfo{\LangDyir}{}{}\\
 \gll bayi  yui  baŋgul  yaaŋgu  bagan.\\
  \textsc{det}.\textsc{abs}  kangaroo(\textsc{abs})  \textsc{det}:\textsc{erg}  man:\textsc{erg}  spear\\
 \glt {‘The man speared the kangaroo.’    \citep[100]{Dixon1972}}\\
@@ -1211,7 +1220,7 @@ Walbiri represents the incipient phase of the spreading of the case suffixes ove
 Further grammaticalization leads to the fusion of the case affixes with morphemes adjacent to it. The examples given above for the univerbation of the preposition with the determiner are at the same time examples of their fusion. Similarly, the declension of the Dyirbal determiner is somewhat irregular and thus no longer completely agglutinative. If the case marker is adjacent to any other inflectional categories, it will fuse with those. Here is an example from Mangarayi (see T3 for details):
 
 \ea\label{ex:}
-\langinfo{Mang}{}{}\\
+\langinfo{\LangMang}{}{}\\
 \gll ŋai-na  ŋaa-gaugu\\
  F.\textsc{nom}-D3  F.\textsc{nom}-woman\\
 \glt {‘that woman (nom.)’    \citep[113]{Merlan1982}}\\
@@ -1229,7 +1238,7 @@ Possibly certain meanings are inherently averbial; this question may be left alo
 Local adverbs, just as local adpositions, are lexically predestined to serve as modifiers of something — a verb or, more rarely, a noun, an adjective or another adverb. That means adverbs and adpositions do not differ in their \textsc{va} relation. Furthermore, both local adverbs and adpositions signify a local aspect (a part, dimension, spatial region) of something or with respect to something. Compare the a- with the b-sentences in \REF{ex:E62}f.\footnote{Similar examples could be adduced from French, where words like \textit{devant, après, en face (de)} are used either as prepositions or as adverbs.}
 
 \ea\label{ex:}
- \langinfo{Engl}{}{} \\
+ \langinfo{\LangEngl}{}{} \\
 \ea
   He is on top of the roof. 
  \ex  He is on top.  \\
@@ -1237,7 +1246,7 @@ Local adverbs, just as local adpositions, are lexically predestined to serve as 
 \z
 
 \ea\label{ex:}
-\langinfo{Germ}{}{}\\
+\langinfo{\LangGerm}{}{}\\
  \ea Er ist über dem Dach.\\
  \glt ‘He is above the roof.’
 \ex  Er ist oben. \\  
@@ -1254,7 +1263,7 @@ I will not dwell here on the possible origins of local adverbs and mention only 
 Irrespective of such genetic differences, and in spite of their eventual origin in relational local nouns, all of these adverbs have it in common that they can modify a verb without reference to an \textsc{np} complement, as exemplified in \REF{ex:E63}.b. There are languages without either adpositions or preverbs, among them Wichita (Caddoan), Dyirbal and Mangarayi, or only three postpositions, such as Kobon \citep[205f]{Davies1981}. Of these, Wichita does not even have more than two cases (locative and instrumental). Such languages usually abound in very specific adverbs, deictic particles and demonstrative pronouns which dispense with the expression of the reference point by an \textsc{np}. A typical Mangarayi sentence with locative adjuncts is \REF{ex:E64}.a. The reference point of the adverb \textit{biwi} is perfectly clear from the context. It may optionally be added, in the dative, as in \REF{ex:E64}.b.
 
 \ea\label{ex:}
-\langinfo{Mang}{}{} \\
+\langinfo{\LangMang}{}{} \\
  \ea
  \gll Yuŋgun  Ø-yag,  ŋaya  biwi  ŋa-iŋa-n-gu.\\
   ahead  2.\textsc{sg}-go(\textsc{imp})  I  behind  1.\textsc{sg}-come-\textsc{prs}-\textsc{des}\\
@@ -1267,7 +1276,7 @@ Irrespective of such genetic differences, and in spite of their eventual origin 
 \z
 
 \ea\label{ex:}
-\langinfo{Mang}{}{}\\
+\langinfo{\LangMang}{}{}\\
 \gll Ja-Ø-yag  jilbu  Ø{\textgreater}wam{\textless}galama.\\
  \textsc{prs}.\textsc{pos}.3-3.\textsc{sg}-go  inside  {\textless}N.\textsc{all}{\textgreater}sugarbag\\
 \glt {‘It [a bee] goes inside to the sugarbag [honey].’    (o.c. 82)}\\
@@ -1276,7 +1285,7 @@ Irrespective of such genetic differences, and in spite of their eventual origin 
 In \REF{ex:E65}, either the adverb or the \textsc{np} adjunct is optional — either can stand alone. They specify each other, the adverb expressing more precisely the local relation, the \textsc{np} rendering the reference point explicit. \REF{ex:E66} is another example of the same type, from Kalkatungu, another Australian language.
 
 \ea\label{ex:}
-\langinfo{Kalk}{}{} \\
+\langinfo{\LangKalk}{}{} \\
 \gll Juru  iŋka-na  kunti-pia  uiŋka.\\
 man  go-\textsc{past}  house-\textsc{loc}  behind\\
 \glt {‘The man went behind the house.’    (Mallinson \& \citet[90]{Blake1981})}\\
@@ -1321,7 +1330,7 @@ The essential difference between \REF{ex:F4} (either a or b) and \REF{ex:F5} is 
 According to Indo-Europeanist communis opinio, structures of the general form \REF{ex:F5} are at the basis of the development of adpositions in the Indo-European languages. Indeed, some of the archaic Indo-European languages, particular Vedic and Hittite, have hardly any adpositions. Hittite (for which see \citet{Starke1977}, part \textsc{ii}) has a number of local adverbs of nominal origin, with still recoverable case endings. Some of them pattern in a regular way in that they may take either directional or accusative case endings and function, accordingly, as either a directional or a locative [sic] adverbial. From *\textit{ser} ‘top’, for instance, we get both \textit{sar\=a} ‘to the top’ and \textit{ser} ‘on top’. The locative group may function as postpositions and take nominal complements or possessive suffixes. This is essentially like the Turkish situation exemplified by \REF{ex:E50} and may be illustrated by \REF{ex:E68}.
 
 \ea\label{ex:}
-\langinfo{Hitt}{}{} \\
+\langinfo{\LangHitt}{}{} \\
  \ea
  \gll  ta-an  hass-as  pira-n  tia-nzi\\
   \textsc{conn}-it  hearth-\textsc{gen}  front-\textsc{acc}  put-3.\textsc{pl}\\
@@ -1340,7 +1349,7 @@ According to Indo-Europeanist communis opinio, structures of the general form \R
 If these same relational nouns are put into the directional case, they may only function as adverbs and not take complements. These adverbs may either occur alone, as in \REF{ex:E69}a, or they may be followed by an \textsc{np} in the same case, as in b.
 
 \ea\label{ex:}
-\langinfo{Hitt}{}{} \\
+\langinfo{\LangHitt}{}{} \\
  \ea
  \gll  testa  para-a  p\=a-nzi.\\
   then  front-\textsc{dir}  go-3.\textsc{pl}\\
@@ -1356,7 +1365,7 @@ If these same relational nouns are put into the directional case, they may only 
  A parallel to \textit{para} in \REF{ex:E69}.a may be seen in \textit{anda} of \REF{ex:E68}.b. The combination of the adverb with an \textsc{np}, as in \REF{ex:E69}.b, is obviously appositive. If the \textsc{np} were a complement of the adverb, the sense would be different. The spirit of the construction may be rendered by ‘to the front, namely to the yard’.
 
 \ea\label{ex:} 
-\langinfo{Hitt}{}{}\\
+\langinfo{\LangHitt}{}{}\\
  \gll da-san  parn-a  n\=awi  pai-zi\\
  inside:\textsc{dir}-\textsc{ptl}  house-\textsc{dir}  not.yet  go-3.\textsc{sg}\\
 \glt {‘he has not yet gone into the house’  (\textsc{kb}o \textsc{vi} 2 \textsc{iv} 37', \citet[152]{Starke1977})}\\
@@ -1418,7 +1427,7 @@ This may be expanded either by a suffix \textit{{}-ntz} to yield a directional, 
 A recent postposition may fall in with an old case prefix. This situation has been analyzed by \citet{Greenberg1980}. It arose in the Ethiopic languages, which, in keeping with their Semitic provenience, had prepositions, but later, under Cushitic influence, developed a number of new syntactic properties, among them postpositions. \REF{ex:E75} is an example.
 
 \ea\label{ex:}
-\langinfo{Amh}{}{} \\
+\langinfo{\LangAmh}{}{} \\
 \gll   b[259?]-k[259?]t[259?]ma-w  wis  \\
 \textsc{loc}-town-\textsc{def}  inside  ‘in the town’\\
 \z
@@ -1455,7 +1464,7 @@ The reinforcement and renovation of prepositions may constantly be observed in t
 Examples from colloquial French are listed in \citet{Frei1929}. According to him (p.~72f), \textit{de} is currently devoid of any separative meaning and must consequently be reinforced whenever such a meaning is intended. Thus:
 
 \ea\label{ex:}
-\langinfo{Fren}{}{} \\
+\langinfo{\LangFren}{}{} \\
 \ea 
  la dérivation des choses \textbf{à partir} du principe\\
 \glt ‘the derivation of things from the principle’\\
@@ -1469,7 +1478,7 @@ Examples from colloquial French are listed in \citet{Frei1929}. According to him
 On the other hand, the desemanticized prepositions \textit{de} and \textit{à} are dropped from complex prepositions originally formed with their help. Thus (o.c. 123):
 
 \ea\label{ex:}
-\langinfo{Fren}{}{} \\
+\langinfo{\LangFren}{}{} \\
 \ea  C'est en face [de] la Sorbonne.
 \glt ‘It is opposite the Sorbonne.’\\
 \ex  jusque [à] maintenant
@@ -1507,14 +1516,14 @@ Recall that in \sectref{3.4.1.1}, we had to split up the adverbial relation into
 We must now ask whether this order of events is necessary. What happens if the \textsc{va} relation is tightened first, the \textsc{an} relation being left intact? The answer is, of course, that this leads to preverbation. Indo-European languages testify abundantly to the following alternative: an adverb which mediates between a verb and an \textsc{np} may find either its relationship to the \textsc{np} or the one to the verb tightend. In the former case, it becomes an adposition, in the latter, a preverb. It is true that there are Indo-European languages such as German, where the same elements may function now as adverb, now as preposition, now as preverb; and we cannot exclude the possibility that such a situation obtained in Proto-Indo-European as well. Nevertheless, the evidence of the earliest Indo-European languages, Hittite und Vedic, suggests that there was a class of elements whose primary function was that of an adverb, and which only derivatively, secondarily both in a synchronic and, as it appears, in a diachronic sense, could function also as either adpositions or preverbs. There has been some debate in the literature (mocked in \citet[127-131]{Starke1977}) on whether a category ‘preverb’ must be recognized for Hittite, on the basis of sentences such as \REF{ex:E69}.a. Hittite does, in fact, appear to represent a phase where the adverbs are still completely ambivalent and have not yet embarked on either course. In Vedic, they are a little further developed, since they tend to attach to the verb and only seldom can be said to function as adpositions (see Delbrück 1888, pass.). Typical examples are in \REF{ex:E78}f.
 
 \ea\label{ex:}
-\langinfo{Ved}{}{}\\
+\langinfo{\LangVed}{}{}\\
 \gll t\=a  asya  praj  ssh par\=a  babh\=uvu  \\
  \textsc{det}:\textsc{nom}.\textsc{pl}.F  this:\textsc{gen}.\textsc{sg}.M  creature:\textsc{nom}.\textsc{pl}.F  create:\textsc{part}.\textsc{pf}:\textsc{nom}.\textsc{pl}.F  away  \textsc{rdp}.\textsc{pf}:become:3.\textsc{pl}  \\
 \glt {‘these creatures of his perished’}   (ÇB 2,5,1, Delbrück 1888:45)\\
 \z
 
 \ea\label{ex:}
-\langinfo{Ved}{}{} \\
+\langinfo{\LangVed}{}{} \\
 \gll yad  ap\=ajanti  \\
 \textsc{rel}:\textsc{acc}.\textsc{sg}.N  off:drive:3.\textsc{pl}  \\
 \glt {‘what they drive away’}  (\textsc{ab} 5,28,2, Delbrück 1888:446)\\
@@ -1552,7 +1561,7 @@ It is now legitimate to ask whether semantic irregularity is really a necessary 
 Two types of verbal prefixes come to mind which fulfill the above requirement. The first is maximally similar to the Latin example just mentioned and occurs in Totonac (Penutian, Mexico; see Reid et al. 1968:24-30). Totonac has \textsc{svo} as the normal order of the main constituents, no cases and some basic prepositions such as \textit{na(c)} \textsc{Loc}, partly borrowed from Spanish. It has personal prefixes on verbs and relational nouns. The verbal agreement prefixes may cross-reference up to two participants. Nearer to the root, there is a series of slots for preverbs of the kind relevant here. (A bene-/malefactive suffix which figures in Reid et al.'s account will be omitted here.) The use of the preverbs is illustrated by \REF{ex:E81}.
 
 \ea\label{ex:}
-\langinfo{Toton}{}{}\\
+\langinfo{\LangToton}{}{}\\
  \ea
  \gll T\=e-tlahua-lh  huanm\=a  c\=a'-lacchicni'.\\
    \textsc{praet}-do-\textsc{past}  that  place.of-town\\
@@ -1570,7 +1579,7 @@ It may be seen that the function of these preverbs is strictly comparable to tha
 A further essential difference from the Latin preverbs consists in the fact that the Totonac preverbs may be combined by rules governing their possible cooccurrence and sequencing. \REF{ex:E82} is an example with three preverbs.
 
 \ea\label{ex:}
-\langinfo{Toton}{}{} \\
+\langinfo{\LangToton}{}{} \\
 \gll l\=i-t\=e-mak-tam\=ahua  tum\=in\\
 \textsc{inst}-\textsc{praet}-\textsc{sep}-buy  money\\
 \glt {‘As he passes by it, he buys it from him with money.’    (p.~27)}\\
@@ -1597,7 +1606,7 @@ In an alternative, and often preferred, construction, the postposition, together
 If the Abkhaz preverb did not have its personal prefix, it would be more similar to the Totonac one. Being as it is, the combination of preverb with agreement affix is assimilated to a personal agreement prefix. In this respect, it is similar to preverbation in Sumerian (see \citet[46- 49, 59f]{Falkenstein1959}) and to one agreement prefix class of Swahili (cf. \citet[48]{Kahr1975}). There are no preverbs in this language, but instead a number of verbal prefix slots, among them one for the subject and one for the direct object. The subject agreement prefix may also refer to a local adjunct if this is topicalized, as in \REF{ex:E84}.
 
 \ea\label{ex:}
-\langinfo{Swah}{}{}\\
+\langinfo{\LangSwah}{}{}\\
 \gll    ku-le  m-ji-ni  ku-me-ugua  wa-tu  wengi\\
  \textsc{cl}17-D3  \textsc{cl}3-village-\textsc{loc}  \textsc{cl}17-\textsc{pf}-fall.ill  \textsc{cl}2-man  \textsc{cl}2:many\footnotemark{}\\
 \glt {‘In that town many people are ill.’      (Polomé 1967:160)}\\
@@ -1639,14 +1648,14 @@ Maimee  prepare  one  table  food  in  inside  house\\
 \z
 
 \ea\label{ex:}
-\langinfo{Mand}{}{}\\
+\langinfo{\LangMand}{}{}\\
 \gll   W  yòng  jindao  jin  zh.\\
  I  use  scissors  cut  paper\\
 \glt {‘I cut paper with the scissors.’}\\
 \z
 
 \ea\label{ex:}
-\langinfo{Mand}{}{}\\
+\langinfo{\LangMand}{}{}\\
 \gll  N  jiè  gi  t\=a  s\=an.\\
  you  lend  give  he  umbrella\\
 \glt {‘You lend him an umbrella.’}\\
@@ -1658,9 +1667,8 @@ Despite the wealth of recent literature — which is more typologically than des
 
 A coverb may be regarded as an adverbial relator providing a relation between a main verb and an \textsc{np}. In the preceding section we saw that such an adverbial relator may either become noun-bound or verb-bound. The development of serial verbs into adpositions is clearly a case of tightening the bond between the relator and the \textsc{np}. We may ask whether the alternative, the coalescence of the coverb with the main verb — parallel to the evolution of preverbs —, also occurs. There is, in fact, abundant evidence that it does. \REF{ex:E90} and \REF{ex:E91} are examples.
 
-\begin{table}
+\begin{figure}
 \begin{tabular}{llllp{8cm}}
-\lsptoprule
 
 \multicolumn{2}{l}{\textsc{stage}} & \multicolumn{2}{l}{\textsc{category}} & \\
 \midrule
@@ -1674,44 +1682,44 @@ I. &  & \begin{tikzpicture}[overlay, on grid, baseline={([yshift=-.5ex]current b
 &  & ↓ & ↓ & \\
 \textsc{iii}. & a. & {}-- & P & The word occurs only as an adposition.\\
 & b. & V ~~~${\neq}$ & P & Underlying verb and adposition become homophones.\\
-\lspbottomrule
 \end{tabular}
 \caption{Grammaticalization of coverbs}\label{ex:F6}
-\end{table}
+\end{figure}
 
 \todo[inline]{Note: In order for these arrows to work, XeTeX has to be run twice in a row.}
 
 \ea\label{ex:}
-\langinfo{Efik}{}{}\\
+\langinfo{Efik}{}{\citet[369]{Welmers1973}}\\
 \gll dá  íkwâ  dí!  \\
- take  knife  come  ‘Bring a knife!’    \citep[369]{Welmers1973}\\
+ take  knife  come  \\
+ \glt ‘Bring a knife!’   
 \z
 
 \ea\label{ex:}
-\langinfo{Ewe}{}{} \\
+\langinfo{Ewe}{}{W. Kuhn p.c.} \\
 \gll é  nò  ts\=i  kú.  \\
-he  drink  water  die  ‘He drowned.’    (W. Kuhn p.c.)\\
+he  drink  water  die \\
+\glt  ‘He drowned.’
 \z
 
 We observe two things here. First, the serial and the main verb form a complex lexical item. Second, this may be discontinuous, as in \REF{ex:E90}. These facts are exactly parallel to those about preverbation of the Indo-European type as discussed in \sectref{3.4.1.6}. That is, the composition of two verbs would not be regarded as a case of grammaticalization. I do not want to imply, however, that the grammaticalization and the lexicalization of a serial verb construction are always neatly distinct. In order to dispell this hope, it suffices to compare \REF{ex:E90} with \REF{ex:E86}. The difficulty of keeping verbal compounds and grammaticalized constructions of full (infinite) verb + auxiliary distinct in Dravidian languages may be seen in \citet[90-96, 109-112 ]{Bloch1954} and \citet{Kachru1980}.
 
-The various evolutions of adverbial relators may then be summarized as follows. The lexical source of an adverbial relator is basically either a relational noun or a transitive verb. No matter which source it is, the relator may either become more noun-bound and develop into an adposition, or it may become more verb-bound and form a compound verb. That is, the paths starting from the two distinct sources first branch off and then converge cross-wise, as in \REF{ex:F7}.
+The various evolutions of adverbial relators may then be summarized as follows. The lexical source of an adverbial relator is basically either a relational noun or a transitive verb. No matter which source it is, the relator may either become more noun-bound and develop into an adposition, or it may become more verb-bound and form a compound verb. That is, the paths starting from the two distinct sources first branch off and then converge cross-wise, as in \figref{F7}.
 
-\begin{tabular}{lllllll}
-\lsptoprule
+\begin{figure}
+\begin{tabular}{lp{3cm}ccccp{3cm}}
 
-\bfseries source &  & \multicolumn{2}{l}{relational noun} & \multicolumn{2}{l}{transitive verb} & \\
-&  & {} & \multicolumn{2}{l}{  
-%%please move the includegraphics inside the {figure} environment
-%%\includegraphics[width=\textwidth]{\textsc{thoughts}-img4.svm}
- } &  & \\
-\hhline{---~~--}
-\bfseries direction & \multicolumn{2}{l}{ \itshape noun-bound} &  &  & \multicolumn{2}{l}{ \itshape verb-bound}\\
-\hhline{---~~--} &  &  &  &  & \multicolumn{2}{l}{}\\
-\bfseries product &  & \multicolumn{2}{l}{adposition} & \multicolumn{2}{l}{part of verb} & \\
-\lspbottomrule
+\scshape source &  & \multicolumn{2}{c}{\begin{tikzpicture}[overlay, on grid, baseline={([yshift=-1ex]current bounding box.center)}, remember picture] \node at (-1,0) (F7-1) {relational noun}; \end{tikzpicture}} & \multicolumn{2}{c}{\begin{tikzpicture}[overlay, on grid, baseline={([yshift=-1ex]current bounding box.center)}, remember picture] \node at (1,0) (F7-2) {transitive verb}; \end{tikzpicture}} & \\
+&  &  &  &  & \\
+
+\scshape direction & \itshape noun-bound &  & & &  \multicolumn{2}{r}{verb-bound}\\
+
+ &  &  &  &  & \\
+\scshape product &  & \multicolumn{2}{c}{\begin{tikzpicture}[overlay, on grid, baseline={([yshift=-.5ex]current bounding box.center)}, remember picture] \node at (-1,0) (F7-3) {adposition}; \end{tikzpicture}} & \multicolumn{2}{c}{\begin{tikzpicture}[overlay, on grid, baseline={([yshift=-.5ex]current bounding box.center)}, remember picture] \node at (1,0) (F7-4) {part of verb}; \draw (F7-1.south) -- (F7-3.north) -- (F7-2.south) -- (F7-4.north) -- (F7-1.south); \end{tikzpicture}} & \\
+
 \end{tabular}
-\todo[inline]{This still needs some work}
+\caption{Evolution of adverbial relators}\label{F7}
+\end{figure}
 
 While the path leading to an adposition is a grammaticalization channel, the one leading to verbal composition is not. Only in some cases of preverbation which one would not call verbal composition (e.g. Totonac and Abkhaz) can we speak of grammaticalization.
 
@@ -1775,7 +1783,7 @@ The title of this section is reminiscent of Givón's “From discourse to syntax
 The most common way to express a \textbf{topic} is by left-dislocating an \textsc{np} and adjoining it as a coconstituent to a clause in which it is anaphorically resumed. This construction is becoming increasingly frequent in substandard French; see \citet{Ashby1981}. An example is \REF{ex:E92}.
 
 \ea\label{ex:}
-\langinfo{Fren}{}{}\\
+\langinfo{\LangFren}{}{}\\
  Jean, je l'ai vu hier.
 \glt ‘John, I saw him yesterday.’\\
 \z
@@ -1785,7 +1793,7 @@ There is no syntactic relation between the left-dislocated \textsc{np} and the f
 Some languages have more or less circumlocutory means for marking the topic by more than mere sequential ordering. In German, we say \textit{was} \textsc{np} \textit{betrifft/angeht} ‘as regards \textsc{np}’, and in Portuguese and French, somewhat less clumsily, \textit{quanto a} = \textit{quant à} ‘as for’. The first step in the grammaticalization of such a construction is realized in Japanese. There is a postnominal particle \textit{wa}, which indicates that the preceding \textsc{np} is the topic or the theme of the sentence. It may follow a bare \textsc{np}, as in \REF{ex:E93}a, or one equipped with a case marker, as in b.
 
 \ea\label{ex:}
-\langinfo{Jap}{}{} \\
+\langinfo{\LangJap}{}{} \\
  \ea
  \gll {Matti}  {wa}  arimasen\\
   {match}  {\textsc{top}}  \textsc{exist}:\textsc{pol}:\textsc{neg}\\
@@ -1815,7 +1823,7 @@ In French, neither left- nor right-dislocation will create new syntactic functio
 The topicalization of the verb is a further instance of a construction which requires some circumlocution in languages such as German. The construction may be exemplified by \REF{ex:E95}.
 
 \ea \label{ex:}
-\langinfo{Germ}\\
+\langinfo{\LangGerm}\\
  Kochen tut sie nicht schlecht\\
 \glt ‘As for cooking, she is not bad’
 \z
@@ -1841,13 +1849,13 @@ Turning now to \textbf{focus} constructions, the most explicit way of marking th
 Focus constructions are grammaticalized as the normal expression of a word question in many languages. The question word is a grammaticalized focus.\footnote{This is the message of Sasse 1977[n], where the focus is mistakenly called topic. My discussion has also benefited from correspondence with H.-J. Sasse.} Accordingly, word questions may be constructed as cleft-sentences, for instance in French and Portuguese.
 
 \ea\label{ex:}
-\langinfo{Fren}{}{}\\
+\langinfo{\LangFren}{}{}\\
  Qu'est-ce qu'il fait?\\
  \glt ‘What is he doing?’\\
 \z
 
 \ea\label{ex:}
-\langinfo{Port}{}{}\\
+\langinfo{\LangPort}{}{}\\
 \gll    Quando  é  que  ele  vem?\\
  when  is  that  he  comes\\
 \glt {‘When will he come?’}\\
@@ -1863,7 +1871,7 @@ Similarly, focus or rhematic particles will accompany question words:
 \z
 
 \ea\label{ex:}
-\langinfo{Som}{}{}\\
+\langinfo{\LangSom}{}{}\\
  \ea
  \gll las  'aanood  b-uu  tegey.\\
    Las  Anod  \textsc{foc}-he  went\\
@@ -1899,7 +1907,7 @@ mother handkerchief-\textsc{obj}:\textsc{foc}  search-\textsc{pol}-\textsc{fin}\
 \z
 
 \ea\label{ex:}
-\langinfo{Jap}{}{}  \\
+\langinfo{\LangJap}{}{}  \\
  \ea
  \gll  Matti  (wa)  arimasen\\
  match  \textsc{top}  \textsc{exist}:\textsc{pol}:\textsc{neg}\\
@@ -1913,7 +1921,7 @@ mother handkerchief-\textsc{obj}:\textsc{foc}  search-\textsc{pol}-\textsc{fin}\
 \z
 
 \ea\label{ex:}
-\langinfo{Jap}{}{}\\
+\langinfo{\LangJap}{}{}\\
  \ea
  \gll  Tabako  (wa)  kaimasita\\
    cigarette  \textsc{top}  buy:\textsc{pol}:\textsc{past}\\
@@ -1945,16 +1953,16 @@ In what has been said above, it is implied that topic and focus, as they appear 
 
 The association of all the first elements and all the second elements of the pairs in the second row of \tabref{ex:F9} with each other seems possible, but not compulsory; speaking against this, we have seen subject markers expressing focus. The dots indicate that this is only the initial part of a grammaticalization scale and that it can probably be prolonged. A somewhat speculative guess would be ‘head/attribute’ as the next stage, still within syntax (cf. Lehmann 1984, ch.~\textsc{iv}.2), although this construction also has different grammaticalizational origins, as we saw in \sectref{3.3.3}.
 
-\begin{table}
+\begin{figure}
 \begin{tabular}{llll}
-\lsptoprule
+
 \multicolumn{2}{l}{functional sentence perspective} & syntax & morphology\\
 \midrule
 {topic/focus} & theme/rheme & subject/predicate & . . .\\
-\lspbottomrule
+
 \end{tabular}
 \caption{From discourse functions to syntactic functions}\label{ex:F9}
-\end{table}
+\end{figure}
 
 
 All of this was already anticipated by the father of grammaticalization, A. Meillet (1912:147f). He compares free word order in Latin, which signals “expressive nuances”, with rigid word order in French, which expresses syntactic relations. For instance, subject and object of the predicate or the attribute of a head in Latin are identified independently of their sequential position and are distributed in the sentence according to its functional sentence perspective, whereas the same syntactic functions in French are identified exactly by the position of the constituents. This shows — says Meillet — that word order may be grammaticalized. Two comments may be appended to this. First, as we shall see in \sectref{4.4}, reduction of word order freedom should be considered as one factor in a grammaticalization process which comprises more than that, namely the regulation of functional sentence perspective in terms of syntax, which then continues into morphology and further as indicated in \REF{ex:F1}. Second, Meillet's few remarks would seem to open up a particularly rich field of reliable historical evidence for the sort of development more postulated than demonstrated in this section.
