@@ -218,35 +218,7 @@ The developments discussed in the preceding sections may be summarized in \REF{e
 
 \begin{figure}
 
-\begin{tikzpicture}[baseline=(current bounding box.north), decoration = {markings, mark=at position .75 with {\arrow[thick]}}]
-% Nodes are drawn left to right, top to bottom from original PDF
-\node at (0,0) [align=center] (full) {full\\verb};
-\node at (0,-2) (adverb) {adverb};
-\node at (2,1) [align=center] (modal) {modal\\verb};
-\node at (4,-1) [align=center] (serial) {serial\\verb};
-\node at (6,0) [align=center] (auxiliary) {auxiliary\\verb};
-\node at (9,1) [align=center] (mood) {mood\\marker};
-\node at (9,-1) [align=center] (aspect) {aspect\\marker};
-\node at (11,-2) [align=center] (tense) {tense\\marker};
-%\draw [postaction=decorate] (node cs:name=full) -- (node cs:name=modal);
-%\draw [postaction=decorate] (node cs:name=full) -- (node cs:name=auxiliary);
-%\draw [postaction=decorate] (node cs:name=full) -- (node cs:name=serial);
-%\draw [postaction=decorate] (node cs:name=modal) -- (node cs:name=auxiliary);
-%\draw [postaction=decorate] (node cs:name=auxiliary) -- (node cs:name=mood);
-%\draw [postaction=decorate] (node cs:name=auxiliary) -- (node cs:name=aspect);
-%\draw [postaction=decorate] (node cs:name=serial) -- (node cs:name=aspect);
-%\draw [postaction=decorate] (node cs:name=aspect) -- (node cs:name=tense);
-%\draw [postaction=decorate] (node cs:name=adverb) -- (node cs:name=tense);
-\draw [->, very thick] (node cs:name=full) -- (node cs:name=modal);
-\draw [->, very thick] (node cs:name=full) -- (node cs:name=auxiliary);
-\draw [->, very thick] (node cs:name=full) -- (node cs:name=serial);
-\draw [->, very thick] (node cs:name=modal) -- (node cs:name=auxiliary);
-\draw [->, very thick] (node cs:name=auxiliary) -- (node cs:name=mood);
-\draw [->, very thick] (node cs:name=auxiliary) -- (node cs:name=aspect);
-\draw [->, very thick] (node cs:name=serial) -- (node cs:name=aspect);
-\draw [->, very thick] (node cs:name=aspect) -- (node cs:name=tense);
-\draw [->, very thick] (node cs:name=adverb) -- (node cs:name=tense);
-\end{tikzpicture}
+\includegraphics[width=.9\textwidth]{figures/2-someintverbcat.pdf}
 \caption{Some interrelated grammaticalization channels of verbal categories}
 \end{figure}
 
@@ -1670,7 +1642,7 @@ A coverb may be regarded as an adverbial relator providing a relation between a 
 \begin{figure}
 \begin{tabular}{llllp{8cm}}
 
-\multicolumn{2}{l}{\textsc{stage}} & \multicolumn{2}{l}{\textsc{category}} & \\
+\multicolumn{2}{c}{\textsc{stage}} & \multicolumn{2}{c}{\textsc{category}} & \\
 \midrule
 I. &  & \begin{tikzpicture}[overlay, on grid, baseline={([yshift=-.5ex]current bounding box.center)}, remember picture] \node at (.125,0) (F6-1V) {V}; \end{tikzpicture} & {}-- & The word occurs only as a verb.\\
 &  & \multicolumn{2}{l}{} & \\
@@ -1770,7 +1742,10 @@ The stringency of this reconstruction remains to be examined. There are at least
 
 The grammaticalization phenomena sketched so far may be summarized in \REF{ex:F8}. This scale incorporates some ordering which has not been demonstrated empirically, but which I assume may be demonstrated to be very much the way indicated. It has various interpretations, the grammaticalizational one being the interpretation most relevant here. Alternatively, it shows possible polysemies of case affixes:\footnote{\textsc{nb}: Such polysemies must be kept distinct from case syncretisms, which affect cases of equal grammaticality (arranged in columns in \REF{ex:F8}), e.g. the instrumental and the ablative.} two functions connected by grammaticalization may be represented by a polysemous case affix. Cf. ch. 4.2.1 on how grammaticalization connects the \textit{Grundbedeutung} with the \textit{Gesamtbedeutung} of an item.
 
-\todo[inline]{need to draw F8 here. See pg. 99 of the original PDF}
+\begin{figure}
+\includegraphics[width=.9\textwidth]{figures/8-someinterrelated.pdf}
+\caption{Some interrelated grammaticalization channels of cases}
+\end{figure}
 
 More generally, \REF{ex:F8} may be interpreted as a universal hierarchical layering to be found — presumably with modifications — in the case system of any individual language.\footnote{In the last two columns, the two rows represent, of course, alternative possibilities of systematic cooccurrence; we either have accusative and nominative, or ergative and absolutive.} The rightmost column constitutes the top of the hierarchy. Moving towards the left and thus descending the hierarchy, we do not arrive at any bottom. The adverbial relations discussed in ch.~3.4.1 may be arranged in similar rows and columns as above and may continue the scale to the left until grammar ceases and the lexicon begins.\footnote{This fact constitutes another principal challenge to the theory of case grammar; cf. \citet[76f]{Dillon1977} .} This layering, introduced already on p.~84, may be captured by a number of specific hypotheses which use the criteria generally differentiating among degrees of grammaticality (see \sectref{4}) and which together may be regarded as rendering the traditional notion of concrete vs. grammatical case more precise. One of these hypotheses, which takes up the considerations of p.~84, will be formulated here (see \citet{Lehmann1983}, §~4): There is a scale of structural means for the expression of case functions which starts with relational nouns and coverbs and passes through adverbs, adpositions and case markers to morphological zero expression. In every language, this scale is coupled with scale \REF{ex:F8}, such that the least grammaticalized case functions are expressed by relational nouns or coverbs and the more grammaticalized ones successively by the other means. Both case functions and means may be skipped, but the order must be observed. Thus, the hypothesis means that each kind of structural means must be employed for a continuous segment of \REF{ex:F8}. One more specific hypothesis entailed by this general one is: if a language has no segmental expression for some of the case functions, these form a continuous segment of \REF{ex:F8}, starting from the right (top). With some minor exceptions, this is empirically true in an overwhelming number of languages.
 
