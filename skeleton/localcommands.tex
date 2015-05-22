@@ -44,3 +44,6 @@
 \newcommand{\LangTurk}{Turkish}
 \newcommand{\LangUzb}{Uzbek}
 \newcommand{\LangVed}{Vedic}
+
+% Altering of Linguistic Examples (n) -> En. patchcmd allows us to have this changed independent of any gb4e.sty.
+\makeatletter \patchcmd\@exe{(\thexnumi)}{E\thexnumi}{}{} \makeatother
