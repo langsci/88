@@ -48,5 +48,10 @@
 \newcommand{\LangUzb}{Uzbek}
 \newcommand{\LangVed}{Vedic}
 
-% Altering of Linguistic Examples (n) -> En. patchcmd allows us to have this changed independent of any gb4e.sty.
-\makeatletter \patchcmd\@exe{(\thexnumi)}{E\thexnumi}{}{} \makeatother
+% Adapt definitions in lsp-gb4e.sty and lsp-makros.sty to fit Lehmann's needs
+\makeatletter 
+\patchcmd\@exe{(\thexnumi)}{E\thexnumi}{}{} % Altering of Linguistic Examples (n) -> En.
+\patchcmd\exp{(\ref{#1}$'$)}{E\ref{#1}$'$}{}{} % identifiers of derived examples (\ref') -> E\ref'
+\patchcmd\REF{(\ref{#1})}{E\ref{#1}}{}{} % patch reference to examples (n) -> En.
+
+\makeatother
