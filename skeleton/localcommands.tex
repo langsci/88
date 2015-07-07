@@ -5,17 +5,17 @@
 \renewcommand{\lsCoverTitleFont}[1]{\sffamily\addfontfeatures{Scale=MatchUppercase}\fontsize{48pt}{16.75mm}\selectfont #1} 
 
 
-\newcommand{\textgreek}{×}
+\newcommand{\textgreek}{}
 
 \renewcommand{\langinfo}[1]{#1}
 \newcommand{\arraybslash}{}
-\renewcommand{\pi}{P}
-\renewcommand{\alpha}{A}
-\renewcommand{\tau}{T}
-\renewcommand{\rho}{R}
-\renewcommand{\varepsilon}{E}
-\renewcommand{\nu}{N}
-\renewcommand{\upsilon}{Y}
+\renewcommand{\pi}{π}
+\renewcommand{\alpha}{α}
+\renewcommand{\tau}{τ}
+\renewcommand{\rho}{ρ}
+\renewcommand{\varepsilon}{ε}
+\renewcommand{\nu}{ν}
+\renewcommand{\upsilon}{υ}
 
 % Language Short Handles - I did not enter commands for language that only appear once (Spanish, Burmese) or that are shorter than an abbv would be (Latin, Ewe)
 \newcommand{\LangAbkh}{Abkhaz}
@@ -57,4 +57,11 @@
 \makeatother
 
 % Find page references
-\newcommand{\chk}{\texthl{fix pageref}}
+\newcommand{\chkfn}{ \texthl{fix pageref} }
+\newcommand{\chk}{ \todo{fix pageref} }
+\newcommand{\chapref}[1]{Chapter~\ref{#1}}
+
+\renewcommand{\langinfo}[2]{\upshape #1 #2}
+
+\newtoggle{bbx:related}
+\newcommand{\printdateextralabel}{}

@@ -1,5 +1,5 @@
 % $ biblatex auxiliary file $
-% $ biblatex version 2.3 $
+% $ biblatex version 1.7 $
 % Do not modify the above lines!
 %
 % This is an auxiliary file used by the 'biblatex' package.
@@ -15,6 +15,4581 @@
       \aftergroup\endinput}
   {}
 \endgroup
+
+\entry{Alpatov1980}{incollection}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Alpatov}{A.}%
+     {V.M}{V.}%
+     {}{}%
+     {}{}}%
+  }
+  \name{editor}{1}{}{%
+    {{}%
+     {Vardul'}{V.}%
+     {Igor~F.}{I.~F.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Nauka}%
+  }
+  \strng{crossref}{Vardul1980}
+  \strng{namehash}{AV1}
+  \strng{fullhash}{AV1}
+  \field{labelyear}{1980}
+  \field{sortinit}{A}
+  \field{pages}{3\bibrangedash 26}
+  \field{title}{Sistema ličnych mestoimenij 1-go i 2-go lica v sovremennom
+  japonskom jazyke}
+  \list{location}{1}{%
+    {Moskva}%
+  }
+  \field{year}{1980}
+\endentry
+
+\entry{Anderson1977}{incollection}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Anderson}{A.}%
+     {Stephen~R}{S.~R.}%
+     {}{}%
+     {}{}}%
+  }
+  \name{editor}{1}{}{%
+    {{}%
+     {Li}{L.}%
+     {Charles~N}{C.~N.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {University of Texas Press}%
+  }
+  \strng{crossref}{Li1977}
+  \strng{namehash}{ASR1}
+  \strng{fullhash}{ASR1}
+  \field{labelyear}{1977}
+  \field{sortinit}{A}
+  \field{pages}{317\bibrangedash 363}
+  \field{title}{On mechanisms by which languages become ergative}
+  \list{location}{2}{%
+    {Austin}%
+    {London}%
+  }
+  \field{year}{1977}
+\endentry
+
+\entry{André1978}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {André}{A.}%
+     {Jacques}{J.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Klincksieck}%
+  }
+  \strng{namehash}{AJ1}
+  \strng{fullhash}{AJ1}
+  \field{labelyear}{1978}
+  \field{sortinit}{A}
+  \field{title}{Les mots a redoublement en latin}
+  \list{location}{1}{%
+    {Paris}%
+  }
+  \field{year}{1978}
+\endentry
+
+\entry{Arens1969}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Arens}{A.}%
+     {Hans}{H.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Karl Alber}%
+  }
+  \strng{namehash}{AH1}
+  \strng{fullhash}{AH1}
+  \field{labelyear}{1969}
+  \field{sortinit}{A}
+  \field{edition}{2}
+  \field{title}{Sprachwissenschaft. Der Gang ihrer Entwicklung von der Antike
+  bis zur Gegenwart}
+  \list{location}{1}{%
+    {Freiburg \& München}%
+  }
+  \field{year}{1969}
+\endentry
+
+\entry{Ashby1981}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Ashby}{A.}%
+     {William~J}{W.~J.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{AWJ1}
+  \strng{fullhash}{AWJ1}
+  \field{labelyear}{1981}
+  \field{sortinit}{A}
+  \field{pages}{674\bibrangedash 687}
+  \field{title}{The loss of the negative particle \textit{ne} in French: a
+  syntactic change in progress}
+  \field{volume}{57}
+  \field{journaltitle}{Language}
+  \field{year}{1981}
+\endentry
+
+\entry{Austerlitz1980}{incollection}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Austerlitz}{A.}%
+     {Robert}{R.}%
+     {}{}%
+     {}{}}%
+  }
+  \name{editor}{2}{}{%
+    {{}%
+     {Brettschneider}{B.}%
+     {Gunter}{G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Lehmann}{L.}%
+     {Christian}{C.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {G. Narr}%
+  }
+  \strng{crossref}{BrettschneiderEtAl1980}
+  \strng{namehash}{AR1}
+  \strng{fullhash}{AR1}
+  \field{labelyear}{1980}
+  \field{sortinit}{A}
+  \field{pages}{235\bibrangedash 244}
+  \field{title}{Typology and universals on a Eurasian east-west continuum}
+  \list{location}{1}{%
+    {Tübingen}%
+  }
+  \field{year}{1980}
+\endentry
+
+\entry{Bazell1949}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Bazell}{B.}%
+     {Charles~E}{C.~E.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{BCE1}
+  \strng{fullhash}{BCE1}
+  \field{labelyear}{1949}
+  \field{sortinit}{B}
+  \field{pages}{5\bibrangedash 20}
+  \field{title}{Syntactic relations and linguistic typology}
+  \field{volume}{8}
+  \field{journaltitle}{Cahiers Ferdinand de Saussure}
+  \field{year}{1949}
+\endentry
+
+\entry{Benveniste1968}{incollection}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Benveniste}{B.}%
+     {Emile}{E.}%
+     {}{}%
+     {}{}}%
+  }
+  \name{editor}{2}{}{%
+    {{}%
+     {Lehmann}{L.}%
+     {W.P.}{W.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Malkiel}{M.}%
+     {Y.}{Y.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {University of Texas Press}%
+  }
+  \strng{namehash}{BE1}
+  \strng{fullhash}{BE1}
+  \field{labelyear}{1968}
+  \field{sortinit}{B}
+  \field{booktitle}{Directions for historical linguistics. A symposium}
+  \field{pages}{83\bibrangedash 94}
+  \field{title}{Mutations of linguistic categories}
+  \list{location}{1}{%
+    {Austin \& London}%
+  }
+  \field{year}{1968}
+\endentry
+
+\entry{Bloch1954}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Bloch}{B.}%
+     {Jules}{J.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Deccan College}%
+  }
+  \strng{namehash}{BJ1}
+  \strng{fullhash}{BJ1}
+  \field{labelyear}{1954}
+  \field{sortinit}{B}
+  \field{number}{3}
+  \field{series}{Deccan College Hand-Book Series}
+  \field{title}{The grammatical structure of Dravidian languages}
+  \list{location}{1}{%
+    {Poona}%
+  }
+  \field{year}{1954}
+\endentry
+
+\entry{Bloomfield1933}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Bloomfield}{B.}%
+     {Leonard}{L.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Holt, Rinehart \& Winston}%
+  }
+  \strng{namehash}{BL1}
+  \strng{fullhash}{BL1}
+  \field{labelyear}{1933}
+  \field{sortinit}{B}
+  \field{title}{Language}
+  \list{location}{1}{%
+    {New York etc}%
+  }
+  \field{year}{1933}
+\endentry
+
+\entry{Bolinger1978}{incollection}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Bolinger}{B.}%
+     {Dwight~L}{D.~L.}%
+     {}{}%
+     {}{}}%
+  }
+  \name{editor}{1}{}{%
+    {{}%
+     {Greenberg}{G.}%
+     {Joseph~H}{J.~H.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Stanford University Press}%
+  }
+  \strng{crossref}{Greenberg1978}
+  \strng{namehash}{BDL1}
+  \strng{fullhash}{BDL1}
+  \field{labelyear}{1978}
+  \field{sortinit}{B}
+  \field{note}{4 vols}
+  \field{pages}{471\bibrangedash 524}
+  \field{title}{Intonation across languages}
+  \field{volume}{1}
+  \list{location}{1}{%
+    {Stanford}%
+  }
+  \field{year}{1978}
+\endentry
+
+\entry{Bopp1816}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Bopp}{B.}%
+     {Franz}{F.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Andreäsche Buchhandlung}%
+  }
+  \strng{namehash}{BF1}
+  \strng{fullhash}{BF1}
+  \field{labelyear}{1816}
+  \field{sortinit}{B}
+  \field{note}{Reprint 1975}
+  \field{series}{Documenta semiotica - Serie 1}
+  \field{title}{Über das Conjugationssystem der Sanskritsprache in
+  Vergleichung mit jenem der griechischen, lateinischen, persischen und
+  germanischen Sprache}
+  \list{location}{1}{%
+    {Frankfurt am Main}%
+  }
+  \field{year}{1816}
+\endentry
+
+\entry{Bopp1833}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Bopp}{B.}%
+     {Franz}{F.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{BF1}
+  \strng{fullhash}{BF1}
+  \field{labelyear}{1833-52}
+  \field{sortinit}{B}
+  \field{title}{Vergleichende Grammatik des Sanskrit, Zend, Griechischen,
+  Lateinischen, Litauischen, Altslawischen, Gothischen und Deutschen}
+  \list{location}{1}{%
+    {Berlin}%
+  }
+  \field{year}{1833-52}
+\endentry
+
+\entry{Bossong1979}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Bossong}{B.}%
+     {Georg}{G.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{BG1}
+  \strng{fullhash}{BG1}
+  \field{labelyear}{1979}
+  \field{sortinit}{B}
+  \field{pages}{33\bibrangedash 54}
+  \field{title}{Typologie der Hypotaxe}
+  \field{volume}{13}
+  \field{journaltitle}{Folia Linguistica}
+  \field{year}{1979}
+\endentry
+
+\entry{Brettschneider1978}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Brettschneider}{B.}%
+     {Gunter}{G.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{BG2}
+  \strng{fullhash}{BG2}
+  \field{labelyear}{1978}
+  \field{sortinit}{B}
+  \field{pages}{67\bibrangedash 75}
+  \field{title}{Baskisch}
+  \field{volume}{5}
+  \field{journaltitle}{Studium Linguistik}
+  \field{year}{1978}
+\endentry
+
+\entry{BrettschneiderEtAl1980}{book}{}
+  \name{editor}{2}{}{%
+    {{}%
+     {Brettschneider}{B.}%
+     {Gunter}{G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Lehmann}{L.}%
+     {Christian}{C.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {G. Narr}%
+  }
+  \strng{namehash}{BGLC1}
+  \strng{fullhash}{BGLC1}
+  \field{labelyear}{1980}
+  \field{sortinit}{B}
+  \field{title}{Wege zur Universalienforschung. Sprachwissenschaftliche
+  Beiträge zum 60. Geburtstag von Hansjakob Seiler}
+  \list{location}{1}{%
+    {Tübingen}%
+  }
+  \field{year}{1980}
+\endentry
+
+\entry{Bybee1981}{unpublished}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Bybee}{B.}%
+     {Joan~L}{J.~L.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{BJL1}
+  \strng{fullhash}{BJL1}
+  \field{labelyear}{1981}
+  \field{sortinit}{B}
+  \field{note}{SUNY at Buffalo}
+  \field{title}{What's a possible inflectional category}
+  \field{year}{1981}
+\endentry
+
+\entry{Capell1971}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Capell}{C.}%
+     {Arthur}{A.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Australian National University}%
+  }
+  \strng{namehash}{CA1}
+  \strng{fullhash}{CA1}
+  \field{labelyear}{1971}
+  \field{sortinit}{C}
+  \field{title}{Arosi grammar}
+  \list{location}{1}{%
+    {Canberra}%
+  }
+  \field{year}{1971}
+\endentry
+
+\entry{Clark1979}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Clark}{C.}%
+     {Marybeth}{M.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {University of Hawaii}%
+  }
+  \strng{namehash}{CM1}
+  \strng{fullhash}{CM1}
+  \field{labelyear}{1979}
+  \field{sortinit}{C}
+  \field{number}{2}
+  \field{pages}{1\bibrangedash 12}
+  \field{title}{Coverbs: evidence for the derivation of prepositions from verbs
+  — New Evidence from Hmong}
+  \field{volume}{11}
+  \field{journaltitle}{Working Papers in Linguistic}
+  \field{year}{1979}
+\endentry
+
+\entry{Cole1955}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Cole}{C.}%
+     {Desmond~T}{D.~T.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Longmans, Green \& Co}%
+  }
+  \strng{namehash}{CDT1}
+  \strng{fullhash}{CDT1}
+  \field{labelyear}{1955}
+  \field{sortinit}{C}
+  \field{title}{An introduction to Tswana grammar}
+  \list{location}{1}{%
+    {London etc}%
+  }
+  \field{year}{1955}
+\endentry
+
+\entry{Cole1982}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Cole}{C.}%
+     {Peter}{P.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {North-Holland}%
+  }
+  \strng{namehash}{CP1}
+  \strng{fullhash}{CP1}
+  \field{labelyear}{1982}
+  \field{sortinit}{C}
+  \field{number}{5}
+  \field{series}{LDS}
+  \field{title}{Imbabura Quechua}
+  \list{location}{1}{%
+    {Amsterdam}%
+  }
+  \field{year}{1982}
+\endentry
+
+\entry{Comrie1981b}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Comrie}{C.}%
+     {Bernard}{B.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {B. Blackwell}%
+  }
+  \strng{namehash}{CB1}
+  \strng{fullhash}{CB1}
+  \field{labelyear}{1981}
+  \field{extrayear}{1}
+  \field{sortinit}{C}
+  \field{title}{Language universals and linguistic typology. Syntax and
+  morphology}
+  \list{location}{1}{%
+    {Oxford}%
+  }
+  \field{year}{1981}
+\endentry
+
+\entry{Comrie1981a}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Comrie}{C.}%
+     {Bernard}{B.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Cambridge University Press}%
+  }
+  \strng{namehash}{CB1}
+  \strng{fullhash}{CB1}
+  \field{labelyear}{1981}
+  \field{extrayear}{2}
+  \field{sortinit}{C}
+  \field{series}{Cambridge Language Surveys}
+  \field{title}{The languages of the Soviet Union}
+  \list{location}{1}{%
+    {Cambridge}%
+  }
+  \field{year}{1981}
+\endentry
+
+\entry{Condillac1746}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Condillac}{C.}%
+     {Étienne~Bonnot}{�.~B.}%
+     {de}{d.}%
+     {}{}}%
+  }
+  \strng{namehash}{C�Bd1}
+  \strng{fullhash}{C�Bd1}
+  \field{labelyear}{1746}
+  \field{sortinit}{C}
+  \field{title}{Essai sur l'origine des connaissances humaines}
+  \list{location}{1}{%
+    {Paris}%
+  }
+  \field{year}{1746}
+\endentry
+
+\entry{Coseriu1974}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Coseriu}{C.}%
+     {Eugenio}{E.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {W. Fink}%
+  }
+  \strng{namehash}{CE1}
+  \strng{fullhash}{CE1}
+  \field{labelyear}{1974}
+  \field{sortinit}{C}
+  \field{note}{Übersetzt von Helga Sohre}
+  \field{title}{Synchronie, Diachronie und Geschichte. Das Problem des
+  Sprachwandels}
+  \list{location}{1}{%
+    {München}%
+  }
+  \field{year}{1974}
+\endentry
+
+\entry{Coseriu1979}{incollection}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Coseriu}{C.}%
+     {Eugenio}{E.}%
+     {}{}%
+     {}{}}%
+  }
+  \name{editor}{1}{}{%
+    {{}%
+     {Ezawa}{E.}%
+     {K.H}{K.}%
+     {}{}%
+     {K.~\&~Rensch}{K.~.~R.}}%
+  }
+  \list{publisher}{1}{%
+    {M. Niemeyer}%
+  }
+  \strng{namehash}{CE1}
+  \strng{fullhash}{CE1}
+  \field{labelyear}{1979}
+  \field{sortinit}{C}
+  \field{booktitle}{Sprache und Sprachen. Festschrift für Eberhard Zwirner zum
+  80. Geburtstag}
+  \field{pages}{35\bibrangedash 55}
+  \field{title}{Verbinhalt, Aktanten, Diathese. Zur japanischen Ukemi-Bildung}
+  \list{location}{1}{%
+    {Tübingen}%
+  }
+  \field{year}{1979}
+\endentry
+
+\entry{Coulmas1980}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Coulmas}{C.}%
+     {Florian}{F.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{CF1}
+  \strng{fullhash}{CF1}
+  \field{labelyear}{1980}
+  \field{sortinit}{C}
+  \field{number}{2}
+  \field{pages}{3\bibrangedash 19}
+  \field{title}{Zur Personaldeixis im Japanischen}
+  \field{volume}{23}
+  \field{journaltitle}{Papiere zur Linguistik}
+  \field{year}{1980}
+\endentry
+
+\entry{Davies1981}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Davies}{D.}%
+     {John}{J.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {North-Holland}%
+  }
+  \strng{namehash}{DJ1}
+  \strng{fullhash}{DJ1}
+  \field{labelyear}{1981}
+  \field{sortinit}{D}
+  \field{number}{3}
+  \field{series}{LDS}
+  \field{title}{Kobon}
+  \list{location}{1}{%
+    {Amsterdam}%
+  }
+  \field{year}{1981}
+\endentry
+
+\entry{Delbrück1888}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Delbrück}{D.}%
+     {Berthold}{B.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {M. Niemeyer}%
+  }
+  \strng{namehash}{DB1}
+  \strng{fullhash}{DB1}
+  \field{labelyear}{1888}
+  \field{sortinit}{D}
+  \field{note}{Reprint: Tübingen: M. Niemeyer, 1976; Darmstadt:
+  Wissenschaftliche Buchgesellschaft}
+  \field{series}{Syntaktische Forschungen}
+  \field{title}{Altindische Syntax}
+  \field{volume}{5}
+  \list{location}{1}{%
+    {Halle}%
+  }
+  \field{year}{1888}
+\endentry
+
+\entry{Dillon1977}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Dillon}{D.}%
+     {George~L}{G.~L.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Prentice-Hall}%
+  }
+  \strng{namehash}{DGL1}
+  \strng{fullhash}{DGL1}
+  \field{labelyear}{1977}
+  \field{sortinit}{D}
+  \field{series}{Foundations of Modern Linguistics}
+  \field{title}{Introduction to contemporary linguistic semantics}
+  \list{location}{1}{%
+    {Englewood Cliffs, NJ}%
+  }
+  \field{year}{1977}
+\endentry
+
+\entry{Dixon1972}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Dixon}{D.}%
+     {Robert~M.W}{R.~M.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Cambridge University Press}%
+  }
+  \strng{namehash}{DRM1}
+  \strng{fullhash}{DRM1}
+  \field{labelyear}{1972}
+  \field{sortinit}{D}
+  \field{number}{9}
+  \field{series}{Cambridge Studies in Linguistics}
+  \field{title}{The Dyirbal language of North Queensland}
+  \list{location}{1}{%
+    {Cambridge \& London}%
+  }
+  \field{year}{1972}
+\endentry
+
+\entry{Dixon1979}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Dixon}{D.}%
+     {Robert~M.W}{R.~M.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{DRM1}
+  \strng{fullhash}{DRM1}
+  \field{labelyear}{1979}
+  \field{sortinit}{D}
+  \field{pages}{59\bibrangedash 138}
+  \field{title}{Ergativity}
+  \field{volume}{55}
+  \field{journaltitle}{Language}
+  \field{year}{1979}
+\endentry
+
+\entry{Edmondson1978}{incollection}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Edmondson}{E.}%
+     {Jerrold~A}{J.~A.}%
+     {}{}%
+     {}{}}%
+  }
+  \name{editor}{1}{}{%
+    {{}%
+     {Abraham}{A.}%
+     {W}{W}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {J. Benjamins}%
+  }
+  \strng{namehash}{EJA1}
+  \strng{fullhash}{EJA1}
+  \field{labelyear}{1978}
+  \field{sortinit}{E}
+  \field{booktitle}{Valence, semantic case, and grammatical relations}
+  \field{pages}{633\bibrangedash 660}
+  \field{title}{Ergative languages, accessibility hierarchies governing
+  reflexives and questions of formal analysis}
+  \list{location}{1}{%
+    {Amsterdam}%
+  }
+  \field{year}{1978}
+\endentry
+
+\entry{Falkenstein1959}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Falkenstein}{F.}%
+     {A}{A}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Brill}%
+  }
+  \strng{namehash}{FA1}
+  \strng{fullhash}{FA1}
+  \field{labelyear}{1959}
+  \field{sortinit}{F}
+  \field{series}{Handbuch der Orientalistik, 1. Abteilung, 2. Band, 1.
+  Abschnitt, Lfg. 1}
+  \field{title}{Das Sumerische}
+  \list{location}{1}{%
+    {Leiden}%
+  }
+  \field{year}{1959}
+\endentry
+
+\entry{Faltz1977}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Faltz}{F.}%
+     {Leonard~M}{L.~M.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {University of California. PhD Diss}%
+  }
+  \strng{namehash}{FLM1}
+  \strng{fullhash}{FLM1}
+  \field{labelyear}{1977}
+  \field{sortinit}{F}
+  \field{number}{345}
+  \field{series}{University Microfilms 77-31}
+  \field{title}{Reflexivization. A study in universal syntax}
+  \list{location}{1}{%
+    {Berkeley}%
+  }
+  \field{year}{1977}
+\endentry
+
+\entry{Foley1980}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Foley}{F.}%
+     {William~A}{W.~A.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{FWA1}
+  \strng{fullhash}{FWA1}
+  \field{labelyear}{1980}
+  \field{sortinit}{F}
+  \field{pages}{171\bibrangedash 199}
+  \field{title}{Toward a universal typology of the noun phrase}
+  \field{volume}{4}
+  \field{journaltitle}{Studies in Language}
+  \field{year}{1980}
+\endentry
+
+\entry{Frei1929}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Frei}{F.}%
+     {Henri}{H.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Slatkine Reprints, 1971}%
+  }
+  \strng{namehash}{FH1}
+  \strng{fullhash}{FH1}
+  \field{labelyear}{1929}
+  \field{sortinit}{F}
+  \field{title}{La grammaire des fautes. Introduction à la linguistique
+  fonctionnelle}
+  \list{location}{1}{%
+    {Paris: Geuthner, Genève: Kundig, Leipzig: O. Harrassowitz. Reprint:
+  Genève}%
+  }
+  \field{year}{1929}
+\endentry
+
+\entry{Gabelentz1891}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Gabelentz}{G.}%
+     {Georg von~der}{G.~v.~d.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Tauchnitz, 1901}%
+  }
+  \strng{namehash}{GGvd1}
+  \strng{fullhash}{GGvd1}
+  \field{labelyear}{1891}
+  \field{sortinit}{G}
+  \field{title}{Die Sprachwissenschaft. Ihre Aufgaben, Methoden und bisherigen
+  Ergebnisse}
+  \list{location}{1}{%
+    {Leipzig: Weigel Nachf. 2. überarbeitete Aufl.: Leipzig}%
+  }
+  \field{year}{1891}
+\endentry
+
+\entry{GaryEtAl1982}{book}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Gary}{G.}%
+     {Judith~Olmstedt}{J.~O.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Gamal-Eldin}{G.-E.}%
+     {Saad}{S.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {North-Holland}%
+  }
+  \strng{namehash}{GJOGES1}
+  \strng{fullhash}{GJOGES1}
+  \field{labelyear}{1982}
+  \field{sortinit}{G}
+  \field{title}{Cairene Egyptian colloquial Arabic}
+  \list{location}{1}{%
+    {Amsterdam}%
+  }
+  \field{year}{1982}
+\endentry
+
+\entry{Givón1971}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Givón}{G.}%
+     {Talmy}{T.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{GT1}
+  \strng{fullhash}{GT1}
+  \field{labelyear}{1971}
+  \field{sortinit}{G}
+  \field{pages}{394\bibrangedash 415}
+  \field{title}{Historical syntax and synchronic morphology: An archaeologist's
+  field trip}
+  \field{volume}{7}
+  \field{journaltitle}{Chicago Linguistic Society}
+  \field{year}{1971}
+\endentry
+
+\entry{Givón1973}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Givón}{G.}%
+     {Talmy}{T.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{GT1}
+  \strng{fullhash}{GT1}
+  \field{labelyear}{1973}
+  \field{sortinit}{G}
+  \field{pages}{890\bibrangedash 925}
+  \field{title}{The time-axis phenomenon}
+  \field{volume}{49}
+  \field{journaltitle}{Language}
+  \field{year}{1973}
+\endentry
+
+\entry{Givón1975}{incollection}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Givón}{G.}%
+     {Talmy}{T.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {University of Texas Press}%
+  }
+  \strng{crossref}{Li1975}
+  \strng{namehash}{GT1}
+  \strng{fullhash}{GT1}
+  \field{labelyear}{1975}
+  \field{sortinit}{G}
+  \field{pages}{47\bibrangedash 112}
+  \field{title}{Serial verbs and syntactic change: Niger-Congo}
+  \list{location}{1}{%
+    {Austin \& London}%
+  }
+  \field{year}{1975}
+\endentry
+
+\entry{Givón1978}{incollection}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Givón}{G.}%
+     {Talmy}{T.}%
+     {}{}%
+     {}{}}%
+  }
+  \name{editor}{1}{}{%
+    {{}%
+     {Greenberg}{G.}%
+     {Joseph~H}{J.~H.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Stanford University Press}%
+  }
+  \strng{crossref}{Greenberg1978}
+  \strng{namehash}{GT1}
+  \strng{fullhash}{GT1}
+  \field{labelyear}{1978}
+  \field{sortinit}{G}
+  \field{note}{4 vols}
+  \field{pages}{291\bibrangedash 330}
+  \field{title}{Definiteness and referentiality}
+  \field{volume}{4}
+  \list{location}{1}{%
+    {Stanford}%
+  }
+  \field{year}{1978}
+\endentry
+
+\entry{Givón1979}{incollection}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Givón}{G.}%
+     {Talmy}{T.}%
+     {}{}%
+     {}{}}%
+  }
+  \name{editor}{1}{}{%
+    {{}%
+     {Givón}{G.}%
+     {T}{T}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Academic Press}%
+  }
+  \strng{namehash}{GT1}
+  \strng{fullhash}{GT1}
+  \field{labelyear}{1979}
+  \field{extrayear}{1}
+  \field{sortinit}{G}
+  \field{booktitle}{Discourse and syntax}
+  \field{pages}{81\bibrangedash 112}
+  \field{series}{Syntax and semantics}
+  \field{title}{From discourse to syntax: grammar as a processing strategy}
+  \field{volume}{12}
+  \list{location}{1}{%
+    {New York etc}%
+  }
+  \field{year}{1979}
+\endentry
+
+\entry{Givón1979a}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Givón}{G.}%
+     {Talmy}{T.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{GT1}
+  \strng{fullhash}{GT1}
+  \field{labelyear}{1979}
+  \field{extrayear}{2}
+  \field{sortinit}{G}
+  \field{pages}{199\bibrangedash 224}
+  \field{title}{Language typology in Africa: a critical review}
+  \field{volume}{1}
+  \field{journaltitle}{Journal of African Languages and Linguistics}
+  \field{year}{1979}
+\endentry
+
+\entry{Givón1979b}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Givón}{G.}%
+     {Talmy}{T.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Academic Press}%
+  }
+  \strng{namehash}{GT1}
+  \strng{fullhash}{GT1}
+  \field{labelyear}{1979}
+  \field{extrayear}{3}
+  \field{sortinit}{G}
+  \field{series}{Perspectives in Neurolinguistics and Psycholinguistics}
+  \field{title}{On understanding grammar}
+  \list{location}{1}{%
+    {New York etc}%
+  }
+  \field{year}{1979}
+\endentry
+
+\entry{Givón1980}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Givón}{G.}%
+     {Talmy}{T.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{GT1}
+  \strng{fullhash}{GT1}
+  \field{labelyear}{1980}
+  \field{sortinit}{G}
+  \field{pages}{41\bibrangedash 60}
+  \field{title}{The drift away from ergativity: Diachronic potentials in
+  Sherpa}
+  \field{volume}{1}
+  \field{journaltitle}{Folia Linguistica Historica}
+  \field{year}{1980}
+\endentry
+
+\entry{Givón1981}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Givón}{G.}%
+     {Talmy}{T.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{GT1}
+  \strng{fullhash}{GT1}
+  \field{labelyear}{1981}
+  \field{sortinit}{G}
+  \field{pages}{35\bibrangedash 54}
+  \field{title}{On the development of the numeral ‘one’ as an indefinite
+  marker}
+  \field{volume}{2}
+  \field{journaltitle}{Folia Linguistica Historica}
+  \field{year}{1981}
+\endentry
+
+\entry{Greenberg1954}{incollection}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Greenberg}{G.}%
+     {Joseph~H}{J.~H.}%
+     {}{}%
+     {}{}}%
+  }
+  \name{editor}{1}{}{%
+    {{}%
+     {Spencer}{S.}%
+     {R.F}{R.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {University of Minnesota Press}%
+  }
+  \strng{namehash}{GJH1}
+  \strng{fullhash}{GJH1}
+  \field{labelyear}{1954}
+  \field{sortinit}{G}
+  \field{booktitle}{Method and perspective in anthropology. Papers in honour of
+  Wilson D. Wallis}
+  \field{pages}{192\bibrangedash 220}
+  \field{title}{A quantitative approach to the morphological typology of
+  language}
+  \list{location}{1}{%
+    {Minneapolis}%
+  }
+  \field{year}{1954}
+\endentry
+
+\entry{Greenberg1975}{incollection}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Greenberg}{G.}%
+     {Joseph~H}{J.~H.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {University of Texas Press}%
+  }
+  \strng{crossref}{Li1975}
+  \strng{namehash}{GJH1}
+  \strng{fullhash}{GJH1}
+  \field{labelyear}{1975}
+  \field{sortinit}{G}
+  \field{pages}{27\bibrangedash 45}
+  \field{title}{Dynamic aspects of word order in the numeral classifier}
+  \list{location}{1}{%
+    {Austin \& London}%
+  }
+  \field{year}{1975}
+\endentry
+
+\entry{Greenberg1978}{book}{}
+  \name{editor}{1}{}{%
+    {{}%
+     {Greenberg}{G.}%
+     {Joseph~H}{J.~H.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Stanford University Press}%
+  }
+  \strng{namehash}{GJH1}
+  \strng{fullhash}{GJH1}
+  \field{labelyear}{1978}
+  \field{sortinit}{G}
+  \field{note}{4 vols}
+  \field{title}{Universals of human language}
+  \list{location}{1}{%
+    {Stanford}%
+  }
+  \field{year}{1978}
+\endentry
+
+\entry{Greenberg1980}{incollection}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Greenberg}{G.}%
+     {Joseph~H}{J.~H.}%
+     {}{}%
+     {}{}}%
+  }
+  \name{editor}{1}{}{%
+    {{}%
+     {Traugott}{T.}%
+     {Elizabeth C. et~al.}{E.~C. e.~a.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {J. Benjamins}%
+  }
+  \strng{crossref}{TraugottEtAl1980}
+  \strng{namehash}{GJH1}
+  \strng{fullhash}{GJH1}
+  \field{labelyear}{1980}
+  \field{sortinit}{G}
+  \field{number}{14}
+  \field{pages}{233\bibrangedash 241}
+  \field{series}{Current Issues in Linguistic Theory}
+  \field{title}{Circumfixes and typological change}
+  \list{location}{1}{%
+    {Amsterdam}%
+  }
+  \field{year}{1980}
+\endentry
+
+\entry{Haas1941}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Haas}{H.}%
+     {Mary~R}{M.~R.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {J.J. Augustin (Extract from \textit{Handbook of American Indian
+  Languages}, IV)}%
+  }
+  \strng{namehash}{HMR1}
+  \strng{fullhash}{HMR1}
+  \field{labelyear}{1941}
+  \field{sortinit}{H}
+  \field{title}{Tunica}
+  \list{location}{1}{%
+    {New York}%
+  }
+  \field{year}{1941}
+\endentry
+
+\entry{Haas1977}{incollection}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Haas}{H.}%
+     {Mary~R}{M.~R.}%
+     {}{}%
+     {}{}}%
+  }
+  \name{editor}{1}{}{%
+    {{}%
+     {Li}{L.}%
+     {Charles~N}{C.~N.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {University of Texas Press}%
+  }
+  \strng{crossref}{Li1977}
+  \strng{namehash}{HMR1}
+  \strng{fullhash}{HMR1}
+  \field{labelyear}{1977}
+  \field{sortinit}{H}
+  \field{pages}{525\bibrangedash 537}
+  \field{title}{From auxiliary verb phrase to inflectional suffix}
+  \list{location}{2}{%
+    {Austin}%
+    {London}%
+  }
+  \field{year}{1977}
+\endentry
+
+\entry{Hagège1975}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Hagège}{H.}%
+     {Claude}{C.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Société Linguistique de Paris}%
+  }
+  \strng{namehash}{HC1}
+  \strng{fullhash}{HC1}
+  \field{labelyear}{1975}
+  \field{sortinit}{H}
+  \field{number}{71}
+  \field{series}{Collection Linguistique}
+  \field{title}{Le problème linguistique des prépositions et la solution
+  chinoise}
+  \list{location}{1}{%
+    {Paris}%
+  }
+  \field{year}{1975}
+\endentry
+
+\entry{Hagège1978}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Hagège}{H.}%
+     {Claude}{C.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{HC1}
+  \strng{fullhash}{HC1}
+  \field{labelyear}{1978}
+  \field{sortinit}{H}
+  \field{number}{2}
+  \field{pages}{3\bibrangedash 38}
+  \field{title}{Du thème au thème en passant par le sujet. Pour une théorie
+  cyclique}
+  \field{volume}{14}
+  \field{journaltitle}{La linguistique}
+  \field{year}{1978}
+\endentry
+
+\entry{Haiman1980}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Haiman}{H.}%
+     {John}{J.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {J. Benjamins}%
+  }
+  \strng{namehash}{HJ1}
+  \strng{fullhash}{HJ1}
+  \field{labelyear}{1980}
+  \field{sortinit}{H}
+  \field{series}{Studies in Language Companion Series}
+  \field{title}{Hua. A Papuan language of Eastern Highlands of New Guinea}
+  \field{volume}{5}
+  \list{location}{1}{%
+    {Amsterdam}%
+  }
+  \field{year}{1980}
+\endentry
+
+\entry{Hale1976}{incollection}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Hale}{H.}%
+     {Kenneth~L}{K.~L.}%
+     {}{}%
+     {}{}}%
+  }
+  \name{editor}{1}{}{%
+    {{}%
+     {Dixon}{D.}%
+     {R.M.W}{R.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Australian Institute of Aboriginal Studies}%
+  }
+  \strng{namehash}{HKL1}
+  \strng{fullhash}{HKL1}
+  \field{labelyear}{1976}
+  \field{sortinit}{H}
+  \field{booktitle}{Grammatical categories in Australian languages}
+  \field{pages}{78\bibrangedash 105}
+  \field{title}{The adjoined relative clause in Australia}
+  \list{location}{1}{%
+    {Canberra}%
+  }
+  \field{year}{1976}
+\endentry
+
+\entry{Haudry1980}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Haudry}{H.}%
+     {Jean}{J.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{HJ2}
+  \strng{fullhash}{HJ2}
+  \field{labelyear}{1980}
+  \field{sortinit}{H}
+  \field{pages}{131\bibrangedash 166}
+  \field{title}{La ‘syntaxe des désinences’ en indo-européen}
+  \field{volume}{75}
+  \field{journaltitle}{Bulletin de la Société de Linguistique de Paris}
+  \field{year}{1980}
+\endentry
+
+\entry{Heine1980}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Heine}{H.}%
+     {Bernd}{B.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{HB1}
+  \strng{fullhash}{HB1}
+  \field{labelyear}{1980}
+  \field{sortinit}{H}
+  \field{pages}{95\bibrangedash 112}
+  \field{title}{Language typology and linguistic reconstruction: The
+  Niger-Congo case}
+  \field{volume}{2}
+  \field{journaltitle}{Journal of African Languages and Linguistics}
+  \field{year}{1980}
+\endentry
+
+\entry{HeineEtAl1984}{book}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Heine}{H.}%
+     {Bernd}{B.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Reh}{R.}%
+     {Mechthild}{M.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {H. Buske}%
+  }
+  \strng{namehash}{HBRM1}
+  \strng{fullhash}{HBRM1}
+  \field{labelyear}{1984}
+  \field{sortinit}{H}
+  \field{title}{Grammaticalization and reanalysis in African languages}
+  \list{location}{1}{%
+    {Hamburg}%
+  }
+  \field{year}{1984}
+\endentry
+
+\entry{HeineEtAl1981}{book}{}
+  \name{editor}{3}{}{%
+    {{}%
+     {Heine}{H.}%
+     {Bernd}{B.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Schadeberg}{S.}%
+     {Thilo~C.}{T.~C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Wolff}{W.}%
+     {Ekkehard}{E.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {H. Buske}%
+  }
+  \strng{namehash}{HBSTCWE1}
+  \strng{fullhash}{HBSTCWE1}
+  \field{labelyear}{1981}
+  \field{sortinit}{H}
+  \field{title}{Die Sprachen Afrikas}
+  \list{location}{1}{%
+    {Hamburg}%
+  }
+  \field{year}{1981}
+\endentry
+
+\entry{Hewitt1979}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Hewitt}{H.}%
+     {B.~George}{B.~G.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {North-Holland}%
+  }
+  \strng{namehash}{HBG1}
+  \strng{fullhash}{HBG1}
+  \field{labelyear}{1979}
+  \field{sortinit}{H}
+  \field{number}{2}
+  \field{series}{LDS}
+  \field{title}{Abkhaz}
+  \list{location}{1}{%
+    {Amsterdam}%
+  }
+  \field{year}{1979}
+\endentry
+
+\entry{Hjelmslev1928}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Hjelmslev}{H.}%
+     {Louis}{L.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {E. Munksgaard (Kommiss.)}%
+  }
+  \strng{namehash}{HL1}
+  \strng{fullhash}{HL1}
+  \field{labelyear}{1928}
+  \field{sortinit}{H}
+  \field{number}{1}
+  \field{series}{Det Kongelige Danske Videnskabernes Selskab,
+  Historisk-filosofiske Meddelelser 16}
+  \field{title}{Principes de grammaire générale}
+  \list{location}{1}{%
+    {K$\varphi $benhavn}%
+  }
+  \field{year}{1928}
+\endentry
+
+\entry{Hodge1970}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Hodge}{H.}%
+     {Carleton~T}{C.~T.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{HCT1}
+  \strng{fullhash}{HCT1}
+  \field{labelyear}{1970}
+  \field{sortinit}{H}
+  \field{pages}{1\bibrangedash 7}
+  \field{title}{The linguistic cycle}
+  \field{volume}{13}
+  \field{journaltitle}{Language Sciences}
+  \field{year}{1970}
+\endentry
+
+\entry{Huang1978}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Huang}{H.}%
+     {Shuan-fan}{S.-f.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{HSf1}
+  \strng{fullhash}{HSf1}
+  \field{labelyear}{1978}
+  \field{sortinit}{H}
+  \field{pages}{212\bibrangedash 242}
+  \field{title}{Historical change of prepositions and emergence of SOV order}
+  \field{volume}{6}
+  \field{journaltitle}{Canadian Journal of Chinese Linguistics}
+  \field{year}{1978}
+\endentry
+
+\entry{Humboldt1822}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Humboldt}{H.}%
+     {Wilhelm}{W.}%
+     {von}{v.}%
+     {}{}}%
+  }
+  \strng{namehash}{HWv1}
+  \strng{fullhash}{HWv1}
+  \field{labelyear}{1822}
+  \field{sortinit}{H}
+  \field{note}{Reprint: Humboldt 1972:31-63}
+  \field{title}{Über das Entstehen der grammatischen Formen und ihren Einfluß
+  auf die Ideenentwicklung}
+  \field{journaltitle}{Abhandlungen der Akademie der Wissenschaften zu Berlin}
+  \field{year}{1822}
+\endentry
+
+\entry{Humboldt1836}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Humboldt}{H.}%
+     {Wilhelm}{W.}%
+     {von}{v.}%
+     {}{}}%
+  }
+  \strng{namehash}{HWv1}
+  \strng{fullhash}{HWv1}
+  \field{labelyear}{1836}
+  \field{sortinit}{H}
+  \field{note}{Reprint: Humboldt 1972:368-756}
+  \field{title}{Über die Verschiedenheit des menschlichen Sprachbaues und
+  ihren Einfluß auf die geistige Entwicklung des Menschengeschlechtes}
+  \field{year}{1836}
+\endentry
+
+\entry{Hyman1975}{incollection}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Hyman}{H.}%
+     {Larry~M}{L.~M.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {University of Texas Press}%
+  }
+  \strng{crossref}{Li1975}
+  \strng{namehash}{HLM1}
+  \strng{fullhash}{HLM1}
+  \field{labelyear}{1975}
+  \field{sortinit}{H}
+  \field{pages}{113\bibrangedash 147}
+  \field{title}{On the change from SOV to SVO: evidence from Niger-Congo}
+  \list{location}{1}{%
+    {Austin \& London}%
+  }
+  \field{year}{1975}
+\endentry
+
+\entry{Hyman1978}{incollection}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Hyman}{H.}%
+     {Larry~M}{L.~M.}%
+     {}{}%
+     {}{}}%
+  }
+  \name{editor}{1}{}{%
+    {{}%
+     {Greenberg}{G.}%
+     {Joseph~H}{J.~H.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Stanford University Press}%
+  }
+  \strng{crossref}{Greenberg1978}
+  \strng{namehash}{HLM1}
+  \strng{fullhash}{HLM1}
+  \field{labelyear}{1978}
+  \field{sortinit}{H}
+  \field{note}{4 vols}
+  \field{pages}{443\bibrangedash 470}
+  \field{title}{Word demarcation}
+  \field{volume}{1}
+  \list{location}{1}{%
+    {Stanford}%
+  }
+  \field{year}{1978}
+\endentry
+
+\entry{Ineichen1980}{incollection}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Ineichen}{I.}%
+     {Gustav}{G.}%
+     {}{}%
+     {}{}}%
+  }
+  \name{editor}{2}{}{%
+    {{}%
+     {Brettschneider}{B.}%
+     {Gunter}{G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Lehmann}{L.}%
+     {Christian}{C.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {G. Narr}%
+  }
+  \strng{crossref}{BrettschneiderEtAl1980}
+  \strng{namehash}{IG1}
+  \strng{fullhash}{IG1}
+  \field{labelyear}{1980}
+  \field{sortinit}{I}
+  \field{pages}{218\bibrangedash 221}
+  \field{title}{Zur Beurteilung der lateinischen \textit{habeo}{}-Periphrasen}
+  \list{location}{1}{%
+    {Tübingen}%
+  }
+  \field{year}{1980}
+\endentry
+
+\entry{Jakobson1936}{incollection}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Jakobson}{J.}%
+     {Roman}{R.}%
+     {}{}%
+     {}{}}%
+  }
+  \name{editor}{3}{}{%
+    {{}%
+     {Hamp}{H.}%
+     {E.}{E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Householder}{H.}%
+     {F.W.}{F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Austerlitz}{A.}%
+     {R}{R}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {University of Chicago Press}%
+  }
+  \strng{namehash}{JR1}
+  \strng{fullhash}{JR1}
+  \field{labelyear}{1936}
+  \field{sortinit}{J}
+  \field{booktitle}{Readings in linguistics}
+  \field{note}{different year: 1966}
+  \field{pages}{51\bibrangedash 89}
+  \field{title}{Beitrag zur allgemeinen Kasuslehre. Gesamtbedeutungen der
+  russischen Kasus}
+  \field{volume}{2}
+  \list{location}{2}{%
+    {Chicago}%
+    {London}%
+  }
+  \field{year}{1936}
+\endentry
+
+\entry{Jakobson1956}{incollection}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Jakobson}{J.}%
+     {Roman}{R.}%
+     {}{}%
+     {}{}}%
+  }
+  \name{editor}{2}{}{%
+    {{}%
+     {Jakobson}{J.}%
+     {R.}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Halle}{H.}%
+     {M}{M}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Mouton \& Co}%
+  }
+  \strng{namehash}{JR1}
+  \strng{fullhash}{JR1}
+  \field{labelyear}{1956}
+  \field{sortinit}{J}
+  \field{booktitle}{Fundamentals of language}
+  \field{pages}{53\bibrangedash 87}
+  \field{title}{Two aspects of language and two types of aphasic disturbances}
+  \list{location}{1}{%
+    {'S-Gravenhage}%
+  }
+  \field{year}{1956}
+\endentry
+
+\entry{Jakobson1959}{incollection}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Jakobson}{J.}%
+     {Roman}{R.}%
+     {}{}%
+     {}{}}%
+  }
+  \name{editor}{1}{}{%
+    {{}%
+     {Jakobson}{J.}%
+     {R}{R}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Mouton}%
+  }
+  \strng{namehash}{JR1}
+  \strng{fullhash}{JR1}
+  \field{labelyear}{1959}
+  \field{sortinit}{J}
+  \field{booktitle}{Word and language}
+  \field{note}{alternating year= 1971}
+  \field{pages}{489\bibrangedash 496}
+  \field{series}{Selected writings}
+  \field{title}{Boas' view of grammatical meaning}
+  \field{volume}{2}
+  \list{location}{2}{%
+    {The Hague}%
+    {Paris}%
+  }
+  \field{year}{1959}
+\endentry
+
+\entry{JakobsonEtAl1979}{book}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Jakobson}{J.}%
+     {Roman}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Waugh}{W.}%
+     {Linda~R}{L.~R.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Harvester Press}%
+  }
+  \strng{namehash}{JRWLR1}
+  \strng{fullhash}{JRWLR1}
+  \field{labelyear}{1979}
+  \field{sortinit}{J}
+  \field{title}{The sound shape of language}
+  \list{location}{1}{%
+    {Brighton}%
+  }
+  \field{year}{1979}
+\endentry
+
+\entry{Janda1980}{incollection}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Janda}{J.}%
+     {Richard~D}{R.~D.}%
+     {}{}%
+     {}{}}%
+  }
+  \name{editor}{1}{}{%
+    {{}%
+     {Traugott}{T.}%
+     {Elizabeth C. et~al.}{E.~C. e.~a.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {J. Benjamins}%
+  }
+  \strng{crossref}{TraugottEtAl1980}
+  \strng{namehash}{JRD1}
+  \strng{fullhash}{JRD1}
+  \field{labelyear}{1980}
+  \field{sortinit}{J}
+  \field{number}{14}
+  \field{pages}{243\bibrangedash 252}
+  \field{series}{Current Issues in Linguistic Theory}
+  \field{title}{On the decline of declensional systems: the overall loss of OE
+  nominal case inflections and the ME reanalysis of \textit{-es} as
+  \textit{his}}
+  \list{location}{1}{%
+    {Amsterdam}%
+  }
+  \field{year}{1980}
+\endentry
+
+\entry{JeffersEtAl1980}{incollection}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Jeffers}{J.}%
+     {Robert~J.}{R.~J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Zwicky}{Z.}%
+     {Arnold~M}{A.~M.}%
+     {}{}%
+     {}{}}%
+  }
+  \name{editor}{1}{}{%
+    {{}%
+     {Traugott}{T.}%
+     {Elizabeth C. et~al.}{E.~C. e.~a.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {J. Benjamins}%
+  }
+  \strng{crossref}{TraugottEtAl1980}
+  \strng{namehash}{JRJZAM1}
+  \strng{fullhash}{JRJZAM1}
+  \field{labelyear}{1980}
+  \field{sortinit}{J}
+  \field{number}{14}
+  \field{pages}{221\bibrangedash 231}
+  \field{series}{Current Issues in Linguistic Theory}
+  \field{title}{The evolution of clitics}
+  \list{location}{1}{%
+    {Amsterdam}%
+  }
+  \field{year}{1980}
+\endentry
+
+\entry{Jespersen1922}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Jespersen}{J.}%
+     {Otto}{O.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {G. Allen \& Unwin}%
+  }
+  \strng{namehash}{JO1}
+  \strng{fullhash}{JO1}
+  \field{labelyear}{1922}
+  \field{sortinit}{J}
+  \field{title}{Language. Its nature, development and origin}
+  \list{location}{1}{%
+    {London}%
+  }
+  \field{year}{1922}
+\endentry
+
+\entry{Jespersen1940}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Jespersen}{J.}%
+     {Otto}{O.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{2}{%
+    {E. Munksgaard}%
+    {G. Allen \& Unwin}%
+  }
+  \strng{namehash}{JO1}
+  \strng{fullhash}{JO1}
+  \field{labelyear}{1940}
+  \field{sortinit}{J}
+  \field{note}{7 vols}
+  \field{title}{A Modern English grammar on historical principles. Part V:
+  Syntax}
+  \list{location}{2}{%
+    {Copenhagen}%
+    {London}%
+  }
+  \field{year}{1940}
+\endentry
+
+\entry{Jorden1962}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Jorden}{J.}%
+     {Eleanor~Harz}{E.~H.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Yale University Press}%
+  }
+  \strng{namehash}{JEH1}
+  \strng{fullhash}{JEH1}
+  \field{labelyear}{1962}
+  \field{sortinit}{J}
+  \field{title}{Beginning Japanese}
+  \list{location}{1}{%
+    {New Haven \& London}%
+  }
+  \field{year}{1962}
+\endentry
+
+\entry{Kachru1980}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Kachru}{K.}%
+     {Yamuna}{Y.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{KY1}
+  \strng{fullhash}{KY1}
+  \field{labelyear}{1980}
+  \field{sortinit}{K}
+  \field{number}{1}
+  \field{pages}{113\bibrangedash 124}
+  \field{title}{Towards a typology of compound verbs in South Asian languages}
+  \field{volume}{10}
+  \field{journaltitle}{Studies in the Linguistic Sciences}
+  \field{year}{1980}
+\endentry
+
+\entry{Kahr1975}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Kahr}{K.}%
+     {Joan~Casper}{J.~C.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{KJC1}
+  \strng{fullhash}{KJC1}
+  \field{labelyear}{1975}
+  \field{sortinit}{K}
+  \field{pages}{21\bibrangedash 54}
+  \field{title}{Adpositions and locationals: typology and diachronic
+  development}
+  \field{volume}{19}
+  \field{journaltitle}{Working Papers on Language Universals}
+  \field{year}{1975}
+\endentry
+
+\entry{Kahr1976}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Kahr}{K.}%
+     {Joan~Casper}{J.~C.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{KJC1}
+  \strng{fullhash}{KJC1}
+  \field{labelyear}{1976}
+  \field{sortinit}{K}
+  \field{pages}{107\bibrangedash 151}
+  \field{title}{The renewal of case morphology: sources and constraints}
+  \field{volume}{20}
+  \field{journaltitle}{Working Papers on Language Universals}
+  \field{year}{1976}
+\endentry
+
+\entry{Kiparsky1968}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Kiparsky}{K.}%
+     {Paul}{P.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{KP1}
+  \strng{fullhash}{KP1}
+  \field{labelyear}{1968}
+  \field{sortinit}{K}
+  \field{pages}{30\bibrangedash 57}
+  \field{title}{Tense and mood in Indo-European syntax}
+  \field{volume}{4}
+  \field{journaltitle}{Foundations of Language}
+  \field{year}{1968}
+\endentry
+
+\entry{Krahe1967}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Krahe}{K.}%
+     {Hans}{H.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {W. de Gruyter}%
+  }
+  \strng{namehash}{KH1}
+  \strng{fullhash}{KH1}
+  \field{labelyear}{1967}
+  \field{sortinit}{K}
+  \field{edition}{6}
+  \field{note}{Sammlung-Gröschen}
+  \field{number}{780}
+  \field{series}{Germanische Sprachwissenschaft}
+  \field{title}{Formenlehre}
+  \field{volume}{2}
+  \list{location}{1}{%
+    {Berlin}%
+  }
+  \field{year}{1967}
+\endentry
+
+\entry{Kuno1973}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Kuno}{K.}%
+     {Susumu}{S.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {MIT Press}%
+  }
+  \strng{namehash}{KS1}
+  \strng{fullhash}{KS1}
+  \field{labelyear}{1973}
+  \field{sortinit}{K}
+  \field{number}{3}
+  \field{series}{Current Studies in Linguistics Series}
+  \field{title}{The structure of the Japanese language}
+  \list{location}{1}{%
+    {Cambridge, Mass}%
+  }
+  \field{year}{1973}
+\endentry
+
+\entry{Kuryłowicz1948}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Kuryłowicz}{K.}%
+     {Jerzy}{J.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{KJ1}
+  \strng{fullhash}{KJ1}
+  \field{labelyear}{1948}
+  \field{sortinit}{K}
+  \field{pages}{80\bibrangedash 114}
+  \field{title}{Contributions à la théorie de la syllabe}
+  \field{volume}{8}
+  \field{journaltitle}{Bulletin de la Société Polonaise de Linguistique}
+  \field{year}{1948}
+\endentry
+
+\entry{Kuryłowicz1965}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Kuryłowicz}{K.}%
+     {Jerzy}{J.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{KJ1}
+  \strng{fullhash}{KJ1}
+  \field{labelyear}{1965}
+  \field{sortinit}{K}
+  \field{pages}{55\bibrangedash 71}
+  \field{title}{The evolution of grammatical categories}
+  \field{volume}{51}
+  \field{journaltitle}{Diogenes}
+  \field{year}{1965}
+\endentry
+
+\entry{Kölver1982a}{incollection}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Kölver}{K.}%
+     {Ulrike}{U.}%
+     {}{}%
+     {}{}}%
+  }
+  \name{editor}{2}{}{%
+    {{}%
+     {Seiler}{S.}%
+     {Hansjakob}{H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Lehmann}{L.}%
+     {Christian}{C.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {G. Narr (LUS, 1, I)}%
+  }
+  \strng{crossref}{SeilerEtAl1982}
+  \strng{namehash}{KU1}
+  \strng{fullhash}{KU1}
+  \field{labelyear}{1982}
+  \field{extrayear}{1}
+  \field{sortinit}{K}
+  \field{pages}{244\bibrangedash 251}
+  \field{title}{Interaktion von nominalen Kategorien am Beispiel der
+  Entwicklung des modernen Bengali}
+  \list{location}{1}{%
+    {Tübingen}%
+  }
+  \field{year}{1982}
+\endentry
+
+\entry{Kölver1982b}{incollection}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Kölver}{K.}%
+     {Ulrike}{U.}%
+     {}{}%
+     {}{}}%
+  }
+  \name{editor}{2}{}{%
+    {{}%
+     {Seiler}{S.}%
+     {Hansjakob}{H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Lehmann}{L.}%
+     {Christian}{C.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {G. Narr (LUS, 1, I)}%
+  }
+  \strng{crossref}{SeilerEtAl1982}
+  \strng{namehash}{KU1}
+  \strng{fullhash}{KU1}
+  \field{labelyear}{1982}
+  \field{extrayear}{2}
+  \field{sortinit}{K}
+  \field{pages}{180\bibrangedash 185}
+  \field{title}{Klassifikatorkonstruktionen in Thai, Vietnamesisch und
+  Chinesisch. Ein Beitrag zur Dimension der Apprehension}
+  \list{location}{1}{%
+    {Tübingen}%
+  }
+  \field{year}{1982}
+\endentry
+
+\entry{Kölver1985}{incollection}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Kölver}{K.}%
+     {Ulrike}{U.}%
+     {}{}%
+     {}{}}%
+  }
+  \name{editor}{1}{}{%
+    {{}%
+     {Plank}{P.}%
+     {F}{F}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Mouton}%
+  }
+  \strng{namehash}{KU1}
+  \strng{fullhash}{KU1}
+  \field{labelyear}{1985}
+  \field{sortinit}{K}
+  \field{booktitle}{Relational typology}
+  \field{pages}{195\bibrangedash 212}
+  \field{series}{Trends in Linguistics}
+  \field{title}{Kasusrelationen im Birmanischen}
+  \field{volume}{28}
+  \list{location}{2}{%
+    {Berlin}%
+    {New York}%
+  }
+  \field{year}{1985}
+\endentry
+
+\entry{Labov1971}{unpublished}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Labov}{L.}%
+     {William}{W.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{LW1}
+  \strng{fullhash}{LW1}
+  \field{labelyear}{1971}
+  \field{sortinit}{L}
+  \field{note}{First draft, Febr. 20, 1971. Univ. of Pennsylvania: Trier: LAUT,
+  B23, 1977}
+  \field{title}{On the adequacy of natural languages: I. The development of
+  tense}
+  \field{year}{1971}
+\endentry
+
+\entry{Langacker1977}{incollection}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Langacker}{L.}%
+     {Ronald~W}{R.~W.}%
+     {}{}%
+     {}{}}%
+  }
+  \name{editor}{1}{}{%
+    {{}%
+     {Li}{L.}%
+     {Charles~N}{C.~N.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {University of Texas Press}%
+  }
+  \strng{crossref}{Li1977}
+  \strng{namehash}{LRW1}
+  \strng{fullhash}{LRW1}
+  \field{labelyear}{1977}
+  \field{sortinit}{L}
+  \field{pages}{57\bibrangedash 139}
+  \field{title}{Syntactic reanalysis}
+  \list{location}{2}{%
+    {Austin}%
+    {London}%
+  }
+  \field{year}{1977}
+\endentry
+
+\entry{Lehmann1974}{incollection}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Lehmann}{L.}%
+     {Christian}{C.}%
+     {}{}%
+     {}{}}%
+  }
+  \name{editor}{1}{}{%
+    {{}%
+     {Seiler}{S.}%
+     {H}{H}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {W. Fink}%
+  }
+  \strng{namehash}{LC1}
+  \strng{fullhash}{LC1}
+  \field{labelyear}{1974}
+  \field{sortinit}{L}
+  \field{pages}{98\bibrangedash 123}
+  \field{series}{Linguistic Workshop}
+  \field{title}{Isomorphismus im sprachlichen Zeichen}
+  \field{volume}{2: Arbeiten des Kölner Universalienprojekts 1973/74}
+  \list{location}{1}{%
+    {München}%
+  }
+  \field{year}{1974}
+\endentry
+
+\entry{Lehmann1978}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Lehmann}{L.}%
+     {Christian}{C.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{LC1}
+  \strng{fullhash}{LC1}
+  \field{labelyear}{1978}
+  \field{sortinit}{L}
+  \field{pages}{83\bibrangedash 120}
+  \field{title}{On measuring semantic complexity. A contribution to a
+  rapprochement of semantics and statistical linguistics}
+  \field{volume}{14}
+  \field{journaltitle}{Georgetown University Papers on Languages and
+  Linguistics}
+  \field{year}{1978}
+\endentry
+
+\entry{Lehmann1982a}{incollection}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Lehmann}{L.}%
+     {Christian}{C.}%
+     {}{}%
+     {}{}}%
+  }
+  \name{editor}{2}{}{%
+    {{}%
+     {Seiler}{S.}%
+     {Hansjakob}{H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Lehmann}{L.}%
+     {Christian}{C.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {G. Narr (LUS, 1, I)}%
+  }
+  \strng{crossref}{SeilerEtAl1982}
+  \strng{namehash}{LC1}
+  \strng{fullhash}{LC1}
+  \field{labelyear}{1982}
+  \field{extrayear}{1}
+  \field{sortinit}{L}
+  \field{pages}{64\bibrangedash 82}
+  \field{title}{Nominalisierung -- Typisierung von Propositionen}
+  \list{location}{1}{%
+    {Tübingen}%
+  }
+  \field{year}{1982}
+\endentry
+
+\entry{Lehmann1982b}{incollection}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Lehmann}{L.}%
+     {Christian}{C.}%
+     {}{}%
+     {}{}}%
+  }
+  \name{editor}{2}{}{%
+    {{}%
+     {Seiler}{S.}%
+     {H.}{H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Stachowiak}{S.}%
+     {F.J}{F.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {G. Narr}%
+  }
+  \strng{namehash}{LC1}
+  \strng{fullhash}{LC1}
+  \field{labelyear}{1982}
+  \field{extrayear}{2}
+  \field{sortinit}{L}
+  \field{booktitle}{Apprehension}
+  \field{pages}{201\bibrangedash 267}
+  \field{title}{Universal and typological aspects of agreement}
+  \field{volume}{2}
+  \list{location}{1}{%
+    {Tübingen}%
+  }
+  \field{year}{1982}
+\endentry
+
+\entry{Lehmann1983}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Lehmann}{L.}%
+     {Christian}{C.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{LC1}
+  \strng{fullhash}{LC1}
+  \field{labelyear}{1983}
+  \field{sortinit}{L}
+  \field{pages}{339\bibrangedash 378}
+  \field{title}{Rektion und syntaktische Relationen}
+  \field{volume}{17}
+  \field{journaltitle}{Folia Linguistica}
+  \field{year}{1983}
+\endentry
+
+\entry{Lehmann1984}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Lehmann}{L.}%
+     {Christian}{C.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {G. Narr}%
+  }
+  \strng{namehash}{LC1}
+  \strng{fullhash}{LC1}
+  \field{labelyear}{1984}
+  \field{sortinit}{L}
+  \field{number}{3}
+  \field{series}{LUS}
+  \field{title}{Der Relativsatz. Typologie seiner Strukturen — Theorie seiner
+  Funktionen — Kompendium seiner Grammatik}
+  \list{location}{1}{%
+    {Tübingen}%
+  }
+  \field{year}{1984}
+\endentry
+
+\entry{Li1977}{book}{}
+  \name{editor}{1}{}{%
+    {{}%
+     {Li}{L.}%
+     {Charles~N}{C.~N.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {University of Texas Press}%
+  }
+  \strng{namehash}{LCN1}
+  \strng{fullhash}{LCN1}
+  \field{labelyear}{1977}
+  \field{sortinit}{L}
+  \field{title}{Mechanisms of syntactic change}
+  \list{location}{2}{%
+    {Austin}%
+    {London}%
+  }
+  \field{year}{1977}
+\endentry
+
+\entry{LiEtAL1974}{incollection}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Li}{L.}%
+     {Charles~N.}{C.~N.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Thompson}{T.}%
+     {Sandra~A}{S.~A.}%
+     {}{}%
+     {}{}}%
+  }
+  \name{editor}{2}{}{%
+    {{}%
+     {Anderson}{A.}%
+     {J.M.}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Jones}{J.}%
+     {Ch}{C.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {American Elsevier}%
+  }
+  \strng{namehash}{LCNTSA1}
+  \strng{fullhash}{LCNTSA1}
+  \field{labelyear}{1974}
+  \field{sortinit}{L}
+  \field{booktitle}{Historical Linguistics. Proceedings of the First
+  International Conference on Historical Linguistics, Edinburgh 2nd-7th Sept.
+  1973}
+  \field{pages}{199\bibrangedash 217}
+  \field{title}{Historical change of word-order: a case study in Chinese and
+  its implications}
+  \field{volume}{1}
+  \list{location}{1}{%
+    {Amsterdam \& Oxford: North-Holland, New York}%
+  }
+  \field{year}{1974}
+\endentry
+
+\entry{LiEtAl1976}{incollection}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Li}{L.}%
+     {Charles~N.}{C.~N.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Thompson}{T.}%
+     {Sandra~A}{S.~A.}%
+     {}{}%
+     {}{}}%
+  }
+  \name{editor}{1}{}{%
+    {{}%
+     {Li}{L.}%
+     {Charles}{C.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Academic Press}%
+  }
+  \strng{namehash}{LCNTSA1}
+  \strng{fullhash}{LCNTSA1}
+  \field{labelyear}{1976}
+  \field{sortinit}{L}
+  \field{booktitle}{Subject and topic}
+  \field{pages}{457\bibrangedash 489}
+  \field{title}{Subject and topic: a new typology of languages}
+  \list{location}{1}{%
+    {New York etc}%
+  }
+  \field{year}{1976}
+\endentry
+
+\entry{LiEtAl1977}{incollection}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Li}{L.}%
+     {Charles~N.}{C.~N.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Thompson}{T.}%
+     {Sandra~A}{S.~A.}%
+     {}{}%
+     {}{}}%
+  }
+  \name{editor}{1}{}{%
+    {{}%
+     {Li}{L.}%
+     {Charles~N}{C.~N.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {University of Texas Press}%
+  }
+  \strng{crossref}{Li1977}
+  \strng{namehash}{LCNTSA1}
+  \strng{fullhash}{LCNTSA1}
+  \field{labelyear}{1977}
+  \field{sortinit}{L}
+  \field{pages}{419\bibrangedash 444}
+  \field{title}{A mechanism for the development of copula morphemes}
+  \list{location}{2}{%
+    {Austin}%
+    {London}%
+  }
+  \field{year}{1977}
+\endentry
+
+\entry{Li1975}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Li}{L.}%
+     {Charles N.~(ed.)}{C.~N.~e.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {University of Texas Press}%
+  }
+  \strng{namehash}{LCNe1}
+  \strng{fullhash}{LCNe1}
+  \field{labelyear}{1975}
+  \field{sortinit}{L}
+  \field{title}{Word order and word order change}
+  \list{location}{1}{%
+    {Austin \& London}%
+  }
+  \field{year}{1975}
+\endentry
+
+\entry{Lightfoot1979}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Lightfoot}{L.}%
+     {David~W}{D.~W.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {University Press}%
+  }
+  \strng{namehash}{LDW1}
+  \strng{fullhash}{LDW1}
+  \field{labelyear}{1979}
+  \field{sortinit}{L}
+  \field{number}{23}
+  \field{series}{Cambridge Studies in Linguistics}
+  \field{title}{Principles of diachronic syntax}
+  \list{location}{1}{%
+    {Cambridge}%
+  }
+  \field{year}{1979}
+\endentry
+
+\entry{Lord1976}{incollection}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Lord}{L.}%
+     {Carol}{C.}%
+     {}{}%
+     {}{}}%
+  }
+  \name{editor}{3}{}{%
+    {{}%
+     {Steever}{S.}%
+     {S.B.}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Walker}{W.}%
+     {C.A.}{C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Mufwene}{M.}%
+     {S.S}{S.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {CLS}%
+  }
+  \strng{namehash}{LC2}
+  \strng{fullhash}{LC2}
+  \field{labelyear}{1976}
+  \field{sortinit}{L}
+  \field{booktitle}{Papers from the parasession on diachronic syntax. April 22,
+  1976}
+  \field{pages}{179\bibrangedash 191}
+  \field{title}{Evidence for syntactic reanalysis: from verb to complementizer
+  in Kwa}
+  \list{location}{1}{%
+    {Chicago}%
+  }
+  \field{year}{1976}
+\endentry
+
+\entry{Lyons1968}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Lyons}{L.}%
+     {John}{J.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {University Press}%
+  }
+  \strng{namehash}{LJ1}
+  \strng{fullhash}{LJ1}
+  \field{labelyear}{1968}
+  \field{sortinit}{L}
+  \field{title}{Introduction to theoretical linguistics}
+  \list{location}{1}{%
+    {Cambridge}%
+  }
+  \field{year}{1968}
+\endentry
+
+\entry{Lyons1977}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Lyons}{L.}%
+     {John}{J.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Cambridge University Press}%
+  }
+  \strng{namehash}{LJ1}
+  \strng{fullhash}{LJ1}
+  \field{labelyear}{1977}
+  \field{sortinit}{L}
+  \field{note}{2 Vols.}
+  \field{title}{Semantics}
+  \list{location}{1}{%
+    {Cambridge etc}%
+  }
+  \field{year}{1977}
+\endentry
+
+\entry{Malkiel1957}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Malkiel}{M.}%
+     {Yakov}{Y.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{MY1}
+  \strng{fullhash}{MY1}
+  \field{labelyear}{1957}
+  \field{sortinit}{M}
+  \field{pages}{79\bibrangedash 113 and 1\bibrangedash 36}
+  \field{title}{Diachronic hypercharacterization in Romance}
+  \field{volume}{9 and 10}
+  \field{journaltitle}{Archivum Linguisticum}
+  \field{year}{1957}
+\endentry
+
+\entry{MallinsonEtAl1981}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Mallinson}{M.}%
+     {Graham}{G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Blake}{B.}%
+     {Barry~J}{B.~J.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {North-Holland}%
+  }
+  \strng{namehash}{MGBBJ1}
+  \strng{fullhash}{MGBBJ1}
+  \field{labelyear}{1981}
+  \field{sortinit}{M}
+  \field{number}{46}
+  \field{series}{North-Holland Linguistic Series}
+  \field{title}{Language typology. Cross-linguistic studies in syntax}
+  \list{location}{1}{%
+    {Amsterdam etc}%
+  }
+  \field{year}{1981}
+\endentry
+
+\entry{Martinet1968}{book}{}
+  \name{editor}{1}{}{%
+    {{}%
+     {Martinet}{M.}%
+     {André}{A.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Gallimard}%
+  }
+  \strng{namehash}{MA1}
+  \strng{fullhash}{MA1}
+  \field{labelyear}{1968}
+  \field{sortinit}{M}
+  \field{number}{25}
+  \field{series}{Encyclopédie de la Pléiade}
+  \field{title}{Le langage}
+  \list{location}{1}{%
+    {Paris}%
+  }
+  \field{year}{1968}
+\endentry
+
+\entry{Matthews1981}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Matthews}{M.}%
+     {Peter~H}{P.~H.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Cambridge University Press}%
+  }
+  \strng{namehash}{MPH1}
+  \strng{fullhash}{MPH1}
+  \field{labelyear}{1981}
+  \field{sortinit}{M}
+  \field{series}{Cambridge Textbooks in Linguistics}
+  \field{title}{Syntax}
+  \list{location}{1}{%
+    {Cambridge}%
+  }
+  \field{year}{1981}
+\endentry
+
+\entry{Meillet1912}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Meillet}{M.}%
+     {Antoine}{A.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{MA2}
+  \strng{fullhash}{MA2}
+  \field{labelyear}{1912}
+  \field{sortinit}{M}
+  \field{note}{Reprint: Meillet 1921:130-148}
+  \field{number}{26}
+  \field{pages}{6}
+  \field{title}{L'évolution des formes grammaticales}
+  \field{volume}{12}
+  \field{journaltitle}{Scientia (Rivista di Scienza)}
+  \field{year}{1912}
+\endentry
+
+\entry{Meillet1915}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Meillet}{M.}%
+     {Antoine}{A.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{MA2}
+  \strng{fullhash}{MA2}
+  \field{labelyear}{1915}
+  \field{sortinit}{M}
+  \field{note}{Reprint: Meillet 1921:159-174}
+  \field{title}{Le renouvellement des conjonctions}
+  \field{journaltitle}{Annuaire de l'École Pratique des Hautes Études,
+  section historique et philologique}
+  \field{year}{1915}
+\endentry
+
+\entry{Meillet1934}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Meillet}{M.}%
+     {Antoine}{A.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Hachette}%
+  }
+  \strng{namehash}{MA2}
+  \strng{fullhash}{MA2}
+  \field{labelyear}{1934}
+  \field{sortinit}{M}
+  \field{edition}{7}
+  \field{note}{1.:1903; 8. unveränd. Aufl.: 1937}
+  \field{title}{Introduction à l'étude des langues indo-européennes}
+  \list{location}{1}{%
+    {Paris}%
+  }
+  \field{year}{1934}
+\endentry
+
+\entry{Meinhof1936}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Meinhof}{M.}%
+     {Carl}{C.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {D. Reimer}%
+  }
+  \strng{namehash}{MC1}
+  \strng{fullhash}{MC1}
+  \field{labelyear}{1936}
+  \field{sortinit}{M}
+  \field{title}{Die Entstehung flektierender Sprachen}
+  \list{location}{1}{%
+    {Berlin}%
+  }
+  \field{year}{1936}
+\endentry
+
+\entry{Mel'čuk1976}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Mel'čuk}{M.}%
+     {Igor~A}{I.~A.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{MIA1}
+  \strng{fullhash}{MIA1}
+  \field{labelyear}{1976}
+  \field{sortinit}{M}
+  \field{pages}{45\bibrangedash 90}
+  \field{title}{On suppletion}
+  \field{volume}{170}
+  \field{journaltitle}{Linguistics}
+  \field{year}{1976}
+\endentry
+
+\entry{Merlan1982}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Merlan}{M.}%
+     {Francesca}{F.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {North Holland}%
+  }
+  \strng{namehash}{MF1}
+  \strng{fullhash}{MF1}
+  \field{labelyear}{1982}
+  \field{sortinit}{M}
+  \field{number}{4}
+  \field{series}{LDS}
+  \field{title}{Mangarayi}
+  \list{location}{1}{%
+    {Amsterdam}%
+  }
+  \field{year}{1982}
+\endentry
+
+\entry{Misteli1893}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Misteli}{M.}%
+     {Franz}{F.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {F. Dümmler}%
+  }
+  \strng{namehash}{MF2}
+  \strng{fullhash}{MF2}
+  \field{labelyear}{1893}
+  \field{sortinit}{M}
+  \field{title}{Charakeristik der hauptsächlichsten Typen des Sprachbaues}
+  \list{location}{1}{%
+    {Neubearbeitung des Werkes von Prof. H. \citet{Steinthal1861}. Berlin}%
+  }
+  \field{year}{1893}
+\endentry
+
+\entry{Moinfar1980}{incollection}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Moinfar}{M.}%
+     {Moh.~Djafar}{M.~D.}%
+     {}{}%
+     {}{}}%
+  }
+  \name{editor}{2}{}{%
+    {{}%
+     {Brettschneider}{B.}%
+     {Gunter}{G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Lehmann}{L.}%
+     {Christian}{C.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {G. Narr}%
+  }
+  \strng{crossref}{BrettschneiderEtAl1980}
+  \strng{namehash}{MMD1}
+  \strng{fullhash}{MMD1}
+  \field{labelyear}{1980}
+  \field{sortinit}{M}
+  \field{pages}{317\bibrangedash 320}
+  \field{title}{Les classificateurs en persan}
+  \list{location}{1}{%
+    {Tübingen}%
+  }
+  \field{year}{1980}
+\endentry
+
+\entry{Moravcsik1980}{incollection}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Moravcsik}{M.}%
+     {Edith~A}{E.~A.}%
+     {}{}%
+     {}{}}%
+  }
+  \name{editor}{2}{}{%
+    {{}%
+     {Brettschneider}{B.}%
+     {Gunter}{G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Lehmann}{L.}%
+     {Christian}{C.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {G. Narr}%
+  }
+  \strng{crossref}{BrettschneiderEtAl1980}
+  \strng{namehash}{MEA1}
+  \strng{fullhash}{MEA1}
+  \field{labelyear}{1980}
+  \field{sortinit}{M}
+  \field{pages}{23\bibrangedash 28}
+  \field{title}{Some crosslinguistic generalizations about motivated symbolism}
+  \list{location}{1}{%
+    {Tübingen}%
+  }
+  \field{year}{1980}
+\endentry
+
+\entry{Mosel1980}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Mosel}{M.}%
+     {Ulrike}{U.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Australian National University}%
+  }
+  \strng{namehash}{MU1}
+  \strng{fullhash}{MU1}
+  \field{labelyear}{1980}
+  \field{sortinit}{M}
+  \field{number}{73}
+  \field{series}{Pacific Linguistics, Series B}
+  \field{title}{Tolai and Tok Pisin. The influence of the substratum on the
+  development of New Guinea Pidgin}
+  \list{location}{1}{%
+    {Canberra}%
+  }
+  \field{year}{1980}
+\endentry
+
+\entry{Paul1920}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Paul}{P.}%
+     {Hermann}{H.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {M. Niemeyer}%
+  }
+  \strng{namehash}{PH1}
+  \strng{fullhash}{PH1}
+  \field{labelyear}{1920}
+  \field{sortinit}{P}
+  \field{edition}{5}
+  \field{title}{Prinzipien der Sprachgeschichte}
+  \list{location}{1}{%
+    {Tübingen}%
+  }
+  \field{year}{1920}
+\endentry
+
+\entry{Plank1979a}{incollection}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Plank}{P.}%
+     {Frans}{F.}%
+     {}{}%
+     {}{}}%
+  }
+  \name{editor}{1}{}{%
+    {{}%
+     {Rosengren}{R.}%
+     {I}{I}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {CWK Gleerup}%
+  }
+  \strng{namehash}{PF1}
+  \strng{fullhash}{PF1}
+  \field{labelyear}{1979}
+  \field{extrayear}{1}
+  \field{sortinit}{P}
+  \field{booktitle}{Sprache und Pragmatik. Lunder Symposium 1978}
+  \field{pages}{330\bibrangedash 354}
+  \field{title}{Exklusivierung, Reflexivierung, Identifizierung, relationale
+  Auszeichnung. Variationen zu einem semantisch-pragmatischen Thema}
+  \list{location}{1}{%
+    {Lund}%
+  }
+  \field{year}{1979}
+\endentry
+
+\entry{Plank1979b}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Plank}{P.}%
+     {Frans}{F.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{PF1}
+  \strng{fullhash}{PF1}
+  \field{labelyear}{1979}
+  \field{extrayear}{2}
+  \field{sortinit}{P}
+  \field{pages}{611\bibrangedash 640}
+  \field{title}{The functional basis of case systems and declension classes:
+  from {L}atin to {O}ld {F}rench}
+  \field{volume}{17}
+  \field{journaltitle}{Linguistics}
+  \field{year}{1979}
+\endentry
+
+\entry{Polomé1967}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Polomé}{P.}%
+     {Edgar~C}{E.~C.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Center for Applied linguistics}%
+  }
+  \strng{namehash}{PEC1}
+  \strng{fullhash}{PEC1}
+  \field{labelyear}{1967}
+  \field{sortinit}{P}
+  \field{series}{Language Handbook Series}
+  \field{title}{Swahili language handbook}
+  \list{location}{1}{%
+    {Washington}%
+  }
+  \field{year}{1967}
+\endentry
+
+\entry{Pulgram1978}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Pulgram}{P.}%
+     {Ernst}{E.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {C. Winter}%
+  }
+  \strng{namehash}{PE1}
+  \strng{fullhash}{PE1}
+  \field{labelyear}{1978}
+  \field{sortinit}{P}
+  \field{series}{Indogermanische Bibliothek, 1. Reihe}
+  \field{title}{Italic, Latin, Italian. 600 B.C. to A.D. 1260. Texts and
+  commentaries}
+  \field{year}{1978}
+\endentry
+
+\entry{Qvonje1979}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Qvonje}{Q.}%
+     {J$\varphi $rn~Ivar}{J.~r.~I.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{QJrI1}
+  \strng{fullhash}{QJrI1}
+  \field{labelyear}{1979}
+  \field{sortinit}{Q}
+  \field{pages}{317\bibrangedash 351}
+  \field{title}{Die Grammatikalisierung der Präposition \textit{na} im
+  Bulgarischen}
+  \field{volume}{1}
+  \field{journaltitle}{Folia Linguistica Historica}
+  \field{year}{1979}
+\endentry
+
+\entry{Ramat1980}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Ramat}{R.}%
+     {Paolo}{P.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Pàtron}%
+  }
+  \strng{namehash}{RP1}
+  \strng{fullhash}{RP1}
+  \field{labelyear}{1980}
+  \field{sortinit}{R}
+  \field{number}{16}
+  \field{series}{Linguistica Generale e Storica}
+  \field{title}{Introduzione alla linguistica germanica}
+  \list{location}{1}{%
+    {Bologna}%
+  }
+  \field{year}{1980}
+\endentry
+
+\entry{Ramat1983}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Ramat}{R.}%
+     {Paolo}{P.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{RP1}
+  \strng{fullhash}{RP1}
+  \field{labelyear}{1983}
+  \field{sortinit}{R}
+  \field{pages}{365\bibrangedash 383}
+  \field{title}{Ein Beispiel von ‘Reanalysis’, typologisch betrachtet}
+  \field{volume}{16}
+  \field{journaltitle}{Folia Linguistica}
+  \field{year}{1983}
+\endentry
+
+\entry{Reid1968}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Reid}{R.}%
+     {Aileen A. et~al}{A.~A. e.~a.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {SIL of the University of Oklahoma}%
+  }
+  \strng{namehash}{RAAea1}
+  \strng{fullhash}{RAAea1}
+  \field{labelyear}{1968}
+  \field{sortinit}{R}
+  \field{title}{Totonac: From clause to discourse}
+  \list{location}{1}{%
+    {Norman}%
+  }
+  \field{year}{1968}
+\endentry
+
+\entry{Rix1976}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Rix}{R.}%
+     {Helmut}{H.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Wissenschaftliche Buchgesellschaft}%
+  }
+  \strng{namehash}{RH1}
+  \strng{fullhash}{RH1}
+  \field{labelyear}{1976}
+  \field{sortinit}{R}
+  \field{title}{Historische Grammatik des Griechischen. Laut- und Formenlehre}
+  \list{location}{1}{%
+    {Darmstadt}%
+  }
+  \field{year}{1976}
+\endentry
+
+\entry{VanRoey1974}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Roey}{R.}%
+     {Jacques}{J.}%
+     {van}{v.}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Didier}%
+  }
+  \strng{namehash}{RJv1}
+  \strng{fullhash}{RJv1}
+  \field{labelyear}{1974}
+  \field{sortinit}{R}
+  \field{title}{A contrastive description of English and Dutch noun phrases}
+  \list{location}{1}{%
+    {Bruxelles: AIMAV; Paris}%
+  }
+  \field{year}{1974}
+\endentry
+
+\entry{Ronneberger-Sibold1980}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Ronneberger-Sibold}{R.-S.}%
+     {Elke}{E.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {M. Niemeyer}%
+  }
+  \strng{namehash}{RSE1}
+  \strng{fullhash}{RSE1}
+  \field{labelyear}{1980}
+  \field{sortinit}{R}
+  \field{number}{87}
+  \field{series}{Linguistische Arbeiten}
+  \field{title}{Sprachverwendung — Sprachsystem. Ökonomie und Wandel}
+  \list{location}{1}{%
+    {Tübingen}%
+  }
+  \field{year}{1980}
+\endentry
+
+\entry{Ross1973}{incollection}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Ross}{R.}%
+     {John~R}{J.~R.}%
+     {}{}%
+     {}{}}%
+  }
+  \name{editor}{1}{}{%
+    {{}%
+     {al}{a.}%
+     {Corum}{C.}%
+     {et}{e.}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {CLS}%
+  }
+  \strng{namehash}{RJR1}
+  \strng{fullhash}{RJR1}
+  \field{labelyear}{1973}
+  \field{sortinit}{R}
+  \field{booktitle}{You take the high node and I'll take the low node. Papers
+  from the Comparative Syntax Festival}
+  \field{pages}{397\bibrangedash 422}
+  \field{title}{The penthouse principle and the order of constituents}
+  \list{location}{1}{%
+    {Chicago}%
+  }
+  \field{year}{1973}
+\endentry
+
+\entry{Rosén1980}{incollection}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Rosén}{R.}%
+     {Haiim~B}{H.~B.}%
+     {}{}%
+     {}{}}%
+  }
+  \name{editor}{2}{}{%
+    {{}%
+     {Brettschneider}{B.}%
+     {Gunter}{G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Lehmann}{L.}%
+     {Christian}{C.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {G. Narr}%
+  }
+  \strng{crossref}{BrettschneiderEtAl1980}
+  \strng{namehash}{RHB1}
+  \strng{fullhash}{RHB1}
+  \field{labelyear}{1980}
+  \field{sortinit}{R}
+  \field{pages}{311\bibrangedash 316}
+  \field{title}{Weiteres über die Entstehung der periphrastischen
+  ‘Perfekt’formen im Lateinischen. Zum Begriff ‘Zustand des
+  Akt(resultats)besitzes’}
+  \list{location}{1}{%
+    {Tübingen}%
+  }
+  \field{year}{1980}
+\endentry
+
+\entry{Sankoff1977}{incollection}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Sankoff}{S.}%
+     {Gillian}{G.}%
+     {}{}%
+     {}{}}%
+  }
+  \name{editor}{1}{}{%
+    {{}%
+     {Saville-Troike}{S.-T.}%
+     {M}{M}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Georgetown University Press (GURTLL 1977)}%
+  }
+  \strng{namehash}{SG1}
+  \strng{fullhash}{SG1}
+  \field{labelyear}{1977}
+  \field{sortinit}{S}
+  \field{booktitle}{Linguistics and anthropology}
+  \field{pages}{59\bibrangedash 73}
+  \field{title}{Variability and explanation in language and culture:
+  cliticization in New Guinea Tok Pisin}
+  \list{location}{1}{%
+    {Washington}%
+  }
+  \field{year}{1977}
+\endentry
+
+\entry{SankoffEtAl1974}{incollection}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Sankoff}{S.}%
+     {Gillian}{G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Laberge}{L.}%
+     {Suzanne}{S.}%
+     {}{}%
+     {}{}}%
+  }
+  \name{editor}{1}{}{%
+    {{}%
+     {DeCamp}{D.}%
+     {J.F}{J.}%
+     {}{}%
+     {D.~\&~Hancock}{D.~.~H.}}%
+  }
+  \list{publisher}{1}{%
+    {Georgetown University Press}%
+  }
+  \strng{namehash}{SGLS1}
+  \strng{fullhash}{SGLS1}
+  \field{labelyear}{1974}
+  \field{sortinit}{S}
+  \field{booktitle}{Pidgins and creoles. Current trends and prospects}
+  \field{pages}{73\bibrangedash 84}
+  \field{title}{On the acquisition of native speakers by a language}
+  \list{location}{1}{%
+    {Washington}%
+  }
+  \field{year}{1974}
+\endentry
+
+\entry{Sapir1921}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Sapir}{S.}%
+     {Edward}{E.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Harcourt, Brace \& World}%
+  }
+  \strng{namehash}{SE1}
+  \strng{fullhash}{SE1}
+  \field{labelyear}{1921}
+  \field{sortinit}{S}
+  \field{title}{Language. {A}n introduction to the study of speech}
+  \list{location}{1}{%
+    {New York}%
+  }
+  \field{year}{1921}
+\endentry
+
+\entry{Sasse1977b}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Sasse}{S.}%
+     {Hans-Jürgen}{H.-J.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{SHJ1}
+  \strng{fullhash}{SHJ1}
+  \field{labelyear}{1977}
+  \field{extrayear}{1}
+  \field{sortinit}{S}
+  \field{pages}{343\bibrangedash 354}
+  \field{title}{A note on wh-movement}
+  \field{volume}{41}
+  \field{journaltitle}{Lingua}
+  \field{year}{1977}
+\endentry
+
+\entry{Sasse1977a}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Sasse}{S.}%
+     {Hans-Jürgen}{H.-J.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{SHJ1}
+  \strng{fullhash}{SHJ1}
+  \field{labelyear}{1977}
+  \field{extrayear}{2}
+  \field{sortinit}{S}
+  \field{pages}{82\bibrangedash 142}
+  \field{title}{Gedanken über {W}ortstellungsveränderung}
+  \field{volume}{13f}
+  \field{journaltitle}{Papiere zur Linguistik}
+  \field{year}{1977}
+\endentry
+
+\entry{Saussure1916}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Saussure}{S.}%
+     {Ferdinand}{F.}%
+     {de}{d.}%
+     {}{}}%
+  }
+  \name{editor}{1}{}{%
+    {{}%
+     {Bally}{B.}%
+     {Charles}{C.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Payot}%
+  }
+  \strng{namehash}{SFd1}
+  \strng{fullhash}{SFd1}
+  \field{labelyear}{1916}
+  \field{sortinit}{S}
+  \field{title}{Cours de linguistique générale}
+  \list{location}{1}{%
+    {Paris}%
+  }
+  \field{year}{1916}
+\endentry
+
+\entry{Schlegel1818}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Schlegel}{S.}%
+     {August Wilhelm~von}{A.~W.~v.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Librairie grecque-latine-allemande}%
+  }
+  \strng{namehash}{SAWv1}
+  \strng{fullhash}{SAWv1}
+  \field{labelyear}{1818}
+  \field{sortinit}{S}
+  \field{title}{Observations sur la langue et la littérature provençales}
+  \list{location}{1}{%
+    {Paris}%
+  }
+  \field{year}{1818}
+\endentry
+
+\entry{Seebold1971}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Seebold}{S.}%
+     {Elmar}{E.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{SE2}
+  \strng{fullhash}{SE2}
+  \field{labelyear}{1971}
+  \field{sortinit}{S}
+  \field{pages}{185\bibrangedash 210}
+  \field{title}{Versuch über die Herkunft der indogermanischen
+  Personalendungssysteme}
+  \field{volume}{85}
+  \field{journaltitle}{Zeitschrift für vergleichende Sprachforschung}
+  \field{year}{1971}
+\endentry
+
+\entry{Seiler1973}{incollection}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Seiler}{S.}%
+     {Hansjakob}{H.}%
+     {}{}%
+     {}{}}%
+  }
+  \name{editor}{1}{}{%
+    {{}%
+     {Kachru}{K.}%
+     {Braj B. et~al}{B.~B. e.~a.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {University of Illinois Press}%
+  }
+  \strng{namehash}{SH1}
+  \strng{fullhash}{SH1}
+  \field{labelyear}{1973}
+  \field{sortinit}{S}
+  \field{booktitle}{Issues in linguistics. Papers in honor of {H}enry and
+  {R}enée {K}ahane}
+  \field{pages}{836\bibrangedash 853}
+  \field{title}{On the semantosyntactic configuration ‘possessor of an
+  act’}
+  \list{location}{1}{%
+    {Urbana etc}%
+  }
+  \field{year}{1973}
+\endentry
+
+\entry{Seiler1975}{incollection}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Seiler}{S.}%
+     {Hansjakob}{H.}%
+     {}{}%
+     {}{}}%
+  }
+  \name{editor}{1}{}{%
+    {{}%
+     {Seiler}{S.}%
+     {H}{H}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {W. Fink}%
+  }
+  \strng{namehash}{SH1}
+  \strng{fullhash}{SH1}
+  \field{labelyear}{1975}
+  \field{sortinit}{S}
+  \field{booktitle}{Linguistic workshop III. Arbeiten des Kölner
+  Universalienprojekts 1974}
+  \field{pages}{2\bibrangedash 57}
+  \field{title}{Die Prinzipien der deskriptiven und der etikettierenden
+  Benennung}
+  \list{location}{1}{%
+    {München}%
+  }
+  \field{year}{1975}
+\endentry
+
+\entry{Seiler1982}{incollection}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Seiler}{S.}%
+     {Hansjakob}{H.}%
+     {}{}%
+     {}{}}%
+  }
+  \name{editor}{2}{}{%
+    {{}%
+     {Seiler}{S.}%
+     {Hansjakob}{H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Lehmann}{L.}%
+     {Christian}{C.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {G. Narr (LUS, 1, I)}%
+  }
+  \strng{crossref}{SeilerEtAl1982}
+  \strng{namehash}{SH1}
+  \strng{fullhash}{SH1}
+  \field{labelyear}{1982}
+  \field{sortinit}{S}
+  \field{pages}{3\bibrangedash 11}
+  \field{title}{Das sprachliche Erfassen von Gegenständen (Apprehension)}
+  \list{location}{1}{%
+    {Tübingen}%
+  }
+  \field{year}{1982}
+\endentry
+
+\entry{Seiler1983}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Seiler}{S.}%
+     {Hansjakob}{H.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {G. Narr}%
+  }
+  \strng{namehash}{SH1}
+  \strng{fullhash}{SH1}
+  \field{labelyear}{1983}
+  \field{sortinit}{S}
+  \field{series}{LUS}
+  \field{title}{Possession as an operational dimension of language}
+  \field{volume}{2}
+  \list{location}{1}{%
+    {Tübingen}%
+  }
+  \field{year}{1983}
+\endentry
+
+\entry{SeilerEtAl1982}{book}{}
+  \name{editor}{2}{}{%
+    {{}%
+     {Seiler}{S.}%
+     {Hansjakob}{H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Lehmann}{L.}%
+     {Christian}{C.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {G. Narr (LUS, 1, I)}%
+  }
+  \strng{namehash}{SHLC1}
+  \strng{fullhash}{SHLC1}
+  \field{labelyear}{1982}
+  \field{sortinit}{S}
+  \field{title}{Apprehension. Das sprachliche Erfassen von Gegenständen Teil
+  I: Bereich und Ordnung der Phänomene}
+  \list{location}{1}{%
+    {Tübingen}%
+  }
+  \field{year}{1982}
+\endentry
+
+\entry{Serzisko1980}{inproceedings}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Serzisko}{S.}%
+     {Fritz}{F.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Institut für {S}prachwissenschaft der {U}niversität}%
+  }
+  \strng{namehash}{SF1}
+  \strng{fullhash}{SF1}
+  \field{labelyear}{1980}
+  \field{sortinit}{S}
+  \field{booktitle}{Arbeiten des Kölner Universalienprojektes}
+  \field{title}{Sprachen mit {Z}ahlklassifikatoren: {A}nalyse und {V}ergleich}
+  \field{volume}{37}
+  \list{location}{1}{%
+    {Köln}%
+  }
+  \field{year}{1980}
+\endentry
+
+\entry{Serzisko1981}{inproceedings}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Serzisko}{S.}%
+     {Fritz}{F.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Institut für Sprachwissenschaft der Universität}%
+  }
+  \strng{namehash}{SF1}
+  \strng{fullhash}{SF1}
+  \field{labelyear}{1981}
+  \field{sortinit}{S}
+  \field{booktitle}{Arbeiten des Kölner Universalienprojektes}
+  \field{pages}{93\bibrangedash 126}
+  \field{title}{Gender, noun class and numeral classification: a scale of
+  classificatory techniques}
+  \field{volume}{40}
+  \list{location}{1}{%
+    {Köln}%
+  }
+  \field{year}{1981}
+\endentry
+
+\entry{Serzisko1982}{incollection}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Serzisko}{S.}%
+     {Fritz}{F.}%
+     {}{}%
+     {}{}}%
+  }
+  \name{editor}{2}{}{%
+    {{}%
+     {Seiler}{S.}%
+     {Hansjakob}{H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Lehmann}{L.}%
+     {Christian}{C.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {G. Narr (LUS, 1, I)}%
+  }
+  \strng{crossref}{SeilerEtAl1982}
+  \strng{namehash}{SF1}
+  \strng{fullhash}{SF1}
+  \field{labelyear}{1982}
+  \field{sortinit}{S}
+  \field{pages}{147\bibrangedash 159}
+  \field{title}{Temporäre Klassifikation. Ihre Variationsbreite in Sprachen
+  mit Zahlklassifikatoren}
+  \list{location}{1}{%
+    {Tübingen}%
+  }
+  \field{year}{1982}
+\endentry
+
+\entry{Stammerjohann1975}{book}{}
+  \name{editor}{1}{}{%
+    {{}%
+     {Stammerjohann}{S.}%
+     {Harro}{H.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{2}{%
+    {Wissenschaftliche Buchgesellschaft}%
+    {Nymphenburg}%
+  }
+  \strng{namehash}{SH2}
+  \strng{fullhash}{SH2}
+  \field{labelyear}{1975}
+  \field{sortinit}{S}
+  \field{title}{Handbuch der Linguistik. Allgemeine und angewandte
+  Sprachwissenschaft}
+  \list{location}{2}{%
+    {Darmstadt}%
+    {München}%
+  }
+  \field{year}{1975}
+\endentry
+
+\entry{Starke1977}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Starke}{S.}%
+     {Frank}{F.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {O. Harrassowitz}%
+  }
+  \strng{namehash}{SF2}
+  \strng{fullhash}{SF2}
+  \field{labelyear}{1977}
+  \field{sortinit}{S}
+  \field{number}{23}
+  \field{series}{StBoT}
+  \field{title}{Die Funktionen der dimensionalen Kasus und Adverbien im
+  Althethitischen}
+  \list{location}{1}{%
+    {Wiesbaden}%
+  }
+  \field{year}{1977}
+\endentry
+
+\entry{Steele1978}{incollection}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Steele}{S.}%
+     {Susan}{S.}%
+     {}{}%
+     {}{}}%
+  }
+  \name{editor}{1}{}{%
+    {{}%
+     {Greenberg}{G.}%
+     {Joseph~H}{J.~H.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Stanford University Press}%
+  }
+  \strng{crossref}{Greenberg1978}
+  \strng{namehash}{SS1}
+  \strng{fullhash}{SS1}
+  \field{labelyear}{1978}
+  \field{sortinit}{S}
+  \field{note}{4 vols}
+  \field{pages}{585\bibrangedash 624}
+  \field{title}{Word order variation: a typological study}
+  \field{volume}{4}
+  \list{location}{1}{%
+    {Stanford}%
+  }
+  \field{year}{1978}
+\endentry
+
+\entry{Strunk1980}{incollection}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Strunk}{S.}%
+     {Klaus}{K.}%
+     {}{}%
+     {}{}}%
+  }
+  \name{editor}{2}{}{%
+    {{}%
+     {Brettschneider}{B.}%
+     {Gunter}{G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Lehmann}{L.}%
+     {Christian}{C.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {G. Narr}%
+  }
+  \strng{crossref}{BrettschneiderEtAl1980}
+  \strng{namehash}{SK1}
+  \strng{fullhash}{SK1}
+  \field{labelyear}{1980}
+  \field{sortinit}{S}
+  \field{pages}{321\bibrangedash 337}
+  \field{title}{Zum indogermanischen Medium und konkurrierenden Kategorien}
+  \list{location}{1}{%
+    {Tübingen}%
+  }
+  \field{year}{1980}
+\endentry
+
+\entry{Syromjatnikov1980}{incollection}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Syromjatnikov}{S.}%
+     {N.A}{N.}%
+     {}{}%
+     {}{}}%
+  }
+  \name{editor}{1}{}{%
+    {{}%
+     {Vardul'}{V.}%
+     {Igor~F.}{I.~F.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Nauka}%
+  }
+  \strng{crossref}{Vardul1980}
+  \strng{namehash}{SN1}
+  \strng{fullhash}{SN1}
+  \field{labelyear}{1980}
+  \field{sortinit}{S}
+  \field{pages}{104\bibrangedash 126}
+  \field{title}{Zakonomernosti razvitija ličnych mestoimenij v novojaponskom
+  jazyke}
+  \list{location}{1}{%
+    {Moskva}%
+  }
+  \field{year}{1980}
+\endentry
+
+\entry{Szemerényi1970}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Szemerényi}{S.}%
+     {Oswald~J.L}{O.~J.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Wissenschaftliche Buchgesellschaft (Die Altertumswissenschaft)}%
+  }
+  \strng{namehash}{SOJ1}
+  \strng{fullhash}{SOJ1}
+  \field{labelyear}{1970}
+  \field{sortinit}{S}
+  \field{title}{Einführung in die vergleichende Sprachwissenschaft}
+  \list{location}{1}{%
+    {Darmstadt}%
+  }
+  \field{year}{1970}
+\endentry
+
+\entry{Tauli1966}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Tauli}{T.}%
+     {Valter}{V.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Mouton}%
+  }
+  \strng{namehash}{TV1}
+  \strng{fullhash}{TV1}
+  \field{labelyear}{1966}
+  \field{sortinit}{T}
+  \field{number}{17}
+  \field{series}{Indiana University Publications, Uralic and Altaic Series}
+  \field{title}{Structural tendencies in Uralic languages}
+  \list{location}{1}{%
+    {The Hague etc}%
+  }
+  \field{year}{1966}
+\endentry
+
+\entry{Traugott1980}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Traugott}{T.}%
+     {Elizabeth~C}{E.~C.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{TEC1}
+  \strng{fullhash}{TEC1}
+  \field{labelyear}{1980}
+  \field{extrayear}{1}
+  \field{sortinit}{T}
+  \field{pages}{44\bibrangedash 61}
+  \field{title}{Meaning-change in the development of grammatical markers}
+  \field{volume}{2}
+  \field{journaltitle}{Language Sciences}
+  \field{year}{1980}
+\endentry
+
+\entry{TraugottEtAl1980}{book}{}
+  \name{editor}{1}{}{%
+    {{}%
+     {Traugott}{T.}%
+     {Elizabeth C. et~al.}{E.~C. e.~a.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {J. Benjamins}%
+  }
+  \strng{namehash}{TECea1}
+  \strng{fullhash}{TECea1}
+  \field{labelyear}{1980}
+  \field{extrayear}{2}
+  \field{sortinit}{T}
+  \field{number}{14}
+  \field{series}{Current Issues in Linguistic Theory}
+  \field{title}{Papers from the 4th International Conference on Historical
+  Linguistics}
+  \list{location}{1}{%
+    {Amsterdam}%
+  }
+  \field{year}{1980}
+\endentry
+
+\entry{Troike1981}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Troike}{T.}%
+     {Rudolph~C}{R.~C.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{TRC1}
+  \strng{fullhash}{TRC1}
+  \field{labelyear}{1981}
+  \field{sortinit}{T}
+  \field{pages}{658\bibrangedash 673}
+  \field{title}{Subject-object concord in Coahuilteco}
+  \field{volume}{57}
+  \field{journaltitle}{Language}
+  \field{year}{1981}
+\endentry
+
+\entry{Ultan1978b}{incollection}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Ultan}{U.}%
+     {Russell}{R.}%
+     {}{}%
+     {}{}}%
+  }
+  \name{editor}{1}{}{%
+    {{}%
+     {Greenberg}{G.}%
+     {Joseph~H}{J.~H.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Stanford University Press}%
+  }
+  \strng{crossref}{Greenberg1978}
+  \strng{namehash}{UR1}
+  \strng{fullhash}{UR1}
+  \field{labelyear}{1978}
+  \field{sortinit}{U}
+  \field{note}{4 vols}
+  \field{pages}{83\bibrangedash 123}
+  \field{title}{The nature of future tenses}
+  \field{volume}{3}
+  \list{location}{1}{%
+    {Stanford}%
+  }
+  \field{year}{1978}
+\endentry
+
+\entry{Vardul1980}{book}{}
+  \name{editor}{1}{}{%
+    {{}%
+     {Vardul'}{V.}%
+     {Igor~F.}{I.~F.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Nauka}%
+  }
+  \strng{namehash}{VIF1}
+  \strng{fullhash}{VIF1}
+  \field{labelyear}{1980}
+  \field{sortinit}{V}
+  \field{title}{Teoria i tipologija mestoimenij}
+  \list{location}{1}{%
+    {Moskva}%
+  }
+  \field{year}{1980}
+\endentry
+
+\entry{Vater1979}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Vater}{V.}%
+     {Heinz}{H.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {LAUT}%
+  }
+  \strng{namehash}{VH1}
+  \strng{fullhash}{VH1}
+  \field{labelyear}{1979}
+  \field{sortinit}{V}
+  \field{number}{6}
+  \field{series}{KLAGE}
+  \field{title}{Determinantien. Teil I: Abgrenzung, Syntax}
+  \list{location}{1}{%
+    {Trier}%
+  }
+  \field{year}{1979}
+\endentry
+
+\entry{Vincent1980b}{incollection}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Vincent}{V.}%
+     {Nigel}{N.}%
+     {}{}%
+     {}{}}%
+  }
+  \name{editor}{1}{}{%
+    {{}%
+     {Ramat}{R.}%
+     {P.~et~al}{P.~e.~a.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {J. Benjamins}%
+  }
+  \strng{namehash}{VN1}
+  \strng{fullhash}{VN1}
+  \field{labelyear}{1980}
+  \field{extrayear}{1}
+  \field{sortinit}{V}
+  \field{booktitle}{Linguistic reconstruction and Indo-European syntax.
+  Proceedings of the Colloquium of the 'Indogermanische Gesellschaft',
+  University of Pavia, 6-7 September 1979}
+  \field{pages}{47\bibrangedash 68}
+  \field{title}{Iconic and symbolic aspects of syntax: Prospects for
+  reconstruction}
+  \list{location}{1}{%
+    {Amsterdam}%
+  }
+  \field{year}{1980}
+\endentry
+
+\entry{Vincent1980a}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Vincent}{V.}%
+     {Nigel}{N.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{VN1}
+  \strng{fullhash}{VN1}
+  \field{labelyear}{1980}
+  \field{extrayear}{2}
+  \field{sortinit}{V}
+  \field{pages}{167\bibrangedash 179}
+  \field{title}{Some issues in the theory of word order}
+  \field{volume}{8}
+  \field{journaltitle}{York Papers in Linguistics}
+  \field{year}{1980}
+\endentry
+
+\entry{Wackernagel1920}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Wackernagel}{W.}%
+     {Jakob}{J.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Birkhäuser \& Co}%
+  }
+  \strng{namehash}{WJ1}
+  \strng{fullhash}{WJ1}
+  \field{labelyear}{1920/1924}
+  \field{sortinit}{W}
+  \field{note}{2 vols}
+  \field{title}{Vorlesungen über {S}yntax, mit besonderer {B}erücksichtigung
+  von {G}riechisch, {L}ateinisch und {D}eutsch}
+  \list{location}{1}{%
+    {Basel}%
+  }
+  \field{year}{1920/1924}
+\endentry
+
+\entry{Weinreich1963}{incollection}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Weinreich}{W.}%
+     {Uriel}{U.}%
+     {}{}%
+     {}{}}%
+  }
+  \name{editor}{1}{}{%
+    {{}%
+     {Greenberg}{G.}%
+     {J.H}{J.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {MIT Press. 2. ed. 1966}%
+  }
+  \strng{namehash}{WU1}
+  \strng{fullhash}{WU1}
+  \field{labelyear}{1963}
+  \field{sortinit}{W}
+  \field{booktitle}{Universals of language. Report of a conference held at
+  Dobbs Ferry, New York, April 13-15, 1961}
+  \field{pages}{114\bibrangedash 171}
+  \field{title}{On the semantic structure of language}
+  \list{location}{1}{%
+    {Cambridge, Mass}%
+  }
+  \field{year}{1963}
+\endentry
+
+\entry{Welmers1973}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Welmers}{W.}%
+     {William~E}{W.~E.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {University of California Press}%
+  }
+  \strng{namehash}{WWE1}
+  \strng{fullhash}{WWE1}
+  \field{labelyear}{1973}
+  \field{sortinit}{W}
+  \field{title}{African language structures}
+  \list{location}{1}{%
+    {Berkeley etc}%
+  }
+  \field{year}{1973}
+\endentry
+
+\entry{Wendt1972}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Wendt}{W.}%
+     {Heinz~F}{H.~F.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Langenscheidt}%
+  }
+  \strng{namehash}{WHF1}
+  \strng{fullhash}{WHF1}
+  \field{labelyear}{1972}
+  \field{sortinit}{W}
+  \field{title}{Langenscheidts Praktisches Lehrbuch Türkisch}
+  \list{location}{1}{%
+    {Berlin etc}%
+  }
+  \field{year}{1972}
+\endentry
+
+\entry{Werner1979}{incollection}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Werner}{W.}%
+     {Otmar}{O.}%
+     {}{}%
+     {}{}}%
+  }
+  \name{editor}{1}{}{%
+    {{}%
+     {Brogyanyi}{B.}%
+     {B}{B}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {J. Benjamins}%
+  }
+  \strng{namehash}{WO1}
+  \strng{fullhash}{WO1}
+  \field{labelyear}{1979}
+  \field{sortinit}{W}
+  \field{booktitle}{Festschrift for Oswald Szemerényi on the occasion of his
+  65th birthday}
+  \field{pages}{959\bibrangedash 988}
+  \field{title}{Kongruenz wird zu Diskontinuität im Deutschen}
+  \list{location}{1}{%
+    {Amsterdam}%
+  }
+  \field{year}{1979}
+\endentry
+
+\entry{Wiesemann1980}{incollection}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Wiesemann}{W.}%
+     {Ursula}{U.}%
+     {}{}%
+     {}{}}%
+  }
+  \name{editor}{2}{}{%
+    {{}%
+     {Brettschneider}{B.}%
+     {Gunter}{G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Lehmann}{L.}%
+     {Christian}{C.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {G. Narr}%
+  }
+  \strng{crossref}{BrettschneiderEtAl1980}
+  \strng{namehash}{WU2}
+  \strng{fullhash}{WU2}
+  \field{labelyear}{1980}
+  \field{sortinit}{W}
+  \field{pages}{419\bibrangedash 433}
+  \field{title}{Events and non-events in Kaingáng discourse}
+  \list{location}{1}{%
+    {Tübingen}%
+  }
+  \field{year}{1980}
+\endentry
+
+\entry{Woodbury1977}{incollection}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Woodbury}{W.}%
+     {Anthony~C}{A.~C.}%
+     {}{}%
+     {}{}}%
+  }
+  \name{editor}{1}{}{%
+    {{}%
+     {Cole}{C.}%
+     {J.M}{J.}%
+     {}{}%
+     {P.~\&~Sadock}{P.~.~S.}}%
+  }
+  \list{publisher}{1}{%
+    {Academic Press}%
+  }
+  \strng{namehash}{WAC1}
+  \strng{fullhash}{WAC1}
+  \field{labelyear}{1977}
+  \field{sortinit}{W}
+  \field{booktitle}{Grammatical relations}
+  \field{pages}{307\bibrangedash 336}
+  \field{series}{Syntax and semantics}
+  \field{title}{Greenlandic Eskimo, ergativity, and relational grammar}
+  \field{volume}{8}
+  \list{location}{1}{%
+    {New York etc}%
+  }
+  \field{year}{1977}
+\endentry
+
+\entry{Zwicky1978}{inproceedings}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Zwicky}{Z.}%
+     {Arnold~M}{A.~M.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{ZAM1}
+  \strng{fullhash}{ZAM1}
+  \field{labelyear}{1978}
+  \field{sortinit}{Z}
+  \field{booktitle}{Papers from the Regional Meeting of the Chicago Linguistic
+  Society}
+  \field{title}{Arguing for constituency}
+  \field{year}{1978}
+\endentry
+
+\entry{Žirmunskij1966}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Žirmunskij}{�.}%
+     {V.~M}{V.~M}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{�VM1}
+  \strng{fullhash}{�VM1}
+  \field{labelyear}{1966}
+  \field{sortinit}{�}
+  \field{pages}{65\bibrangedash 91}
+  \field{title}{The word and its boundaries}
+  \field{volume}{27}
+  \field{journaltitle}{Linguistics}
+  \field{year}{1966}
+\endentry
 
 \lossort
 \endlossort

@@ -45,10 +45,14 @@
     <generic>latex</generic>
     <provides type="dynamic">
       <file>lsp-skeleton.aux</file>
+      <file>lsp-skeleton1-blx.aux</file>
+      <file>lsp-skeleton2-blx.aux</file>
       <file>lsp-skeleton-blx.bib</file>
     </provides>
     <requires type="dynamic">
       <file>lsp-skeleton.bbl</file>
+      <file>lsp-skeleton1-blx.bbl</file>
+      <file>lsp-skeleton2-blx.bbl</file>
     </requires>
     <requires type="static">
       <file>blx-compat.def</file>
@@ -62,7 +66,7 @@
       <file>english.lbx</file>
     </requires>
   </internal>
-  <external package="biblatex" priority="5" active="1">
+  <external package="biblatex" priority="5" active="0">
     <generic>bibtex</generic>
     <cmdline>
       <binary>bibtex</binary>
@@ -80,6 +84,60 @@
     </provides>
     <requires type="dynamic">
       <file>lsp-skeleton.aux</file>
+      <file>lsp-skeleton-blx.bib</file>
+    </requires>
+    <requires type="editable">
+      <file>localbibliography.bib</file>
+    </requires>
+    <requires type="static">
+      <file>biblatex.bst</file>
+    </requires>
+  </external>
+  <external package="biblatex" priority="5" active="1">
+    <generic>bibtex</generic>
+    <cmdline>
+      <binary>bibtex</binary>
+      <option>-min-crossrefs 2</option>
+      <infile>lsp-skeleton1-blx</infile>
+    </cmdline>
+    <input>
+      <file>lsp-skeleton1-blx.aux</file>
+    </input>
+    <output>
+      <file>lsp-skeleton1-blx.bbl</file>
+    </output>
+    <provides type="dynamic">
+      <file>lsp-skeleton1-blx.bbl</file>
+    </provides>
+    <requires type="dynamic">
+      <file>lsp-skeleton1-blx.aux</file>
+      <file>lsp-skeleton-blx.bib</file>
+    </requires>
+    <requires type="editable">
+      <file>localbibliography.bib</file>
+    </requires>
+    <requires type="static">
+      <file>biblatex.bst</file>
+    </requires>
+  </external>
+  <external package="biblatex" priority="5" active="0">
+    <generic>bibtex</generic>
+    <cmdline>
+      <binary>bibtex</binary>
+      <option>-min-crossrefs 2</option>
+      <infile>lsp-skeleton2-blx</infile>
+    </cmdline>
+    <input>
+      <file>lsp-skeleton2-blx.aux</file>
+    </input>
+    <output>
+      <file>lsp-skeleton2-blx.bbl</file>
+    </output>
+    <provides type="dynamic">
+      <file>lsp-skeleton2-blx.bbl</file>
+    </provides>
+    <requires type="dynamic">
+      <file>lsp-skeleton2-blx.aux</file>
       <file>lsp-skeleton-blx.bib</file>
     </requires>
     <requires type="editable">
