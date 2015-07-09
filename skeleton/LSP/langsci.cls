@@ -101,7 +101,8 @@
 
 
 \usepackage{etex}
-\reserveinserts{28}
+\reserveinserts{18}	
+	
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
 %    Page size and text area:
