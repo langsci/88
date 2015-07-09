@@ -1,13 +1,10 @@
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{LSP/langsci}[2014/11/05 Language Science Press]
+\ProvidesClass{LSP/langsci}[2014/10/17 Language Science Press]
 
 % Default values:
 \usepackage{xspace}
-
-\usepackage{makeidx}
 \newcommand{\lsp}{Language Science Press\xspace}
 \newcommand{\lsSeriesNumber}{??}
-\newcommand{\lsISSN}{??}
 \newcommand{\lsISBN}{000-0-000000-00-0}
 \newcommand{\lsURL}{http://langsci-press.org/catalog}
 \newcommand{\lsSeries}{eotms}
@@ -22,7 +19,6 @@
 \newif\iflsCollection \lsCollectionfalse
 \newif\iflsCollectionChapter \lsCollectionChapterfalse
 \newif\iflsCollectionTOCLong \lsCollectionTOCLongfalse
-\newif\iflsNewtxmath \lsNewtxmathfalse
 
 
 % Option handling:
@@ -33,9 +29,6 @@
 \DeclareStringOption{number}[??]
 	\define@key{langsci}{number}{%
 		\renewcommand{\lsSeriesNumber}{#1}}
-\DeclareStringOption{issn}[??]
-	\define@key{langsci}{issn}{%
-		\renewcommand{\lsISSN}{#1}}
 \DeclareStringOption{isbn}[000-0-000000-00-0]
 	\define@key{langsci}{isbn}{%
 		\renewcommand{\lsISBN}{#1}}
@@ -67,8 +60,6 @@
 	\lsIndexfalse }
 \DeclareVoidOption{biblatex}{  			
 	\lsBiblatextrue}
-\DeclareVoidOption{newtxmath}{  			
-	\lsNewtxmathtrue}
 \DeclareVoidOption{collection}{  			
 	\lsCollectiontrue}
 \DeclareVoidOption{collectionchapter}{  			
@@ -159,10 +150,8 @@
 	ItalicFont = LinLibertine_RI_B.otf ,			
 	BoldItalicFont = LinLibertine_RZI_B.otf 		% semi-bold
 	]{LinLibertine_R_B.otf}			
-
-\iflsNewtxmath							% some users have problems when installing newtxmath
-	\usepackage[libertine]{newtxmath}
-\fi 	
+  
+\usepackage[libertine]{newtxmath}
 
 \let\oldtabular\tabular	% number in tabulars
 \let\endoldtabular\endtabular
@@ -340,10 +329,10 @@ al desirabilite de un nov lingua franca: On refusa continuar payar custosi tradu
 	\newcommand{\lsSeriesColor}{lsNightBlue}
 \fi	
 \ifx\lsSeries\cfls
-	\newcommand{\lsSeriesTitle}{Conceptual Foundations of\\ Language Science~\lsSeriesNumber}
+	\newcommand{\lsSeriesTitle}{Conceptual Foundations of Language Science~\lsSeriesNumber}
 	\newcommand{\lsSeriesColor}{lsNightGreen}
 \fi	
-\ifx\lsSeries\lv
+\ifx\lsSeries\cfls
 	\newcommand{\lsSeriesTitle}{Language Variation~\lsSeriesNumber}
 	\newcommand{\lsSeriesColor}{lsDarkWine}
 \fi	
@@ -353,14 +342,13 @@ al desirabilite de un nov lingua franca: On refusa continuar payar custosi tradu
 \fi
 \ifx\lsSeries\guidelines
 	\newcommand{\lsSeriesTitle}{Language Science Press Guidelines}
-	\newcommand{\lsSeriesColor}{lsLightGray}
-	\renewcommand{\lsCoverFontColor}{black}
+	\newcommand{\lsSeriesColor}{lsNightGreen}
 \fi
 }	
-% 
-% \@ifundefined{\blackandwhite}
-% 	{}
-% 	{\renewcommand{\lsSeriesColor}{black}}
+
+\@ifundefined{blackandwhite}
+	{}
+	{\renewcommand{\lsSeriesColor}{black}}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
@@ -405,7 +393,6 @@ al desirabilite de un nov lingua franca: On refusa continuar payar custosi tradu
 		citestyle=LSP/lsp-bst/sp-authoryear-comp,
 		%refsection=chapter,
 		maxbibnames=99,
-		indexing=cite,
 		isbn=false,
 		doi=false,
 		eprint=false,
@@ -448,9 +435,6 @@ al desirabilite de un nov lingua franca: On refusa continuar payar custosi tradu
 \usepackage{floatrow}					% For adjusting the position of the caption (default is below).
 \floatsetup[table]{capposition=top} 	% As for tables, the caption appears above.
 
-% This sets the default for the positioning of floats
-\renewcommand{\fps@figure}{htbp}
-\renewcommand{\fps@table}{htbp}
 
 \usepackage{booktabs} %for nicer lines
 
@@ -496,9 +480,9 @@ al desirabilite de un nov lingua franca: On refusa continuar payar custosi tradu
 	}
 
 \makeindex
-\newindex{sbj}{sdx}{snd}{Subject index}
 \newindex{lan}{ldx}{lnd}{Language index}
-\renewindex{default}{adx}{and}{Name index} %biblatex can only deal with the default index
+\newindex{aut}{adx}{and}{Name index}
+\renewindex{default}{idx}{ind}{Subject index}
 \newindex{wrd}{wdx}{wnd}{Expression index}
 \newindex{rwrd}{rdx}{rnd}{Reverse expression index}
 
@@ -510,18 +494,41 @@ al desirabilite de un nov lingua franca: On refusa continuar payar custosi tradu
 \fi
 
 \newcommand{\ia}[1]{\if@noftnote%
-\index{#1}%
+\index[aut]{#1}%
 \else%
-\index{#1|fn{\thefootnote}}%
+\index[aut]{#1|fn{\thefootnote}}%
 \fi%
 }
 
 \newcommand{\is}[1]{\if@noftnote%
-\index[sbj]{#1}%
+\index{#1}%
 \else%
 % irgendwie muss man ihn dazu bringen den Wert für footnote auch einzusetzen
-\index[sbj]{#1|fn{*}}%
+\index{#1|fn{*}}%
 %\indexftn{#1}{\value{footnotemark}}%
+\fi%
+}
+
+\newcommand{\isfeat}[1]{\if@noftnote%
+\index{feature!{\sc #1}}%
+\else%
+%\index{feature!{\sc #1}|fn{\thefootnote}}%
+\index{feature!{\sc #1}|fn{*}}%
+\fi%
+}
+
+\newcommand{\istype}[1]{\if@noftnote%
+\index{type!#1@\type{#1}}%
+\else%
+%\index{type!{\it #1}|fn{\thefootnote}}
+\index{type!#1@\type{#1}|fn{*}}%
+\fi%
+}
+
+\newcommand{\isrel}[1]{\if@noftnote%
+\index{relation!\emph{#1}}%
+\else%
+\index{relation!\emph{#1}|fn{*}}%
 \fi%
 }
 
@@ -530,7 +537,7 @@ al desirabilite de un nov lingua franca: On refusa continuar payar custosi tradu
 
 \newcommand{\il}[1]{%
 \if@noftnote%
-\index[lan]{#1}111%
+\index[lan]{#1}%
 \else%
 \index[lan]{#1|fn{*}}%
 \fi%
@@ -637,9 +644,8 @@ al desirabilite de un nov lingua franca: On refusa continuar payar custosi tradu
 
 \newcommand{\lsCoverSeries}{
 	\begin{textblock}{95}(7.4,209)
-	\color{white}
-	\raggedright\rule{3.6mm}{3.5mm}
 	\color{\lsCoverFontColor}
+	\raggedright\rule{3.6mm}{3.5mm}
 	\hspace{3mm}\parbox[t]{85mm}{\raggedright\lsCoverSeriesFont   
 		\lsSeriesTitle\\}
 	\end{textblock}}
@@ -963,8 +969,7 @@ Published under the Creative Commons Attribution-NoDerivatives 4.0 Licence (CC B
 http://creativecommons.org/licenses/by-nd/4.0/ 
 \fi
  
-ISBN: \lsISBN \\
-ISSN: \lsISSN
+ISBN: \lsISBN 
 
 \bigskip
  
@@ -1202,18 +1207,18 @@ guarantee the accuracy of such information thereafter.
 
 \usepackage{authorindex}
 
-% lsp-eng-hyp is a makeshift package. Authors should use localhyphenation.sty
-% \usepackage{./LSP/lsp-styles/lsp-eng-hyp}
 
-% mex considered evil. We need explicit references to examples for XML conversion, but mex does not provide them
+\usepackage{./LSP/lsp-styles/lsp-eng-hyp}
+
+
 % The following allows for a quick reference to following or preceeding examples (\mex{1}) or
 % (\mex{0}) but also (\mex{-1})
 % taken from covington.sty (check)
-% \newcounter{lsptempcnt}
-% 
-% \newcommand{\mex}[1]{\setcounter{lsptempcnt}{\value{equation}}%
-% \addtocounter{lsptempcnt}{#1}%
-% \arabic{lsptempcnt}}%
+\newcounter{lsptempcnt}
+
+\newcommand{\mex}[1]{\setcounter{lsptempcnt}{\value{equation}}%
+\addtocounter{lsptempcnt}{#1}%
+\arabic{lsptempcnt}}%
 
 % quotes are indented at one side only.
 \renewenvironment{quote}
@@ -1231,13 +1236,10 @@ guarantee the accuracy of such information thereafter.
 				\item\relax}
 			   {\endlist}
 
-% varioref considered evil. We willh ave various output formats, and we do not know, where elements will be placed in all of them
-% \usepackage[english]{varioref}
+\usepackage[english]{varioref}
 
 
-% useful commands for glossings:
-\usepackage{./LSP/lsp-styles/lsp-lgr}
-
+% usefull commands for glossings:
 \newlength{\LSPTmp}
 % a) hspace over width of something without showing it
 \newcommand*{\hspaceThis}[1]{\settowidth{\LSPTmp}{#1}\hspace*{\LSPTmp}}
@@ -1249,6 +1251,5 @@ guarantee the accuracy of such information thereafter.
 %\setlength{\epigraphwidth}{.2\textwidth}
 \setlength{\afterepigraphskip}{0\baselineskip}
 
-\usepackage{./LSP/lsp-styles/lsp-makros}
-
 \endinput
+

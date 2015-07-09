@@ -1,4 +1,4 @@
-This is BibTeX, Version 0.99d (TeX Live 2012/Debian)
+This is BibTeX, Version 0.99d (TeX Live 2015)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: lsp-skeleton.aux
 The style file: biblatex.bst
@@ -19,16 +19,16 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated field_info (elt_size=4) to 28392 items from 5000.
+Reallocated field_info (elt_size=4) to 28908 items from 5000.
 Database file #1: lsp-skeleton-blx.bib
 Database file #2: localbibliography.bib
-Biblatex version: 1.7
+Biblatex version: 3.0
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 You've used 177 entries,
-            6019 wiz_defined-function locations,
-            2215 strings with 30774 characters,
-and the built_in function-call counts, 628788 in all, are:
+            6047 wiz_defined-function locations,
+            2222 strings with 30833 characters,
+and the built_in function-call counts, 631252 in all, are:
 = -- 32048
 > -- 18865
 < -- 7811
@@ -41,16 +41,16 @@ call.type$ -- 177
 change.case$ -- 5768
 chr.to.int$ -- 34
 cite$ -- 352
-duplicate$ -- 70872
-empty$ -- 65602
+duplicate$ -- 71400
+empty$ -- 66130
 format.name$ -- 9937
-if$ -- 147946
+if$ -- 148474
 int.to.chr$ -- 0
 int.to.str$ -- 781
 missing$ -- 0
 newline$ -- 4522
 num.names$ -- 12114
-pop$ -- 55271
+pop$ -- 56151
 preamble$ -- 1
 purify$ -- 5970
 quote$ -- 0
