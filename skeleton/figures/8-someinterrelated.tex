@@ -4,7 +4,7 @@
 \usepackage{fontspec}
 \usepackage{xltxtra}
 \usepackage{tikz}
-\usepackage[hmargin=0.5cm,vmargin=0.6cm,paperheight=11cm, paperwidth=16cm]{geometry}
+\usepackage[hmargin=0.5cm,vmargin=0cm,paperheight=7.5cm, paperwidth=16cm]{geometry}
 \usetikzlibrary{decorations.pathreplacing}
 \usetikzlibrary{decorations.markings}
 \usetikzlibrary{positioning}
@@ -20,14 +20,14 @@
 	\node at (0,0) (dir) {directional};
 	\node at (4,1) (dat) {dative};
 	\node at (8,1) (acc) {accusative};
-	\node at (8,-3) (erg) {ergative};
+	\node at (8,-2) (erg) {ergative};
 	\node at (12,1) (abs) {? absolutive};
-	\node at (12,-3) (nom) {nominative};
+	\node at (12,-2) (nom) {nominative};
 	\node at (4,-1) (loc) {locative};
-	\node at (0,-3) (com) {comitative};
-	\node at (4,-3) (instr) {instrumental};
-	\node at (4,-5) (gen) {genitive};
-	\node at (0,-5) (abl) {ablative};
+	\node at (0,-2) (com) {comitative};
+	\node at (4,-2) (instr) {instrumental};
+	\node at (4,-3) (gen) {genitive};
+	\node at (0,-4) (abl) {ablative};
 	
 	\draw [postaction=decorate] (benef.east) -- (dat.west);
 	\draw [postaction=decorate] (dir.east) -- (dat.west);
@@ -36,12 +36,12 @@
 	\draw [postaction=decorate] (com) -- (instr);
 	\draw [postaction=decorate] (abl) -- (gen);
 	\draw [postaction=decorate] (gen.east) -- (erg.west);
-	\draw [postaction=decorate] (instr) -- (erg.west);
+	\draw [postaction=decorate] (instr.east) -- (erg.west);
 	\draw [postaction=decorate] (loc.east) -- (erg.west);
 	\draw [postaction=decorate] (dat) -- (erg.west);
 	\draw [postaction=decorate] (erg) -- (nom);
 	\path (gen.east) edge [bend right=15, dashed, postaction=decorate] node [sloped, above] {?} (nom.west);
-	\path (abl.east) edge [bend right=40, dashed, postaction=decorate] node [sloped, above] {?} (nom.west);
+	\path (abl.east) edge [bend right=25, dashed, postaction=decorate] node [sloped, above] {?} (nom.west);
 	\end{tikzpicture}
 \end{center}
 
