@@ -16,6 +16,40 @@
 \renewcommand{\nu}{ν}
 \renewcommand{\upsilon}{υ}
 
+% Sc -> sc
+
+\newcommand{\glgen}{\textsc{gen}\xspace}
+\newcommand{\glsg}{\textsc{sg}\xspace}
+\newcommand{\glinf}{\textsc{inf}\xspace}
+\newcommand{\glprog}{\textsc{prog}\xspace}
+\newcommand{\gldet}{\textsc{det}\xspace}
+\newcommand{\glacc}{\textsc{acc}\xspace}
+\newcommand{\glneg}{\textsc{neg}\xspace}
+\newcommand{\glpl}{\textsc{pl}\xspace}
+\newcommand{\glposs}{\textsc{poss}\xspace}
+\newcommand{\glloc}{\textsc{loc}\xspace}
+\newcommand{\glnom}{\textsc{nom}\xspace}
+\newcommand{\glm}{\textsc{m}\xspace}
+\newcommand{\glabl}{\textsc{abl}\xspace}
+\newcommand{\gldef}{\textsc{def}\xspace}
+\newcommand{\glerg}{\textsc{erg}\xspace}
+\newcommand{\glcompl}{\textsc{compl}\xspace}
+\newcommand{\vp}{VP\xspace}
+\newcommand{\np}{NP\xspace}
+\newcommand{\scfut}{\textsc{fut}\xspace}
+\newcommand{\rdp}{\textsc{rdp}\xspace}
+\newcommand{\pf}{\textsc{pf}\xspace}
+\newcommand{\case}{\textsc{case}\xspace}
+\newcommand{\postp}{\textsc{postp}\xspace}
+\newcommand{\term}{\textsc{term}\xspace}
+\newcommand{\iinst}{\textsc{iinst}\xspace}
+\newcommand{\pers}{\textsc{pers}\xspace}
+\newcommand{\nr}{\textsc{nr}\xspace}
+\newcommand{\advr}{\textsc{advr}\xspace}
+\newcommand{\volneg}{\textsc{vol.neg}\xspace}
+\newcommand{\cl}{\textsc{cl}\xspace}
+\newcommand{\past}{\textsc{past}\xspace}
+
 % Language Short Handles - I did not enter commands for language that only appear once (Spanish, Burmese) or that are shorter than an abbv would be (Latin, Ewe)
 \newcommand{\LangAbkh}{Abkhaz}
 \newcommand{\LangAccad}{Accadic}	
@@ -58,8 +92,8 @@
 % Find page references
 \newcommand{\chkfn}{ \texthl{fix pageref} }
 \newcommand{\chk}{ \todo{fix pageref} }
-\renewcommand{\chkfn}{}
-\renewcommand{\chk}{}
+\renewcommand{\chkfn}{\xspace}
+\renewcommand{\chk}{\xspace}
 % \newcommand{\chapref}[1]{Chapter~\ref{#1}}
 
 \renewcommand{\langinfo}[2]{\upshape #1 #2}
@@ -68,3 +102,7 @@
 % \newcommand{\printdateextralabel}{}
 
 \renewcommand{\glossfont}{\small\upshape}
+
+% Example width for ex:E57
+\newlength{\examplewidth}
+\setlength{\examplewidth}{20mm}
