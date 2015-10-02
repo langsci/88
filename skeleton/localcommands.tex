@@ -90,6 +90,19 @@
 \patchcmd\exp{(\ref{#1}$'$)}{E\ref{#1}$'$}{}{} % identifiers of derived examples (\ref') -> E\ref'
 \patchcmd\REF{(\ref{#1})}{E\ref{#1}}{}{} % patch reference to examples (n) -> En.
 
+% Adapt \lsImpressumCitationText for special needs of the "3rd edition"-subtitle
+
+
+\renewcommand{\lsImpressumCitationText}{
+	\renewcommand{\newlineCover}{}
+	\renewcommand{\newlineSpine}{}
+	{\@author}\if\lsEditorSuffix\empty\else\ \lsEditorSuffix\fi. %
+	{\the\year}. %
+	\textit{\@title}\if\@subtitle\empty\else. \textrm{\@subtitle}\fi\ %
+	(\lsSeriesTitle). %
+	Berlin: Language Science Press.
+}
+
 \makeatother
 
 % Find page references
