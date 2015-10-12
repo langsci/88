@@ -131,7 +131,7 @@ ${\simeq}$ \textit{venho}  & &  + ger. \\
 \textit{tenho}  & & + part.pass. & perfect\\
 \lspbottomrule
 \end{tabular}
-\caption{\textsc{tense/aspect} periphrases in Portuguese}\label{T5} 
+\caption{\textsc{tense{\footnotesize /}aspect} periphrases in Portuguese}\label{T5} 
 \end{table}
 
 \noindent The distinction between open sets of lexical items and closed sets of grammatical(ized) items is related to that between \textsc{major and minor categories} or word classes (cf. \citealt[435f]{Lyons1968}). A lexical item belongs, roughly, in one of the major classes of nouns, adjectives, numerals or verbs. The minor classes of grammatical items are, essentially, pronouns, auxiliaries (and the like), adpositions and conjunctions (particles and interjections remain unclassified). All the major classes have been shown to furnish items which enter into grammaticalization channels, and all the minor classes have been shown to be formed, or at least to receive members, through grammaticalization. For example, we have seen full verbs becoming auxiliaries, and nouns becoming numeral classifiers.
@@ -476,21 +476,22 @@ In the preceding sections, the six grammaticalization parameters were discussed,
 
 \begin{table}
 \resizebox{\textwidth}{!}{
-\begin{tabular}{p{.175\textwidth}p{.33\textwidth}l@{ }p{.15\textwidth}@{ }lp{.33\textwidth}}
+\begin{tabular}{p{.175\textwidth}p{.33\textwidth}l@{}p{.15\textwidth}@{}lp{.33\textwidth}}
 \lsptoprule
-\scshape parameter & \centering\scshape weak\newline grammaticalization &  \bfseries --- & \scshape process & \bfseries → &  {\centering\scshape strong\\ grammaticalization}\\
+%\scshape parameter & \centering\scshape weak\newline grammaticalization &  \bfseries --- & \scshape process & \bfseries → &  {\centering\scshape strong\\ grammaticalization}\\
+\scshape parameter & \centering\scshape weak\newline grammaticalization & \multicolumn{3}{c}{\multirow{2}{*}{\begin{tikzpicture}[baseline, remember picture]\draw[->,anchor=base] (0,0) -- (1.75,0) node[above=2pt] {\textsc{process}} -- (3.5,0);\end{tikzpicture}}}&  {\centering\scshape strong\\ grammaticalization}\\
 \midrule
-\scshape integrity & \raggedright bundle of semantic features; possibly polysyllabic &  --- & attrition & → & few semantic features; oligo- or monosegmental\\\addlinespace
-\scshape paradigmati\-city & \raggedright item participates loose\-ly in semantic field &  --- & paradigmati\-cization & → & small, tightly integrated paradigm\\\addlinespace
+\scshape integrity & \raggedright bundle of semantic features; possibly polysyllabic &  \multicolumn{3}{c}{\multirow{3}{*}{\begin{tikzpicture}[baseline, remember picture]\draw[->,anchor=base] (0,0) -- (1.75,0) node[above=2pt] {attrition} -- (3.5,0);\end{tikzpicture}}}& few semantic features; oligo- or monosegmental\\\addlinespace
+\scshape paradigmati\-city & \raggedright item participates loose\-ly in semantic field & \multicolumn{3}{c}{\multirow{2}{*}{\begin{tikzpicture}[baseline, remember picture]\draw[->,anchor=base] (0,0) -- (1.75,0) node[align=left,above] {paradigmaticization} -- (3.5,0);\end{tikzpicture}}}  & small, tightly integrated paradigm\\\addlinespace
 
-\scshape paradigmatic variability & free choice of items according to communicative intentions &  --- & obligatorifi\-cation & → & choice systematically constrained, use largely obligatory\\
+\scshape paradigmatic variability & free choice of items according to communicative intentions &  \multicolumn{3}{c}{\multirow{3}{*}{\begin{tikzpicture}[baseline, remember picture]\draw[->,anchor=base] (0,0) -- (1.75,0) node[align=left,above=2pt] {obligatorification} -- (3.5,0);\end{tikzpicture}}} & choice systematically constrained, use largely obligatory\\
 \midrule
 
-\scshape  structural scope & item relates to constituent of arbitrary complexity & --- & condensation & → & item modifies word or stem\\\addlinespace
+\scshape  structural scope & item relates to constituent of arbitrary complexity & \multicolumn{3}{c}{\multirow{2}{*}{\begin{tikzpicture}[baseline, remember picture]\draw[->,anchor=base] (0,0) -- (1.75,0) node[above=2pt] {condensation} -- (3.5,0);\end{tikzpicture}}} & item modifies word or stem\\\addlinespace
 
-\scshape bondedness & item is independently juxtaposed &  --- & coalescence & → & item is affix or even phonological feature of carrier\\\addlinespace
+\scshape bondedness & item is independently juxtaposed &   \multicolumn{3}{c}{\multirow{2}{*}{\begin{tikzpicture}[baseline, remember picture]\draw[->,anchor=base] (0,0) -- (1.75,0) node[above=2pt] {coalescence} -- (3.5,0);\end{tikzpicture}}}& item is affix or even phonological feature of carrier\\\addlinespace
 
-\scshape syntagmatic variability &  item can be shifted around freely &  --- & fixation & → & item occupies fixed slot\\
+\scshape syntagmatic variability &  item can be shifted around freely &    \multicolumn{3}{c}{\multirow{2}{*}{\begin{tikzpicture}[baseline, remember picture]\draw[->,anchor=base] (0,0) -- (1.75,0) node[above=2pt] {fixation} -- (3.5,0);\end{tikzpicture}}}&  item occupies fixed slot\\
 \lspbottomrule
 
 \end{tabular}
@@ -532,7 +533,7 @@ Special attention has been devoted in the recent past to the correlation between
 	\node [below left=8mm and 8mm of CP] (NUM) {NUM};
 	\draw (N.north) -- (NP.south) -- (CP.north);
 	\draw (NUM.north) -- (CP.south) -- (C1.north);
-	\end{tikzpicture}
+	\end{tikzpicture}\\
 	(\lspcp = classifier phrase; Cl = classifier)
 	\caption{Structure of numeral classifier phrase}\label{F11}
 \end{figure}
