@@ -13,7 +13,9 @@
 %% if you want the source line of examples to be in italics, uncomment the following line
 % \renewcommand{\exfont}{\itshape}
 
-\usepackage{soul} 
+\usepackage{soul}
+\let\sups\undefined % This is ugly. Fontspc and TIPA simultaneously define \sups. Better workaround needed!
+\usepackage{tipa} % used for \textsubbridge
 \usepackage{enumitem}
 \usepackage{hhline}
 \usepackage{multicol}
@@ -28,6 +30,8 @@
 \usetikzlibrary{decorations.pathreplacing}
 \usetikzlibrary{decorations.markings}
 \usetikzlibrary{positioning}
+\usetikzlibrary{arrows.meta}
+
 
 \usepackage{lipsum}
 
