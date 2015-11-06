@@ -9,11 +9,13 @@
 
 ## Description
 
-Will be added soon.
+After a short review of the history of research, the work introduces and delimits the concepts related to grammaticalization. It then provides extensive exemplification of grammaticalization phenomena in diverse languages, ordered by grammatical domains such as the verbal, pronominal and nominal sphere and clause level relations. The final chapter presents a theory of grammaticalization which is based on the autonomy of the linguistic sign with respect to the paradigmatic and syntagmatic axes. This is the basis of the structural parameters that constitute grammaticalization. They are operationalized to the point of rendering degrees of grammaticalization measurable.
+	
+The present edition contains corrections of the 1995 edition.
 
 ## URL
 
-Will be added soon.
+[Book page on langsci-press.org](http://langsci-press.org/catalog/book/88)
 
 ## License
 
