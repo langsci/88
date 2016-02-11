@@ -3,7 +3,7 @@
 ## Publication Info
 
 - Author: Christian Lehmann
-- Publication Date: not yet released.
+- Publication Date: 2015-12-08
 - Series: Classics
 - Volume: 1
 
