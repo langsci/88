@@ -1,0 +1,96 @@
+\documentclass[11pt, landscape]{article}
+
+\usepackage{xunicode}
+\usepackage{fontspec}
+\usepackage{xltxtra}
+\usepackage{tikz}
+\usepackage[hmargin=1cm,vmargin=1cm,paperheight=17cm, paperwidth=24cm]{geometry}
+\usetikzlibrary{decorations.pathreplacing}
+\usetikzlibrary{decorations.markings}
+\usetikzlibrary{positioning}
+\usetikzlibrary{arrows.meta}
+
+\setromanfont[Mapping=tex-text]{Linux Libertine O}
+\begin{document}
+\thispagestyle{empty}
+\begin{figure}
+	\begin{tikzpicture}[baseline=(current bounding box.north), on grid, decoration = {markings, mark=at position .7 with {\arrow[very thick]{Stealth[] Stealth[]}}}, every node/.style={right, align=left, dashed}]
+	% Nodes are drawn left to right, top to bottom from original PDF
+	\node at (0,0) [] (11) {noun of \\ (personal) \\ relation};
+	\node at (0,-2) (12) {deictic particle + \\ categorial noun};
+	\node at (5,0) (21) {honorific\\1./2. person\\pronoun};
+	\node at (5,-2) (22) {demonstrative\\pronoun};
+	\node at (9,-2) (23) {anaphoric\\pronoun};
+	\node at (12,-2) (24) {3. person\\pronoun};
+	\node at (12,0) (13) {1./2. person\\pronoun};
+	\node at (15,-1) (14) {personal\\agreement\\affix};
+	\node at (19,-1) (15) {relator or\\category marker};
+	
+	\draw [postaction=decorate] (node cs:name=11) -- (node cs:name=21);
+	\draw [postaction=decorate] (node cs:name=12) -- (node cs:name=22);
+	\draw [postaction=decorate] (node cs:name=21) -- (node cs:name=13);
+	\draw [postaction=decorate] (node cs:name=22) -- (node cs:name=23);
+	\draw [postaction=decorate] (node cs:name=23) -- (node cs:name=24);
+	\draw [postaction=decorate] (node cs:name=24) -- (node cs:name=14, anchor=west);
+	\draw [postaction=decorate] (node cs:name=13) -- (node cs:name=14, anchor=west);
+	\draw [postaction=decorate] (node cs:name=14) -- (node cs:name=15);
+	
+	% Picture 2
+	
+	\node at (5,-4) (P2-1) {demonstrative\\determiner};
+	\node at (8.5,-4) (P2-2) {weakly\\demonstrative\\definite\\determiner};
+	\node at (12,-4) (P2-3) {definite\\article};
+	\node at (15,-4) (P2-4) {affixal\\article};
+	\node at (19,-4) (P2-5) {noun\\marker};
+	
+	\draw [postaction=decorate] (node cs:name=P2-1) -- (node cs:name=P2-2);
+	\draw [postaction=decorate] (node cs:name=P2-2) -- (node cs:name=P2-3);
+	\draw [postaction=decorate] (node cs:name=P2-3) -- (node cs:name=P2-4);
+	\draw [postaction=decorate] (node cs:name=P2-4) -- (node cs:name=P2-5);
+	
+	% Picture 3
+	
+	\node at (0,-6) (P3-1) {interrogative element\\+ categorial noun};
+	\node at (0,-8) (P3-2) {numeral `one' or\\pronominal element\\+ categorial noun};
+	\node at (5,-6) (P3-3) {interrogative\\pronoun};
+	\node at (5,-8) (P3-4) {emphatic\\indefinite\\pronoun};
+	\node at (5,-10) (P3-5) {numeral `one'};
+	\node at (9,-8) (P3-6) {simple\\indefinite\\pronoun};
+	\node at (12,-8) (P3-7) {atomic\\indefinite\\pronoun};
+	\node at (15,-8) (P3-8) {indefinite\\personal\\affix};
+	\node at (19,-8) (P3-9) {transitivizer};
+
+	\draw [postaction=decorate] (node cs:name=P3-1) -- (node cs:name=P3-3);	
+	\draw [postaction=decorate] (node cs:name=P3-2) -- (node cs:name=P3-4);	
+	\draw [postaction=decorate] (node cs:name=P3-3) -- (node cs:name=P3-6, anchor=west);	
+	\draw [postaction=decorate] (node cs:name=P3-4) -- (node cs:name=P3-6, anchor=west);	
+	\draw [postaction=decorate] (node cs:name=P3-5, anchor=east) -- (node cs:name=P3-6, anchor=west);	
+	\draw [postaction=decorate] (node cs:name=P3-6) -- (node cs:name=P3-7);	
+	\draw [postaction=decorate] (node cs:name=P3-7) -- (node cs:name=P3-8);	
+	\draw [postaction=decorate] (node cs:name=P3-8) -- (node cs:name=P3-9);	
+	
+	% Picture 4
+	
+	\node at (9,-11) (P4-1) {indefinite\\determiner};
+	\node at (12,-11) (P4-2) {indefinite\\article};
+	\node at (15,-11) (P4-3) {affixal\\article};
+	
+	\draw [postaction=decorate] (node cs:name=P3-5, anchor=east) -- (node cs:name=P4-1);	
+	\draw [postaction=decorate] (node cs:name=P4-1) -- (node cs:name=P4-2);	
+	\draw [postaction=decorate] (node cs:name=P4-2) -- (node cs:name=P4-3);	
+	
+	% Picture 5
+	
+	\node at (0,-13) (P5-1) {emphatic\\indefinite\\pronoun\\or numeral `one'\\or categorial\\noun};
+	\draw[decorate,decoration={amplitude=2mm, brace}] (4,-11.5) -- (4,-14.5);
+	\node at (5,-13) (P5-2) {+ negator};
+	\node at (9,-13) (P5-3) {negative\\indefinite\\pronoun};
+	\node at (12,-13) (P5-4) {negator};
+
+	\draw [postaction=decorate] (node cs:name=P5-2) -- (node cs:name=P5-3);		
+	\draw [postaction=decorate] (node cs:name=P5-3) -- (node cs:name=P5-4);		
+	
+	\end{tikzpicture}
+\end{figure}
+
+\end{document}

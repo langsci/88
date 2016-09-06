@@ -1,0 +1,48 @@
+\documentclass[11pt, landscape]{article}
+
+\usepackage{xunicode}
+\usepackage{fontspec}
+\usepackage{xltxtra}
+\usepackage{tikz}
+\usepackage[hmargin=0.5cm,vmargin=0cm,paperheight=7.5cm, paperwidth=16cm]{geometry}
+\usetikzlibrary{decorations.pathreplacing}
+\usetikzlibrary{decorations.markings}
+\usetikzlibrary{positioning}
+\usetikzlibrary{arrows.meta}
+
+\setromanfont[Mapping=tex-text]{Linux Libertine O}
+\begin{document}
+\thispagestyle{empty}
+\begin{center}
+	\begin{tikzpicture}[baseline=(current bounding box.north), on grid, decoration = {markings, mark=at position .7 with {\arrow[very thick]{Stealth[] Stealth[]}}}, every node/.style={right, align=left, dashed}]
+	% Nodes are drawn left to right, top to bottom from original PDF
+	\node at (0,2) (benef) {benefactive};
+	\node at (0,0) (dir) {directional};
+	\node at (4,1) (dat) {dative};
+	\node at (8,1) (acc) {accusative};
+	\node at (8,-2) (erg) {ergative};
+	\node at (12,1) (abs) {? absolutive};
+	\node at (12,-2) (nom) {nominative};
+	\node at (4,-1) (loc) {locative};
+	\node at (0,-2) (com) {comitative};
+	\node at (4,-2) (instr) {instrumental};
+	\node at (4,-3) (gen) {genitive};
+	\node at (0,-4) (abl) {ablative};
+	
+	\draw [postaction=decorate] (benef.east) -- (dat.west);
+	\draw [postaction=decorate] (dir.east) -- (dat.west);
+	\draw [postaction=decorate] (dat.east) -- (acc);
+	\draw [postaction=decorate] (acc) -- (abs);
+	\draw [postaction=decorate] (com) -- (instr);
+	\draw [postaction=decorate] (abl.east) -- (gen);
+	\draw [postaction=decorate] (gen.east) -- (erg.west);
+	\draw [postaction=decorate] (instr.east) -- (erg.west);
+	\draw [postaction=decorate] (loc.east) -- (erg.west);
+	\draw [postaction=decorate] (dat) -- (erg.west);
+	\draw [postaction=decorate] (erg) -- (nom);
+	\path (gen.east) edge [bend right=15, dashed, postaction=decorate] node [sloped, above] {?} (nom.west);
+	\path (abl.east) edge [bend right=25, dashed, postaction=decorate] node [sloped, above] {?} (nom.west);
+	\end{tikzpicture}
+\end{center}
+
+\end{document}
