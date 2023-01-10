@@ -1140,7 +1140,7 @@ al desirabilite de un nov lingua franca: On refusa continuar payar custosi tradu
 	\renewcommand{\newlineCover}{}
 	\renewcommand{\newlineSpine}{}
 	{\@author}\if\lsEditorSuffix\empty\else\ \lsEditorSuffix\fi. %
-	{\the\year}. %
+	{2015}. %
 	\textit{\@title}\if\@subtitle\empty\else: \textit{\@subtitle}\fi\ %
 	(\lsSeriesTitle). %
 	Berlin: Language Science Press.
@@ -1156,7 +1156,7 @@ al desirabilite de un nov lingua franca: On refusa continuar payar custosi tradu
 This title can be downloaded at:\\
 \url{\lsURL}
 
-© \the\year, \iflsCollection the authors\else\@author\fi
+© 2015, \iflsCollection the authors\else\@author\fi
 
 \newcommand{\ccby}{CC-BY} 
 \ifx\lsCopyright\ccby 
@@ -1166,12 +1166,16 @@ http://creativecommons.org/licenses/by/4.0/
 Published under the Creative Commons Attribution-NoDerivatives 4.0 Licence (CC BY-ND 4.0):
 http://creativecommons.org/licenses/by-nd/4.0/ 
 \fi
+
+\smallskip
  
 \begin{tabular}{@{}l@{~}l}
 ISBN: & \lsISBN~(Digital) \\
       &	\lsISBNhardcover~(Hardcover)\\
       & \lsISBNsoftcover~(Softcover)\\
 \end{tabular}
+
+DOI: \href{https://doi.org/10.5281/zenodo.7520796}{\nolinkurl{10.5281/zenodo.7520796}}
 
 \IfStrEq{\lsISSN}{??}		% \IfStrEq from xstring
 	{}
@@ -1370,7 +1374,7 @@ guarantee the accuracy of such information thereafter.
 	\StrSubstitute{\editorTemp}{\&}{ and }[\editorTemp]
 
 	%% write bib entry to file
-	\immediate\write\tempfile{@incollection{#1,author={\authorTemp},title={\@title},booktitle={\lsCollectionTitle},editor={\editorTemp},publisher={Language Science Press},Address={Berlin},year=\the\year,pages={\lsCollectionPaperFirstPage --\lsCollectionPaperLastPage},options={skipbib=true}}}
+	\immediate\write\tempfile{@incollection{#1,author={\authorTemp},title={\@title},booktitle={\lsCollectionTitle},editor={\editorTemp},publisher={Language Science Press},Address={Berlin},year=2015,pages={\lsCollectionPaperFirstPage --\lsCollectionPaperLastPage},options={skipbib=true}}}
 
 	%\printbibliography[heading=subbibliography,notkeyword=this]  
 	\end{refsection}
